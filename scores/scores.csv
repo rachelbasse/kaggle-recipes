@@ -1,0 +1,10 @@
+data,model,acc,f1
+uncleaned,lrc,76,
+uncleaned,dtc,58,
+uncleaned,abc,33,
+uncleaned,rfc,70,
+phrases_cleaned,lrc,76,76
+phrases_cleaned,dtc,59,57
+phrases_cleaned,abc,34,25
+phrases_cleaned,rfc,71,70
+
