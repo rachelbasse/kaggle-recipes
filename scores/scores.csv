@@ -7,4 +7,11 @@ phrases_cleaned,lrc,76,76
 phrases_cleaned,dtc,59,57
 phrases_cleaned,abc,34,25
 phrases_cleaned,rfc,71,70
-
+words_cleaned,lrc,76,76
+words_cleaned,dtc,62,61
+words_cleaned,abc,42,33
+words_cleaned,rfc,74,73
+rare_cleaned,lrc,76,76
+rare_cleaned,dtc,62,61
+rare_cleaned,abc,40,31
+rare_cleaned,rfc,74,73
