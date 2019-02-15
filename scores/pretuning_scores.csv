@@ -1,0 +1,12 @@
+features,classifier,acc,fscore
+singles_rare4,lrc_ovr,78,78
+singles_rare10,lrc_ovr,77,77
+merge_rare10,lrc_ovr,77,77
+head_sep_merge_rare10,lrc_ovr,77,77
+head_sep_rare4_drop,lrc_ovr,78,78
+head_sep_rare4_drop_bin,78,78
+scores_normed,lrc_ovr,66,63
+scores_equalized,lrc_ovr,78,78
+scores_equal_smoothed.6,79,78
+scores_equal_smooth.6_ind,lrc_ovr,77,76
+

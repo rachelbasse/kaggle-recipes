@@ -42,15 +42,15 @@ exceptions = {
     # dashes
     'all-purpose': 'allpurpose', 'bone-in': 'bonein', 'cho-cho': 'chocho', 'coca-cola': 'coke',
     'corn-on-the-cob': 'corn', 'demi-glace': 'demiglace', 'e-fu': 'yi mein', 'five-spice': 'fivespice',
-    'grass-fed': 'grassfed', 'half-and-half': 'halfandhalf', 'jell-o': 'jello', 'multi-grain': 'multigrain', 
-    'non-dairy': 'nondairy', 'non-fat': 'nonfat', 'ogura-an': 'oguraan', 'piri-piri': 'piripiri',
+    'free-range': 'freerange', 'grass-fed': 'grassfed', 'half-and-half': 'halfandhalf', 'jell-o': 'jello',
+    'multi-grain': 'multigrain', 'ogura-an': 'oguraan', 'piri-piri': 'piripiri',
     'ro-tel': 'rotel', 'shell-on': 'shellon', 'skin-on': 'skinon', 't-bone': 'tbone', 'tex-mex': 'texmex',
     'wish-bone': 'wishbone', 'yaki-nori': 'yakinori',
     # special
-    'abura age': 'aburaage', 'bake soda': 'bakingsoda', 'baking soda': 'bakingsoda', 'bun': 'roll',
-    'color': 'coloring', 'di parma': '', 'garlic clove': 'garlic', 'garlic cloves': 'garlic',
-    'ice cream': 'icecream', 'low sodium' : '', 'hot dog': 'hotdog', 'hot dogs': 'hotdog', 
-    'reduced sodium' : '', 'rib eye': 'ribeye', 'slice thinli': '', 'soft drink': 'soda', 'or white yellow': '',
+    'abura age': 'aburaage', 'bake soda': 'bakingsoda', 'baking soda': 'bakingsoda', 'bun': 'roll', 'buns': 'roll',
+    'color': 'coloring', 'di parma': '', 'free range': 'freerange',
+    'garlic clove': 'garlic', 'garlic cloves': 'garlic', 'hot dog': 'hotdog', 'hot dogs': 'hotdog', 'ice cream': 'icecream', 
+    'rib eye': 'ribeye', 'slice thinli': '', 'soft drink': 'soda', 'wish bone': 'wishbone', 'or white yellow': '',
     # stopwords
     'all purpose': 'allpurpose', 'multi purpose': 'multipurpose',
     'bone in': 'bonein',
@@ -173,8 +173,8 @@ words_to_segment = {
     'cornflour': 'corn flour', 'cornmeal': 'corn meal', 'cornstarch': 'corn starch',
     'crabapples': 'crab apples', 'cuminseed': 'cumin seed', 'dillweed': 'dill weed', 'dutchprocessed': 'dutch processed',
     'extralean': 'extra lean', 'extravirgin': 'extra virgin', 'flaxseed': 'flax seed', 'freezedried': 'freeze dried',
-    'fruitcake': 'fruit cake', 'gingerroot': 'ginger root',
-    'greekstyle': 'greek style', 'hardboiled': 'hard boiled', 'italianstyle': 'italian style',
+    'fruitcake': 'fruit cake', 'gingerroot': 'ginger root', 'greekstyle': 'greek style', 
+    'hardboiled': 'hard boiled', 'honeyflavored': 'honey flavored', 'italianstyle': 'italian style',
     'kiwifruit': 'kiwi fruit', 'kongstyle': 'kong style', 'lemonlime': 'lemon lime', 'longgrain': 'long grain',
     'meatfilled': 'meat filled', 'mediumgrain': 'medium grain', 'ovenready': 'oven ready',
     'parmigianareggiano': 'parmigiana reggiano', 'parmigianoreggiano': 'parmigiano reggiano', 
@@ -188,7 +188,7 @@ words_to_segment = {
 
 state_words = {
     # prep
-    'blackened', 'blanched', 'bleached', 'blend', 'blended', 'boiled', 'bonein', 'boneles',
+    'beaten', 'blackened', 'blanched', 'bleached', 'blend', 'blended', 'boiled', 'bonein', 'boneles',
     'bottled', 'braised', 'breaded', 'brewed', 
     'candied', 'canned', 'centercut', 'chiffonade', 'chilled', 'chopped',
     'clotted', 'coarse', 'cold', 'coldsmoked', 'compressed',
@@ -202,10 +202,11 @@ state_words = {
     'rolled', 'rubbed', 'salted', 'section', 'segment', 'shaped', 'shaved', 'shelled', 'shellon', 'shred', 'shredded',
     'shuck', 'shucked', 'skinles', 'skinon', 'slice', 'sliced',
     'slivered', 'smoked', 'softened','steamed', 'stewed', 'strained', 'sweeten', 'sweetened', 'toasted',
-    'uncook', 'unsalt', 'unbleached', 'uncooked', 'unsalted', 'unsmoked', 'unsulphured', 'warm', 'whipped', 'whole',
+    'uncook', 'unsalt', 'unbleached', 'uncooked', 'unsalted', 'unsmoked', 'unsulphured',
+    'warm', 'whipped', 'whisked', 'whole',
     # quality
     'added', 'allpurpose', 'artificial', 'best', 'blend', 'bought',
-    'crispy', 'dry', 'extra', 'fancy', 'fine', 'finely', 'firm', 'firmli', 'firmly',
+    'crispy', 'dry', 'extra', 'fancy', 'fine', 'finely', 'firm', 'firmli', 'firmly', 'flavor',
     'flavored', 'freerange', 'fresh', 'freshly', 'fully', 'grassfed', 'homemade', 'imitation', 'large',
     'leftover', 'loosely', 'natural', 'medium', 'mini',
     'multipurpose', 'oldfashioned', 'organic', 'petite', 'plain', 'prime', 'pure', 
@@ -255,6 +256,7 @@ supertypes = {
     'custard': ['flan'],
     'dressing': ['russian', 'vinaigrette'], 
     'drink': ['beverage', 'carbonated', 'eggnog', 'tonic', 'zabaglione'],
+    'egg': ['white', 'yolk'],
     'fish': ['abalone', 'ahi', 'albacore', 'amberjack', 'anchovy', 'barramundi', 'bas', 'basa', 'branzino', 'bream', 'brill',
              'carp', 'catfish', 'claw', 'cod' 'conch',
              'cuttlefish', 'dogfish', 'fishcake', 'grouper', 'haddock', 'hake', 'halibut', 'hamachi', 'herring', 'kamaboko',
@@ -338,6 +340,7 @@ supertypes = {
     'shoot': ['bamboo'],
     'soda': ['colon'], # colon = get_lemma(cola)
     'squash': ['calabaza', 'mirliton', 'qua'],
+    'sugar': ['turbinado'],
     'sweetener': ['erythritol', 'fructose', 'glucose', 'maltose', 'stevia', 'treacle'],
     'tea': ['assam', 'ginseng', 'lapsang', 'matcha', 'souchong'],
     'tofu': ['aburaage', 'yuba'],
@@ -417,6 +420,9 @@ char_pattern = re.compile(r'[®™’%!/\-\'\.\(\)]')
 brand_char_pattern = re.compile(r'\d+')
 parenthetical_pattern = re.compile(r'\(.*\)')
 of_pattern = re.compile(r'(\w) of (?:the )?')
+low_pattern = re.compile(r'\b(?:less|light|low|no|non|reduced) ')
+free_pattern = re.compile(r' free\b')
+high_pattern = re.compile(r'\b(?:full|high) ')
 heads_to_sub = invert_dict_lists(head_subs)
 supertype_appends = invert_dict_lists(supertypes)
 brands_to_sub = invert_dict_lists(brands_to_sub_lists)

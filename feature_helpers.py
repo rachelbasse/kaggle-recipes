@@ -10,19 +10,19 @@ from collections import Counter, defaultdict, namedtuple
 #extra
 import numpy as np
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 # In[ ]:
 
 
 percent = lambda x, y: round(100 * x / y)
+flatten = lambda lists: [item for lst in lists for item in lst]
 
 
 # In[ ]:
 
 
-Ing = namedtuple('Ing', ['heads', 'states', 'brands', 'langs', 'cuisine', 'rcpid'])
+Ing = namedtuple('Ing', ['head', 'mods', 'states', 'brands', 'langs', 'cuisine', 'rcpid'])
 
 def load_clean_data():
     recipes = pd.read_csv('data/cleaned_data.csv', header=0, index_col=0, encoding='utf-8',
@@ -35,7 +35,17 @@ def load_clean_data():
 # In[ ]:
 
 
-def get_metrics(recipes):
+def group_by(ings, attribute):
+    groups = defaultdict(list)
+    for ing in ings:
+        groups[getattr(ing, attribute)].append(ing)
+    return groups
+
+
+# In[ ]:
+
+
+def make_metrics(recipes):
     columns = []
     recipe_count = []
     recipe_mean_length = []
@@ -65,14 +75,10 @@ def get_metrics(recipes):
 # In[ ]:
 
 
-def make_counts(ings, attribute, categories, attribute_type='list'):
+def make_attribute_counts(ings, attribute, categories):
     atts = defaultdict(list)
     for ing in iter(ings):
-        if attribute_type == 'list':
-            for att in getattr(ing, attribute):
-                atts[att].append(ing.cuisine)
-        if attribute_type == 'string':
-            att = ' '.join(getattr(ing, attribute))
+        for att in getattr(ing, attribute):
             atts[att].append(ing.cuisine)
     att_counts = {}
     for att, cuisine_list in atts.items():
@@ -97,6 +103,75 @@ def normalize_counts(counts, weights=None):
 # In[ ]:
 
 
+def equalize_counts(counts, smoothing=.6):
+    proportions = counts.T / counts.sum(axis='columns')
+    smooth_tails = lambda x: x / (smoothing + x)
+    if smoothing:
+        proportions = proportions.applymap(smooth_tails)
+    return proportions.T
+
+
+# In[ ]:
+
+
+def make_scores(recipe, counts):
+    def get_scores(ings):
+        features = flatten([getattr(ing, att) for ing in ings])
+        scores = counts.loc[features].drop(columns=['test'])
+        if not features:
+            return scores.sum(axis='index')
+        return scores.sum(axis='index') / len(features)
+    att_scores = []
+    for att in ['mods', 'states', 'brands', 'langs']:
+        recipe_scores = get_scores(recipe.ingredients)
+        att_scores.append(recipe_scores.add_prefix('{}_'.format(att)))
+    return pd.concat(att_scores, axis='index')
+
+
+# In[ ]:
+
+
+def replace_rare_name(name):
+    parts = name.split('-')
+    parts[-1] = 'raretype'
+    return '-'.join(parts)
+
+
+# In[ ]:
+
+
+def make_indicators(recipes, rare_cutoff=0, common_cutoff=None):
+    get_ing_attributes = lambda ings: flatten([ing.mods + ing.states + ing.brands + ing.langs for ing in ings])
+    recipe_features = recipes.ingredients.map(get_ing_attributes)
+    all_features = sorted(set(flatten(recipe_features)))
+    feature_array = np.zeros([len(recipe_features), len(all_features)], dtype=np.uint8)
+    feature_index = {feature: i for i, feature in enumerate(all_features)}
+    for row_i, features in enumerate(recipe_features):
+        for feature in features:
+            feature_array[row_i, feature_index[feature]] = 1
+    features = pd.DataFrame(feature_array, index=recipe_features.index, columns=all_features)
+    feature_counts = features.sum(axis='index')
+    if common_cutoff:
+        common_value = feature_counts.quantile(q=common_cutoff)
+        common_features = feature_counts[feature_counts >= common_value].index
+        features = features.drop(columns=common_features)
+        print('dropped {} common features >= count {}'.format(len(common_features), int(common_value)))
+    rare_value = feature_counts.quantile(q=rare_cutoff)
+    rare_features = feature_counts[feature_counts <= rare_value].index
+    for rare_feature in rare_features:
+        super_feature = replace_rare_name(rare_feature)
+        if super_feature in features:
+            features[super_feature] += features[rare_feature]
+            continue
+        features[super_feature] = features[rare_feature]
+    features = features.drop(columns=rare_features)
+    print('merged {} rare features <= count {}'.format(len(rare_features), int(rare_value)))
+    return features
+
+
+# In[ ]:
+
+
 def save_output(output):
     output = output.drop(columns=['ingredients'])
     
@@ -110,39 +185,4 @@ def save_output(output):
     
     train.to_csv('data/temp_train.csv', header=True, encoding='utf-8') 
     test.to_csv('data/temp_test.csv', header=True, encoding='utf-8')
-
-
-# In[ ]:
-
-
-def make_tfidfs(recipes):
-    doc_names = []
-    doc_strings = []
-    for cuisine, group in recipes.groupby('cuisine'):
-        doc_names.append(cuisine)
-        doc_strings.append(' '.join([ing for ings in group.ingredients for ing in ings]))
-    vectorizer = TfidfVectorizer(encoding='utf-8', ngram_range=(1, 1), max_df=1.0, min_df=1, max_features=None, 
-                                 strip_accents=None, token_pattern=r'[\w-]+', analyzer='word', stop_words=None)
-    tfidfs = vectorizer.fit_transform(doc_strings)
-    feature_names = vectorizer.get_feature_names()
-    tfidfs = pd.SparseDataFrame(tfidfs).to_dense()
-    tfidfs.fillna(0, inplace=True)
-    tfidfs.index = doc_names
-    tfidfs.columns = feature_names
-    return tfidfs
-
-
-# In[ ]:
-
-
-def smooth_tfidfs(tfidfs, intensity):
-    tfidf_fracs = tfidfs / tfidfs.sum(axis='index')
-    smooth_tails = lambda x: x / (intensity + x)
-    return tfidf_fracs.applymap(smooth_tails)
-
-
-# In[ ]:
-
-
-
 

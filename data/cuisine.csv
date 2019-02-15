@@ -28,7 +28,6 @@
 22087,italian
 9197,chinese
 1299,mexican
-40429,italian
 34419,cajun_creole
 10276,mexican
 33465,thai
@@ -36,7 +35,6 @@
 37963,cajun_creole
 20051,italian
 11300,filipino
-17610,southern_us
 37405,southern_us
 28302,italian
 31634,brazilian
@@ -129,7 +127,6 @@
 7473,british
 7532,indian
 5924,thai
-5802,southern_us
 41078,mexican
 20665,spanish
 39471,french
@@ -197,7 +194,6 @@
 3457,cajun_creole
 1355,japanese
 40738,italian
-42380,southern_us
 16857,southern_us
 2923,southern_us
 7528,italian
@@ -228,7 +224,6 @@
 42833,mexican
 5328,italian
 17188,mexican
-19622,southern_us
 26498,italian
 27140,japanese
 32353,italian
@@ -236,11 +231,9 @@
 2298,mexican
 15291,southern_us
 8274,southern_us
-23521,italian
 28342,jamaican
 8791,italian
 242,korean
-15347,southern_us
 20981,indian
 39391,italian
 23147,indian
@@ -285,18 +278,14 @@
 9291,mexican
 45423,italian
 31462,italian
-45412,italian
 33048,chinese
-42879,italian
 6164,thai
-37704,southern_us
 29489,italian
 6115,mexican
 9829,filipino
 36254,indian
 23839,filipino
 40283,italian
-11108,italian
 42685,mexican
 23629,mexican
 36565,italian
@@ -341,7 +330,6 @@
 10003,french
 24738,indian
 20039,chinese
-29446,southern_us
 45711,french
 45039,thai
 46417,mexican
@@ -377,7 +365,6 @@
 36118,italian
 18190,french
 33717,moroccan
-15460,southern_us
 21052,brazilian
 35729,chinese
 45841,korean
@@ -440,7 +427,6 @@
 27688,italian
 31969,italian
 33085,french
-20061,italian
 24552,thai
 27204,mexican
 8304,italian
@@ -489,7 +475,6 @@
 14308,vietnamese
 33841,korean
 12830,chinese
-23096,italian
 34026,southern_us
 30835,filipino
 15072,filipino
@@ -563,7 +548,6 @@
 46391,italian
 44556,southern_us
 32781,mexican
-37258,italian
 20195,french
 18970,italian
 28111,mexican
@@ -573,19 +557,16 @@
 45621,french
 44623,mexican
 17122,indian
-7627,italian
 47321,thai
 39087,chinese
 18909,chinese
 3496,indian
 37033,mexican
-38250,southern_us
 16949,southern_us
 48744,mexican
 22946,mexican
 45784,italian
 42438,japanese
-24673,southern_us
 26760,italian
 8208,italian
 18922,italian
@@ -631,14 +612,12 @@
 19754,cajun_creole
 996,italian
 28232,greek
-6185,southern_us
 22056,southern_us
 8992,greek
 6966,chinese
 18034,southern_us
 13191,italian
 40980,thai
-27754,italian
 20942,mexican
 4111,southern_us
 47159,southern_us
@@ -647,7 +626,6 @@
 43159,mexican
 38361,french
 37495,chinese
-17039,southern_us
 11086,filipino
 22470,french
 41823,italian
@@ -702,7 +680,6 @@
 28943,irish
 48818,southern_us
 26091,italian
-4442,italian
 21184,chinese
 41957,greek
 47126,indian
@@ -728,10 +705,8 @@
 39991,italian
 42322,italian
 28973,korean
-30596,southern_us
 41912,mexican
 26452,southern_us
-45335,southern_us
 12704,italian
 47713,mexican
 43258,italian
@@ -822,7 +797,6 @@
 8315,italian
 47186,mexican
 36480,mexican
-4950,italian
 40191,southern_us
 7600,japanese
 25519,mexican
@@ -853,8 +827,6 @@
 16617,spanish
 49558,chinese
 43304,russian
-28636,italian
-18911,italian
 32499,mexican
 10216,mexican
 14654,vietnamese
@@ -873,7 +845,6 @@
 41101,chinese
 10378,cajun_creole
 37627,italian
-30532,italian
 14287,chinese
 26105,italian
 17073,italian
@@ -884,7 +855,6 @@
 46122,chinese
 8825,mexican
 6578,indian
-315,italian
 10965,irish
 18873,italian
 40128,chinese
@@ -917,7 +887,6 @@
 27835,french
 25811,mexican
 34401,indian
-38032,italian
 43149,mexican
 22394,cajun_creole
 43839,indian
@@ -932,7 +901,6 @@
 16660,mexican
 24807,mexican
 15410,greek
-25400,italian
 20957,moroccan
 44513,italian
 4995,french
@@ -968,7 +936,6 @@
 48845,moroccan
 10297,mexican
 34662,brazilian
-36852,italian
 13175,mexican
 25507,brazilian
 45304,italian
@@ -1033,7 +1000,6 @@
 33542,spanish
 30848,greek
 24064,french
-26782,italian
 39914,british
 46338,cajun_creole
 20203,thai
@@ -1042,7 +1008,6 @@
 48689,mexican
 5161,french
 11753,korean
-38693,southern_us
 36735,vietnamese
 25566,mexican
 5862,thai
@@ -1072,14 +1037,12 @@
 1492,greek
 36727,spanish
 33492,mexican
-43710,southern_us
 45917,southern_us
 18317,southern_us
 44930,southern_us
 40607,mexican
 14911,southern_us
 31991,italian
-14184,southern_us
 6037,french
 45691,mexican
 44042,italian
@@ -1149,7 +1112,6 @@
 32275,cajun_creole
 44225,vietnamese
 11996,chinese
-40913,southern_us
 27212,southern_us
 35593,french
 9443,italian
@@ -1175,9 +1137,7 @@
 36555,mexican
 2910,italian
 7429,mexican
-19268,italian
 46759,french
-15532,italian
 35878,mexican
 19708,indian
 9864,italian
@@ -1204,7 +1164,6 @@
 14509,indian
 2487,indian
 43627,southern_us
-19552,italian
 21508,cajun_creole
 36637,thai
 33645,spanish
@@ -1226,7 +1185,6 @@
 1076,chinese
 5299,french
 36586,italian
-47802,southern_us
 3101,french
 41710,filipino
 9927,mexican
@@ -1272,11 +1230,9 @@
 45406,cajun_creole
 22956,chinese
 2241,japanese
-3763,italian
 30893,italian
 22652,italian
 8756,chinese
-11659,southern_us
 3306,mexican
 48252,southern_us
 41575,italian
@@ -1335,7 +1291,6 @@
 39444,french
 2481,french
 5073,italian
-43011,southern_us
 37697,southern_us
 23541,korean
 47560,french
@@ -1434,7 +1389,6 @@
 11667,italian
 42120,french
 11620,british
-23652,italian
 47463,indian
 17349,mexican
 46012,southern_us
@@ -1446,7 +1400,6 @@
 23154,british
 33882,spanish
 30942,thai
-47240,southern_us
 35362,mexican
 44923,japanese
 37374,mexican
@@ -1459,7 +1412,6 @@
 18590,thai
 17371,cajun_creole
 13833,indian
-39178,italian
 18893,italian
 12273,southern_us
 19316,mexican
@@ -1479,7 +1431,6 @@
 27242,greek
 25415,mexican
 14380,japanese
-30634,italian
 25795,chinese
 41670,italian
 3079,spanish
@@ -1499,7 +1450,6 @@
 41170,korean
 49443,mexican
 20698,greek
-26635,italian
 31912,italian
 14490,chinese
 36189,mexican
@@ -1539,7 +1489,6 @@
 10828,mexican
 46436,mexican
 15464,thai
-28932,southern_us
 2974,italian
 43797,spanish
 13195,italian
@@ -1584,11 +1533,8 @@
 10645,mexican
 1333,italian
 38730,mexican
-46189,italian
-5222,italian
 37099,mexican
 27956,french
-17857,southern_us
 1990,british
 31271,french
 48831,mexican
@@ -1616,7 +1562,6 @@
 3800,russian
 23728,thai
 29999,indian
-23946,italian
 44093,italian
 45354,mexican
 4713,cajun_creole
@@ -1645,7 +1590,6 @@
 21518,moroccan
 36997,chinese
 30,jamaican
-34697,italian
 48846,brazilian
 16586,italian
 11671,southern_us
@@ -1660,7 +1604,6 @@
 7658,southern_us
 17019,italian
 44984,mexican
-10721,southern_us
 19938,italian
 14065,indian
 21794,italian
@@ -1704,7 +1647,6 @@
 15049,filipino
 20758,italian
 16089,thai
-30166,italian
 6539,italian
 12462,irish
 48904,thai
@@ -1753,7 +1695,6 @@
 48909,mexican
 7094,indian
 11521,chinese
-36445,italian
 33898,japanese
 17457,french
 30593,french
@@ -1768,7 +1709,6 @@
 42217,spanish
 26860,thai
 46614,moroccan
-27866,southern_us
 38995,indian
 34103,moroccan
 13588,japanese
@@ -1836,7 +1776,6 @@
 26178,thai
 18238,french
 23022,french
-7759,southern_us
 5481,mexican
 43464,southern_us
 25503,italian
@@ -1853,7 +1792,6 @@
 16374,italian
 48797,cajun_creole
 13016,mexican
-45687,italian
 2618,vietnamese
 4867,cajun_creole
 13543,southern_us
@@ -1877,7 +1815,6 @@
 23602,italian
 47809,greek
 33635,jamaican
-7006,italian
 5962,mexican
 49420,mexican
 35526,italian
@@ -1942,7 +1879,6 @@
 22249,indian
 16551,italian
 22042,japanese
-33963,italian
 33789,vietnamese
 16040,italian
 32859,japanese
@@ -1958,7 +1894,6 @@
 4232,spanish
 6625,chinese
 4943,italian
-43254,southern_us
 34739,chinese
 46753,mexican
 24702,mexican
@@ -1969,7 +1904,6 @@
 25450,mexican
 43759,thai
 39705,italian
-37170,italian
 4766,french
 44384,italian
 6168,chinese
@@ -1990,7 +1924,6 @@
 10813,southern_us
 11296,italian
 22033,italian
-3215,italian
 49584,greek
 39254,thai
 30568,chinese
@@ -2032,8 +1965,6 @@
 13888,jamaican
 2757,italian
 22790,italian
-10789,italian
-12294,southern_us
 32052,italian
 16294,italian
 46507,italian
@@ -2053,7 +1984,6 @@
 33546,indian
 1571,irish
 16677,mexican
-39218,southern_us
 49038,southern_us
 49672,mexican
 26568,italian
@@ -2114,7 +2044,6 @@
 14158,italian
 27865,southern_us
 39351,chinese
-33505,southern_us
 6286,southern_us
 1067,mexican
 35807,italian
@@ -2128,7 +2057,6 @@
 29301,vietnamese
 48648,southern_us
 9599,chinese
-29702,italian
 43081,french
 27902,thai
 19612,vietnamese
@@ -2143,7 +2071,6 @@
 36357,mexican
 42674,italian
 13714,southern_us
-17292,italian
 45499,mexican
 13825,southern_us
 37451,southern_us
@@ -2160,7 +2087,6 @@
 34059,indian
 6827,cajun_creole
 21164,italian
-34678,southern_us
 11113,japanese
 45967,cajun_creole
 44280,italian
@@ -2231,7 +2157,6 @@
 13141,mexican
 33410,mexican
 44571,british
-31187,italian
 16799,chinese
 11433,chinese
 49575,spanish
@@ -2250,7 +2175,6 @@
 12672,chinese
 28230,mexican
 22847,vietnamese
-44647,italian
 14366,mexican
 23747,french
 12249,cajun_creole
@@ -2275,7 +2199,6 @@
 31910,irish
 46715,italian
 96,italian
-11441,southern_us
 48572,southern_us
 14892,mexican
 15690,brazilian
@@ -2322,7 +2245,6 @@
 28987,cajun_creole
 21693,southern_us
 8000,indian
-18849,southern_us
 15116,greek
 31961,chinese
 6642,moroccan
@@ -2362,14 +2284,12 @@
 34395,cajun_creole
 25727,mexican
 28978,spanish
-41965,italian
 24481,mexican
 26342,french
 4958,italian
 43029,indian
 29677,italian
 43316,filipino
-11804,italian
 18328,japanese
 12926,southern_us
 29472,french
@@ -2403,7 +2323,6 @@
 19341,cajun_creole
 15041,italian
 7831,italian
-31838,italian
 39133,thai
 9300,french
 42752,jamaican
@@ -2434,7 +2353,6 @@
 40254,jamaican
 2971,cajun_creole
 48617,chinese
-26239,southern_us
 41049,italian
 8247,french
 10034,chinese
@@ -2455,7 +2373,6 @@
 8673,cajun_creole
 10403,southern_us
 34380,mexican
-24968,italian
 28327,italian
 18747,cajun_creole
 8518,japanese
@@ -2466,7 +2383,6 @@
 44903,korean
 10999,spanish
 35093,korean
-12100,southern_us
 16623,british
 5143,french
 36970,indian
@@ -2480,7 +2396,6 @@
 7649,chinese
 12279,southern_us
 39739,thai
-33181,italian
 29317,italian
 18050,italian
 4423,indian
@@ -2494,9 +2409,7 @@
 38892,cajun_creole
 8750,french
 30252,french
-36706,southern_us
 37756,french
-25377,italian
 30699,italian
 40962,filipino
 40895,italian
@@ -2517,7 +2430,6 @@
 13851,brazilian
 17339,mexican
 8829,french
-33616,southern_us
 24323,indian
 19389,italian
 36057,french
@@ -2550,7 +2462,6 @@
 48075,southern_us
 1356,chinese
 39861,cajun_creole
-39048,italian
 17982,thai
 16480,southern_us
 44001,indian
@@ -2574,7 +2485,6 @@
 10481,southern_us
 21687,french
 15186,chinese
-25330,southern_us
 14273,italian
 19673,french
 22345,italian
@@ -2606,7 +2516,6 @@
 16824,japanese
 40553,greek
 2779,italian
-2540,italian
 11791,cajun_creole
 39640,korean
 23760,mexican
@@ -2615,7 +2524,6 @@
 18677,mexican
 45498,thai
 11683,japanese
-36075,southern_us
 24369,mexican
 13931,indian
 2160,cajun_creole
@@ -2623,7 +2531,6 @@
 20370,indian
 37958,italian
 45273,thai
-56,italian
 15903,mexican
 24476,moroccan
 18145,vietnamese
@@ -2632,7 +2539,6 @@
 38005,french
 36508,southern_us
 24277,southern_us
-2485,italian
 13082,italian
 33870,italian
 14834,mexican
@@ -2657,7 +2563,6 @@
 27433,mexican
 6705,italian
 19215,korean
-49547,italian
 41872,thai
 21272,mexican
 46451,british
@@ -2676,7 +2581,6 @@
 28534,mexican
 7986,indian
 4814,french
-49063,southern_us
 20603,italian
 1918,indian
 8367,cajun_creole
@@ -2724,7 +2628,6 @@
 33335,indian
 25457,italian
 22223,southern_us
-39542,italian
 47690,mexican
 23929,italian
 36471,indian
@@ -2733,17 +2636,14 @@
 10928,southern_us
 32072,southern_us
 16209,mexican
-19166,italian
 14004,chinese
 46244,vietnamese
 42660,indian
-17664,italian
 20711,thai
 41637,mexican
 45042,chinese
 27959,chinese
 11188,mexican
-14593,italian
 15044,italian
 22333,thai
 40745,southern_us
@@ -2811,7 +2711,6 @@
 20395,indian
 35254,mexican
 24297,mexican
-43485,italian
 44411,italian
 24875,mexican
 3722,italian
@@ -2822,15 +2721,12 @@
 35493,japanese
 20204,mexican
 30374,italian
-17479,southern_us
 42147,french
 31898,indian
 18695,chinese
 29841,mexican
 38010,russian
-47340,italian
 38097,italian
-28781,italian
 46826,cajun_creole
 7542,moroccan
 49580,mexican
@@ -2884,7 +2780,6 @@
 26454,southern_us
 13198,irish
 5263,british
-14561,southern_us
 47212,japanese
 31111,southern_us
 32017,cajun_creole
@@ -2907,7 +2802,6 @@
 15266,southern_us
 37557,chinese
 29826,brazilian
-9521,southern_us
 24869,chinese
 1575,mexican
 46667,chinese
@@ -2919,7 +2813,6 @@
 9594,chinese
 38788,mexican
 37229,mexican
-6365,italian
 33671,jamaican
 4022,cajun_creole
 14028,mexican
@@ -2995,9 +2888,7 @@
 38969,japanese
 30990,japanese
 44096,spanish
-4088,italian
 12054,french
-1747,italian
 3446,greek
 23413,mexican
 20516,mexican
@@ -3050,7 +2941,6 @@
 26962,italian
 14071,french
 18154,british
-22036,italian
 17287,french
 43207,french
 45890,chinese
@@ -3078,7 +2968,6 @@
 33525,chinese
 11609,indian
 23136,moroccan
-32955,italian
 7975,mexican
 3623,irish
 28323,japanese
@@ -3160,7 +3049,6 @@
 25716,french
 25455,mexican
 13793,korean
-11567,southern_us
 10241,irish
 16254,indian
 14324,mexican
@@ -3222,7 +3110,6 @@
 15852,italian
 20833,indian
 18529,greek
-41761,southern_us
 49184,vietnamese
 8136,indian
 20241,indian
@@ -3245,7 +3132,6 @@
 48215,southern_us
 1399,irish
 7422,southern_us
-16422,southern_us
 44537,chinese
 47211,chinese
 47829,southern_us
@@ -3257,7 +3143,6 @@
 22205,italian
 24492,italian
 41414,brazilian
-42338,italian
 43223,southern_us
 29031,japanese
 29507,italian
@@ -3265,7 +3150,6 @@
 12916,southern_us
 18811,cajun_creole
 24776,thai
-46994,southern_us
 39184,southern_us
 6363,italian
 42954,mexican
@@ -3287,7 +3171,6 @@
 10187,chinese
 39921,italian
 23266,indian
-31385,southern_us
 8849,indian
 26259,mexican
 47926,korean
@@ -3361,7 +3244,6 @@
 14397,southern_us
 41495,mexican
 45552,korean
-31512,southern_us
 33877,indian
 20564,korean
 42160,greek
@@ -3376,7 +3258,6 @@
 21472,italian
 17033,mexican
 22427,mexican
-26644,italian
 24092,italian
 32214,japanese
 4578,vietnamese
@@ -3420,12 +3301,9 @@
 2200,chinese
 45225,southern_us
 2500,thai
-5543,italian
-41725,italian
 36615,cajun_creole
 13001,mexican
 46181,french
-13431,italian
 14061,greek
 21787,italian
 35098,italian
@@ -3445,7 +3323,6 @@
 41785,indian
 40747,chinese
 2148,french
-32351,southern_us
 983,cajun_creole
 44247,cajun_creole
 16364,italian
@@ -3459,10 +3336,8 @@
 16066,italian
 11382,french
 1437,chinese
-48683,italian
 29646,russian
 22258,thai
-15433,southern_us
 23987,jamaican
 6965,japanese
 29098,indian
@@ -3486,7 +3361,6 @@
 41167,indian
 13697,italian
 19243,irish
-34584,italian
 13976,italian
 3445,italian
 7033,southern_us
@@ -3516,7 +3390,6 @@
 3896,italian
 30441,moroccan
 2890,moroccan
-15836,southern_us
 48055,indian
 31099,italian
 31882,korean
@@ -3537,7 +3410,6 @@
 40778,french
 6192,indian
 43266,irish
-25734,southern_us
 43394,chinese
 5415,italian
 46981,japanese
@@ -3551,7 +3423,6 @@
 26047,italian
 45485,italian
 22894,moroccan
-13307,southern_us
 3158,thai
 8852,italian
 31888,southern_us
@@ -3580,7 +3451,6 @@
 27271,cajun_creole
 49202,japanese
 4332,mexican
-29414,southern_us
 156,vietnamese
 44401,italian
 29377,italian
@@ -3620,7 +3490,6 @@
 45465,southern_us
 33511,southern_us
 19102,korean
-2150,southern_us
 18212,italian
 14578,mexican
 18132,mexican
@@ -3631,7 +3500,6 @@
 30191,korean
 29816,spanish
 92,jamaican
-26687,southern_us
 21692,british
 22737,french
 12997,japanese
@@ -3651,13 +3519,11 @@
 48401,italian
 47388,french
 285,french
-37180,italian
 20136,indian
 6998,thai
 29571,southern_us
 375,indian
 43667,mexican
-3482,italian
 45920,italian
 47053,brazilian
 44661,spanish
@@ -3673,7 +3539,6 @@
 44699,cajun_creole
 40742,mexican
 47481,mexican
-12389,italian
 46959,mexican
 17900,italian
 30743,southern_us
@@ -3687,7 +3552,6 @@
 12297,mexican
 45835,greek
 38873,southern_us
-8387,italian
 26660,korean
 41370,spanish
 44992,filipino
@@ -3703,7 +3567,6 @@
 35138,italian
 5696,italian
 46880,italian
-35340,italian
 19790,greek
 48688,filipino
 18449,mexican
@@ -3711,7 +3574,6 @@
 18016,southern_us
 5640,thai
 46293,mexican
-27595,southern_us
 23233,russian
 47065,southern_us
 1698,chinese
@@ -3719,7 +3581,6 @@
 25599,italian
 4285,thai
 19390,french
-44852,italian
 23299,southern_us
 44366,thai
 11270,italian
@@ -3729,7 +3590,6 @@
 9536,southern_us
 46151,southern_us
 48162,indian
-13290,italian
 29617,chinese
 2976,french
 5078,italian
@@ -3750,7 +3610,6 @@
 20247,italian
 22502,korean
 5764,french
-13640,italian
 46605,italian
 12135,mexican
 25852,italian
@@ -3763,7 +3622,6 @@
 27844,japanese
 45817,indian
 48968,indian
-1054,southern_us
 34412,brazilian
 31756,mexican
 16388,spanish
@@ -3772,7 +3630,6 @@
 34344,thai
 45715,mexican
 3825,indian
-26843,southern_us
 10307,indian
 15663,mexican
 15837,indian
@@ -3803,7 +3660,6 @@
 29619,mexican
 33956,indian
 31779,southern_us
-9065,italian
 81,italian
 3802,italian
 7186,southern_us
@@ -3837,12 +3693,10 @@
 5884,southern_us
 4930,indian
 2337,vietnamese
-17638,southern_us
 22616,cajun_creole
 44396,mexican
 36803,indian
 28680,southern_us
-47110,southern_us
 38747,french
 44587,moroccan
 14607,mexican
@@ -3872,7 +3726,6 @@
 4901,italian
 44693,british
 1824,chinese
-12869,southern_us
 26305,british
 40881,thai
 14139,indian
@@ -3881,7 +3734,6 @@
 33521,southern_us
 16196,british
 27793,southern_us
-35091,italian
 38719,mexican
 24978,southern_us
 10205,mexican
@@ -3889,7 +3741,6 @@
 26949,filipino
 47070,italian
 34503,southern_us
-18756,southern_us
 42773,japanese
 34701,italian
 48937,cajun_creole
@@ -3904,7 +3755,6 @@
 39304,indian
 18945,italian
 13086,mexican
-15799,italian
 33964,southern_us
 40743,greek
 39500,italian
@@ -3938,7 +3788,6 @@
 25967,italian
 45069,spanish
 33408,chinese
-11513,italian
 4789,thai
 46445,french
 49133,italian
@@ -3948,7 +3797,6 @@
 17045,greek
 25764,korean
 2791,japanese
-23345,italian
 6701,greek
 19349,mexican
 34681,southern_us
@@ -3958,7 +3806,6 @@
 34832,mexican
 49190,chinese
 48632,jamaican
-10564,italian
 30785,french
 19871,mexican
 3904,spanish
@@ -3975,7 +3822,6 @@
 38517,southern_us
 48149,cajun_creole
 32646,chinese
-21738,southern_us
 31145,greek
 8363,japanese
 49527,greek
@@ -4050,12 +3896,9 @@
 49638,jamaican
 19890,thai
 1088,italian
-45842,southern_us
 8125,chinese
 24500,southern_us
 13534,thai
-19236,southern_us
-48574,southern_us
 36611,southern_us
 16894,mexican
 43397,mexican
@@ -4066,7 +3909,6 @@
 47204,chinese
 20885,chinese
 4380,chinese
-28608,southern_us
 26050,italian
 26910,italian
 6987,thai
@@ -4083,7 +3925,6 @@
 39617,mexican
 33363,spanish
 13654,indian
-24862,southern_us
 29081,indian
 7526,cajun_creole
 12863,thai
@@ -4133,7 +3974,6 @@
 8516,indian
 3552,japanese
 37386,mexican
-21516,italian
 22200,cajun_creole
 2965,french
 25312,thai
@@ -4156,7 +3996,6 @@
 35611,russian
 29514,southern_us
 2555,greek
-38394,italian
 8153,indian
 22284,brazilian
 19869,mexican
@@ -4172,7 +4011,6 @@
 43840,indian
 41187,italian
 26541,mexican
-31789,italian
 34802,italian
 20831,italian
 17309,italian
@@ -4183,11 +4021,9 @@
 12699,italian
 10598,italian
 24142,french
-3374,italian
 22913,italian
 27328,mexican
 15166,italian
-3646,italian
 48953,southern_us
 27646,filipino
 5739,italian
@@ -4223,13 +4059,11 @@
 1657,italian
 40092,southern_us
 36037,brazilian
-33125,italian
 47323,korean
 8069,jamaican
 45846,mexican
 43288,italian
 7105,italian
-34801,southern_us
 9061,southern_us
 26955,japanese
 35416,thai
@@ -4271,10 +4105,8 @@
 8357,italian
 17285,indian
 37042,french
-10042,southern_us
 9473,italian
 25350,chinese
-20996,italian
 49326,indian
 21162,french
 39702,italian
@@ -4289,7 +4121,6 @@
 28934,cajun_creole
 27558,thai
 26340,chinese
-30339,italian
 2874,italian
 22203,indian
 18406,irish
@@ -4301,7 +4132,6 @@
 19306,cajun_creole
 9055,chinese
 19737,italian
-32653,southern_us
 6515,italian
 47712,mexican
 35536,mexican
@@ -4431,14 +4261,12 @@
 30153,mexican
 475,japanese
 15969,filipino
-16765,italian
 107,vietnamese
 31603,mexican
 48122,british
 36673,thai
 2126,greek
 45370,jamaican
-10797,southern_us
 4666,greek
 36313,italian
 999,italian
@@ -4455,7 +4283,6 @@
 25670,italian
 25048,mexican
 15404,spanish
-37434,italian
 37719,french
 25307,indian
 6511,greek
@@ -4471,7 +4298,6 @@
 44062,mexican
 27473,thai
 23149,japanese
-16645,italian
 28916,mexican
 22554,mexican
 3668,thai
@@ -4530,7 +4356,6 @@
 34718,chinese
 41166,southern_us
 24700,korean
-40203,italian
 7996,indian
 13442,greek
 40735,italian
@@ -4585,7 +4410,6 @@
 35439,southern_us
 23165,indian
 7017,french
-16662,southern_us
 12901,italian
 11570,greek
 23837,mexican
@@ -4601,7 +4425,6 @@
 24402,southern_us
 47480,italian
 14035,japanese
-3994,italian
 9372,mexican
 46358,moroccan
 27619,thai
@@ -4610,7 +4433,6 @@
 45314,indian
 12702,spanish
 46766,cajun_creole
-4963,italian
 7674,brazilian
 1650,spanish
 39804,french
@@ -4620,7 +4442,6 @@
 2293,mexican
 29310,mexican
 621,spanish
-5740,southern_us
 17710,brazilian
 16921,korean
 31563,chinese
@@ -4657,7 +4478,6 @@
 6099,french
 33242,mexican
 23470,southern_us
-48675,italian
 18059,mexican
 45006,italian
 41310,mexican
@@ -4700,7 +4520,6 @@
 3003,chinese
 10006,italian
 9531,cajun_creole
-27079,italian
 44495,mexican
 1777,southern_us
 30047,russian
@@ -4754,7 +4573,6 @@
 32386,french
 4759,italian
 37345,mexican
-44785,southern_us
 2544,mexican
 43083,mexican
 9871,italian
@@ -4777,7 +4595,6 @@
 43891,cajun_creole
 24788,italian
 916,chinese
-42430,italian
 14147,irish
 15516,mexican
 27284,moroccan
@@ -4808,7 +4625,6 @@
 12832,thai
 38016,italian
 12959,filipino
-37382,italian
 35024,chinese
 40134,thai
 43862,jamaican
@@ -4874,13 +4690,11 @@
 20272,chinese
 3845,mexican
 13520,southern_us
-20481,italian
 33998,mexican
 8724,indian
 45598,italian
 9539,southern_us
 6955,mexican
-34286,italian
 33854,indian
 14395,italian
 7087,french
@@ -4889,10 +4703,8 @@
 7709,moroccan
 17757,french
 43505,southern_us
-25001,italian
 42837,chinese
 31061,southern_us
-10661,southern_us
 7581,indian
 20158,mexican
 36901,italian
@@ -4910,7 +4722,6 @@
 1216,italian
 28564,chinese
 36299,italian
-9106,southern_us
 39103,italian
 5685,brazilian
 21494,italian
@@ -4935,7 +4746,6 @@
 40295,chinese
 30605,italian
 856,japanese
-19292,southern_us
 22051,brazilian
 24415,italian
 37417,thai
@@ -4943,7 +4753,6 @@
 34885,cajun_creole
 14433,italian
 18926,southern_us
-16558,southern_us
 48835,mexican
 31619,cajun_creole
 29379,italian
@@ -5001,7 +4810,6 @@
 24549,moroccan
 40063,japanese
 2562,spanish
-34100,southern_us
 43641,korean
 20279,southern_us
 29654,brazilian
@@ -5025,13 +4833,11 @@
 17555,indian
 43134,korean
 37647,french
-405,italian
 38219,vietnamese
 28720,cajun_creole
 31915,italian
 24506,thai
 37455,korean
-27918,southern_us
 2127,cajun_creole
 47911,chinese
 46803,filipino
@@ -5054,7 +4860,6 @@
 33059,mexican
 19173,indian
 25838,chinese
-25360,southern_us
 31052,southern_us
 20966,italian
 36228,french
@@ -5110,8 +4915,6 @@
 18920,mexican
 42704,italian
 23353,italian
-6698,southern_us
-26288,italian
 32285,italian
 19363,italian
 45527,italian
@@ -5153,21 +4956,18 @@
 22837,italian
 15221,chinese
 35795,mexican
-47062,italian
 36420,chinese
 35639,thai
 18028,french
 15902,british
 19819,thai
 30465,greek
-495,italian
 40779,thai
 20650,vietnamese
 34436,british
 16607,chinese
 4495,russian
 13233,greek
-12553,southern_us
 33062,irish
 45497,vietnamese
 41291,mexican
@@ -5218,10 +5018,8 @@
 20236,french
 25656,italian
 25474,italian
-49224,italian
 42991,indian
 32662,italian
-14967,italian
 30133,southern_us
 33202,southern_us
 38763,italian
@@ -5249,7 +5047,6 @@
 36087,southern_us
 27245,thai
 43613,greek
-25178,southern_us
 28257,spanish
 22890,cajun_creole
 41313,southern_us
@@ -5338,13 +5135,11 @@
 42649,chinese
 17601,french
 47436,southern_us
-37375,italian
 17011,mexican
 8548,japanese
 24034,french
 35507,mexican
 9187,spanish
-45824,italian
 6592,mexican
 47215,chinese
 44585,chinese
@@ -5359,7 +5154,6 @@
 35719,vietnamese
 10739,spanish
 48110,italian
-41213,southern_us
 6549,italian
 31336,french
 23848,jamaican
@@ -5397,7 +5191,6 @@
 5249,mexican
 1226,italian
 21023,indian
-8160,italian
 49618,italian
 40453,italian
 33676,chinese
@@ -5465,7 +5258,6 @@
 13280,jamaican
 35389,french
 5019,japanese
-40060,italian
 4915,mexican
 24093,greek
 243,thai
@@ -5480,14 +5272,12 @@
 39763,southern_us
 38175,mexican
 116,french
-41760,italian
 13063,mexican
 3355,mexican
 3459,mexican
 33538,chinese
 3723,korean
 12776,indian
-12062,southern_us
 1281,irish
 11442,italian
 28774,italian
@@ -5530,7 +5320,6 @@
 41134,thai
 29330,southern_us
 35019,vietnamese
-36200,southern_us
 19661,thai
 16849,japanese
 37129,korean
@@ -5542,7 +5331,6 @@
 41393,italian
 21509,indian
 8461,japanese
-38144,southern_us
 31514,italian
 9859,mexican
 24982,italian
@@ -5607,7 +5395,6 @@
 11519,cajun_creole
 12133,british
 2384,korean
-44773,southern_us
 13574,southern_us
 13093,southern_us
 35165,spanish
@@ -5633,10 +5420,7 @@
 2077,korean
 11177,thai
 31381,italian
-20835,italian
 12508,italian
-30825,italian
-48825,italian
 19096,greek
 16941,french
 27037,italian
@@ -5655,7 +5439,6 @@
 43535,italian
 20896,southern_us
 8975,cajun_creole
-20320,southern_us
 33201,japanese
 11904,italian
 11750,mexican
@@ -5766,7 +5549,6 @@
 42718,greek
 39014,indian
 36092,moroccan
-48753,italian
 8402,indian
 35858,italian
 2810,thai
@@ -5789,7 +5571,6 @@
 30284,italian
 5307,french
 3427,thai
-22432,southern_us
 26529,indian
 13010,korean
 37518,italian
@@ -5799,7 +5580,6 @@
 10258,indian
 49083,mexican
 36828,mexican
-5284,southern_us
 14388,southern_us
 25423,japanese
 9329,indian
@@ -5810,7 +5590,6 @@
 19982,cajun_creole
 9374,italian
 27767,french
-22511,southern_us
 25032,thai
 15501,southern_us
 24071,japanese
@@ -5862,7 +5641,6 @@
 5357,spanish
 31585,french
 27780,southern_us
-38970,italian
 20312,japanese
 19784,greek
 11107,southern_us
@@ -5914,7 +5692,6 @@
 41803,british
 9020,italian
 14503,mexican
-1197,southern_us
 24657,italian
 32159,french
 28260,italian
@@ -5928,7 +5705,6 @@
 28008,mexican
 2049,japanese
 9679,french
-42318,italian
 41179,italian
 39780,french
 31251,mexican
@@ -5972,7 +5748,6 @@
 17368,french
 37240,italian
 40272,french
-8507,southern_us
 25845,southern_us
 37059,mexican
 44342,mexican
@@ -6014,7 +5789,6 @@
 47261,korean
 27621,mexican
 26286,indian
-14404,southern_us
 35523,mexican
 33380,irish
 34529,indian
@@ -6025,10 +5799,8 @@
 20232,indian
 45764,italian
 6535,italian
-32914,italian
 9806,mexican
 11378,korean
-23075,southern_us
 6320,italian
 17788,southern_us
 31114,cajun_creole
@@ -6060,7 +5832,6 @@
 9388,filipino
 15084,indian
 33126,italian
-47383,italian
 30818,filipino
 21334,thai
 12994,thai
@@ -6075,7 +5846,6 @@
 36931,indian
 40960,mexican
 29718,british
-35634,southern_us
 32835,mexican
 43846,chinese
 4161,chinese
@@ -6093,7 +5863,6 @@
 7657,indian
 4131,indian
 14875,italian
-40105,italian
 38626,italian
 7175,mexican
 6205,southern_us
@@ -6106,7 +5875,6 @@
 33732,spanish
 48913,italian
 27753,chinese
-30317,southern_us
 26758,indian
 30637,french
 32323,thai
@@ -6146,9 +5914,7 @@
 44387,mexican
 9718,mexican
 496,cajun_creole
-21499,italian
 21503,british
-15392,southern_us
 44874,french
 24511,italian
 40669,cajun_creole
@@ -6167,9 +5933,7 @@
 1374,italian
 40654,indian
 9548,indian
-4908,southern_us
 12523,mexican
-2946,southern_us
 32536,mexican
 13838,indian
 35920,moroccan
@@ -6180,11 +5944,9 @@
 29916,spanish
 20619,mexican
 6616,mexican
-49605,italian
 6161,mexican
 1039,chinese
 12753,southern_us
-19576,southern_us
 25530,french
 45503,chinese
 48477,french
@@ -6214,7 +5976,6 @@
 47190,chinese
 31367,italian
 1915,southern_us
-39893,southern_us
 34804,southern_us
 18831,mexican
 42231,french
@@ -6233,7 +5994,6 @@
 7327,italian
 19529,korean
 8190,italian
-40759,southern_us
 38302,vietnamese
 14489,french
 32733,korean
@@ -6250,7 +6010,6 @@
 1562,italian
 9540,korean
 29687,korean
-37889,southern_us
 13855,indian
 4691,indian
 39879,italian
@@ -6283,7 +6042,6 @@
 24833,italian
 37728,mexican
 5768,greek
-7448,italian
 33186,mexican
 12131,moroccan
 35738,irish
@@ -6351,7 +6109,6 @@
 38094,chinese
 30345,mexican
 14762,greek
-3140,italian
 36964,british
 29238,thai
 4447,japanese
@@ -6399,7 +6156,6 @@
 17599,southern_us
 13500,italian
 43588,italian
-21285,italian
 32301,southern_us
 45090,mexican
 30319,italian
@@ -6426,7 +6182,6 @@
 11838,indian
 29282,japanese
 15937,chinese
-15656,italian
 26077,indian
 14140,indian
 2865,italian
@@ -6434,10 +6189,7 @@
 18073,mexican
 28884,cajun_creole
 16658,italian
-32209,italian
 12392,mexican
-6736,italian
-23594,italian
 21122,mexican
 17643,italian
 2891,southern_us
@@ -6451,17 +6203,14 @@
 32327,italian
 15067,mexican
 30716,southern_us
-31993,italian
 41468,mexican
 10546,irish
 31351,jamaican
 3218,italian
 12032,italian
-2368,southern_us
 44319,italian
 7228,southern_us
 17628,japanese
-45834,southern_us
 42320,spanish
 540,japanese
 6932,british
@@ -6641,7 +6390,6 @@
 5329,jamaican
 14960,italian
 28623,french
-47336,southern_us
 46342,chinese
 28151,southern_us
 13089,thai
@@ -6678,7 +6426,6 @@
 34121,chinese
 38830,southern_us
 1913,mexican
-4173,southern_us
 19535,italian
 24762,greek
 44276,mexican
@@ -6697,7 +6444,6 @@
 22016,italian
 39554,cajun_creole
 2599,japanese
-25136,italian
 23508,french
 15424,indian
 34585,southern_us
@@ -6710,7 +6456,6 @@
 49673,chinese
 2542,mexican
 14635,british
-31896,southern_us
 46845,mexican
 36821,japanese
 24166,japanese
@@ -6743,7 +6488,6 @@
 15960,french
 24650,cajun_creole
 7827,french
-12525,southern_us
 40601,chinese
 27491,chinese
 3736,spanish
@@ -6756,9 +6500,7 @@
 19763,chinese
 24550,chinese
 42122,chinese
-49402,southern_us
 41327,southern_us
-25498,italian
 5403,italian
 5993,indian
 41954,thai
@@ -6808,7 +6550,6 @@
 15135,italian
 41068,french
 10227,indian
-22199,italian
 41212,southern_us
 16507,indian
 43633,moroccan
@@ -6857,7 +6598,6 @@
 38438,italian
 6358,indian
 25145,southern_us
-17952,southern_us
 44043,british
 12816,cajun_creole
 18469,chinese
@@ -6869,7 +6609,6 @@
 1699,italian
 23277,southern_us
 8303,french
-20259,southern_us
 25106,japanese
 16730,mexican
 18748,indian
@@ -6951,7 +6690,6 @@
 5826,southern_us
 16031,filipino
 19579,indian
-29277,southern_us
 7203,mexican
 6773,british
 5816,french
@@ -7004,7 +6742,6 @@
 24376,italian
 19076,italian
 402,indian
-42208,southern_us
 16873,thai
 13535,thai
 46276,moroccan
@@ -7057,7 +6794,6 @@
 43581,irish
 12537,french
 44151,chinese
-26905,italian
 18640,thai
 13961,southern_us
 12455,mexican
@@ -7096,9 +6832,6 @@
 31073,mexican
 44343,mexican
 28525,korean
-47213,southern_us
-32195,southern_us
-3724,southern_us
 32024,spanish
 17738,mexican
 34373,italian
@@ -7147,7 +6880,6 @@
 37254,french
 1834,british
 46513,italian
-48361,southern_us
 45761,italian
 25238,mexican
 13427,jamaican
@@ -7155,13 +6887,11 @@
 5060,chinese
 36393,southern_us
 13145,southern_us
-37777,italian
 40947,vietnamese
 42166,irish
 33003,mexican
 2283,mexican
 46957,greek
-23767,italian
 17747,cajun_creole
 35140,irish
 2765,mexican
@@ -7179,12 +6909,10 @@
 47867,mexican
 41605,thai
 28435,filipino
-46882,southern_us
 43926,italian
 20949,brazilian
 30824,indian
 26918,mexican
-39050,italian
 23543,japanese
 20462,mexican
 40302,cajun_creole
@@ -7203,8 +6931,6 @@
 40443,mexican
 23864,italian
 4627,italian
-30165,southern_us
-21916,italian
 39672,italian
 13679,italian
 21943,cajun_creole
@@ -7214,7 +6940,6 @@
 28704,mexican
 2497,italian
 3559,french
-18463,italian
 49323,british
 35537,indian
 33833,french
@@ -7239,7 +6964,6 @@
 42753,italian
 20890,italian
 17057,italian
-29447,southern_us
 38073,french
 21806,italian
 31492,mexican
@@ -7285,9 +7009,7 @@
 26406,indian
 35279,southern_us
 7689,mexican
-11000,italian
 48679,italian
-2292,italian
 8554,italian
 19394,greek
 26462,southern_us
@@ -7308,7 +7030,6 @@
 30383,vietnamese
 15539,mexican
 44178,italian
-22240,italian
 25301,italian
 36058,mexican
 9190,irish
@@ -7324,14 +7045,10 @@
 29183,indian
 11115,italian
 31797,chinese
-49381,southern_us
 4736,southern_us
-2795,southern_us
 32011,southern_us
 34389,cajun_creole
-19584,italian
 17211,southern_us
-11287,italian
 18068,greek
 41454,mexican
 17298,indian
@@ -7344,7 +7061,6 @@
 21435,indian
 28699,indian
 47247,italian
-22309,italian
 42913,thai
 21432,mexican
 11467,filipino
@@ -7361,11 +7077,9 @@
 18076,brazilian
 10638,italian
 5606,greek
-24324,southern_us
 35715,chinese
 11493,southern_us
 23721,southern_us
-41283,southern_us
 27503,southern_us
 7633,british
 16777,french
@@ -7451,7 +7165,6 @@
 17937,italian
 7980,filipino
 41294,japanese
-13115,southern_us
 27457,french
 22567,thai
 48421,spanish
@@ -7507,7 +7220,6 @@
 6303,southern_us
 16580,filipino
 34430,mexican
-8686,italian
 16181,mexican
 16557,indian
 45500,italian
@@ -7518,7 +7230,6 @@
 37875,moroccan
 11511,mexican
 9390,japanese
-2023,southern_us
 5007,italian
 33510,russian
 4970,french
@@ -7527,7 +7238,6 @@
 23738,indian
 46806,cajun_creole
 24817,british
-21583,southern_us
 2901,italian
 7582,southern_us
 13279,korean
@@ -7564,7 +7274,6 @@
 46692,brazilian
 28300,mexican
 28622,chinese
-12154,southern_us
 43053,vietnamese
 18785,french
 15307,mexican
@@ -7577,7 +7286,6 @@
 15499,chinese
 940,italian
 10283,indian
-33642,southern_us
 1959,mexican
 49515,cajun_creole
 37460,italian
@@ -7612,7 +7320,6 @@
 27099,french
 39124,southern_us
 19272,indian
-35799,southern_us
 45737,vietnamese
 13404,thai
 45515,italian
@@ -7663,9 +7370,7 @@
 11712,vietnamese
 39208,cajun_creole
 7580,mexican
-13776,italian
 33334,southern_us
-20358,southern_us
 23078,southern_us
 12452,italian
 18853,italian
@@ -7729,13 +7434,10 @@
 33866,mexican
 17495,chinese
 41397,french
-22775,southern_us
-45562,southern_us
 1302,mexican
 20029,chinese
 46933,jamaican
 3098,irish
-25954,southern_us
 24824,irish
 40701,french
 34787,thai
@@ -7766,7 +7468,6 @@
 41647,mexican
 40373,southern_us
 3114,southern_us
-45836,italian
 6668,mexican
 33389,cajun_creole
 34551,brazilian
@@ -7778,7 +7479,6 @@
 10636,french
 7903,chinese
 27673,southern_us
-44128,italian
 15079,mexican
 39353,filipino
 11518,irish
@@ -7791,7 +7491,6 @@
 26592,mexican
 2764,brazilian
 13721,mexican
-14717,southern_us
 19719,indian
 38672,indian
 4722,southern_us
@@ -7821,7 +7520,6 @@
 11950,greek
 8309,british
 23634,mexican
-45453,italian
 11228,italian
 7944,mexican
 3854,chinese
@@ -7868,7 +7566,6 @@
 13928,cajun_creole
 43565,mexican
 22055,korean
-16830,southern_us
 19450,korean
 3525,italian
 33331,italian
@@ -7952,7 +7649,6 @@
 620,mexican
 44033,italian
 25328,italian
-22018,italian
 7945,french
 34721,chinese
 19024,greek
@@ -8062,7 +7758,6 @@
 11457,italian
 42334,vietnamese
 3926,korean
-15857,italian
 24008,mexican
 11697,indian
 6172,vietnamese
@@ -8070,7 +7765,6 @@
 15283,french
 43967,italian
 46188,mexican
-34730,italian
 5344,irish
 5444,french
 35494,british
@@ -8106,12 +7800,10 @@
 34608,russian
 13643,italian
 18555,italian
-2041,italian
 38269,korean
 23223,french
 24206,southern_us
 46805,italian
-44538,southern_us
 21963,korean
 9328,french
 40097,chinese
@@ -8165,7 +7857,6 @@
 40322,cajun_creole
 515,italian
 3384,indian
-28010,southern_us
 46035,spanish
 47027,mexican
 35452,french
@@ -8175,7 +7866,6 @@
 17998,filipino
 17212,indian
 31153,russian
-19524,southern_us
 43092,moroccan
 11067,chinese
 38746,brazilian
@@ -8272,7 +7962,6 @@
 29223,mexican
 29373,chinese
 39493,japanese
-6706,southern_us
 14764,french
 1049,mexican
 44438,french
@@ -8315,7 +8004,6 @@
 28571,italian
 1086,cajun_creole
 8779,indian
-7722,italian
 31795,cajun_creole
 34561,japanese
 33851,mexican
@@ -8339,14 +8027,12 @@
 15587,indian
 19465,mexican
 3161,moroccan
-7913,italian
 25373,indian
 23066,russian
 35865,mexican
 7168,chinese
 6637,italian
 38462,japanese
-2565,southern_us
 25288,mexican
 32495,indian
 49626,italian
@@ -8364,7 +8050,6 @@
 27448,french
 21378,french
 41925,spanish
-28076,italian
 15150,indian
 33054,chinese
 41546,southern_us
@@ -8392,7 +8077,6 @@
 14450,mexican
 15490,indian
 10043,southern_us
-37975,southern_us
 45849,italian
 45420,italian
 23207,italian
@@ -8429,7 +8113,6 @@
 6178,mexican
 17718,japanese
 45153,italian
-18283,italian
 40729,mexican
 4841,spanish
 33909,mexican
@@ -8492,7 +8175,6 @@
 30581,italian
 36325,cajun_creole
 14682,korean
-11820,italian
 33311,mexican
 34595,spanish
 27807,greek
@@ -8598,7 +8280,6 @@
 24120,mexican
 9209,mexican
 9953,japanese
-16399,italian
 14730,irish
 25013,italian
 34673,mexican
@@ -8705,7 +8386,6 @@
 2201,cajun_creole
 30315,southern_us
 11111,greek
-16870,southern_us
 24195,indian
 38628,russian
 18777,italian
@@ -8798,7 +8478,6 @@
 35456,mexican
 22241,chinese
 46827,italian
-11636,southern_us
 22054,southern_us
 48916,italian
 16075,mexican
@@ -8883,7 +8562,6 @@
 16179,chinese
 5473,southern_us
 49653,mexican
-6635,italian
 48407,italian
 7179,southern_us
 16659,mexican
@@ -8913,7 +8591,6 @@
 27395,french
 11914,french
 36098,vietnamese
-47621,italian
 24965,spanish
 37773,brazilian
 7724,italian
@@ -8960,7 +8637,6 @@
 32390,mexican
 49039,irish
 1896,mexican
-48261,italian
 43247,thai
 3115,cajun_creole
 37284,mexican
@@ -8970,7 +8646,6 @@
 11034,british
 27278,southern_us
 9227,thai
-34421,southern_us
 79,korean
 1284,vietnamese
 41504,vietnamese
@@ -8984,7 +8659,6 @@
 16740,mexican
 43415,chinese
 40485,italian
-17633,italian
 7667,spanish
 16970,mexican
 42556,spanish
@@ -9008,13 +8682,11 @@
 2343,mexican
 47009,jamaican
 40223,mexican
-12390,southern_us
 296,southern_us
 26988,spanish
 41941,moroccan
 26656,southern_us
 43071,japanese
-26106,southern_us
 49034,indian
 47794,japanese
 31811,french
@@ -9026,10 +8698,8 @@
 26185,french
 44859,italian
 43009,greek
-38561,southern_us
 1424,british
 36857,vietnamese
-43709,southern_us
 15383,french
 6389,french
 49335,italian
@@ -9046,7 +8716,6 @@
 9375,brazilian
 27944,filipino
 23511,indian
-25832,italian
 6072,british
 48028,indian
 20770,mexican
@@ -9170,7 +8839,6 @@
 20096,moroccan
 5243,mexican
 2622,southern_us
-22256,southern_us
 17958,jamaican
 11975,mexican
 22587,indian
@@ -9298,7 +8966,6 @@
 9518,italian
 13824,greek
 8522,indian
-20201,italian
 6171,indian
 7345,french
 36952,italian
@@ -9314,12 +8981,10 @@
 38856,korean
 7086,greek
 49634,french
-31022,italian
 35607,filipino
 27276,mexican
 15913,italian
 45989,southern_us
-46474,southern_us
 10698,mexican
 27222,mexican
 10070,indian
@@ -9368,8 +9033,6 @@
 22726,mexican
 33708,italian
 18058,italian
-15109,italian
-6452,southern_us
 4818,southern_us
 25969,brazilian
 22596,jamaican
@@ -9432,7 +9095,6 @@
 34031,moroccan
 968,korean
 38827,indian
-26934,southern_us
 7857,italian
 12931,southern_us
 46949,southern_us
@@ -9452,7 +9114,6 @@
 35285,korean
 29768,indian
 39052,irish
-4556,southern_us
 16621,japanese
 41759,cajun_creole
 32881,mexican
@@ -9492,7 +9153,6 @@
 46876,mexican
 39932,italian
 28120,indian
-32442,southern_us
 11330,thai
 2628,mexican
 10001,korean
@@ -9501,9 +9161,7 @@
 10923,italian
 8320,greek
 46956,brazilian
-3467,italian
 22781,mexican
-33916,italian
 4927,japanese
 29872,jamaican
 8886,mexican
@@ -9526,7 +9184,6 @@
 43405,indian
 22905,southern_us
 45912,french
-5633,southern_us
 6569,italian
 23846,italian
 5180,spanish
@@ -9535,7 +9192,6 @@
 9295,vietnamese
 24458,italian
 462,southern_us
-35199,southern_us
 151,french
 39481,chinese
 31084,chinese
@@ -9571,7 +9227,6 @@
 14818,russian
 31055,italian
 19186,mexican
-1511,italian
 31935,french
 1899,chinese
 46209,french
@@ -9628,7 +9283,6 @@
 21186,southern_us
 26040,italian
 31567,mexican
-30522,italian
 47324,irish
 44186,mexican
 24018,mexican
@@ -9699,7 +9353,6 @@
 47096,indian
 36446,italian
 36214,british
-38882,southern_us
 45799,chinese
 37890,russian
 48323,french
@@ -9725,7 +9378,6 @@
 15600,chinese
 10608,southern_us
 23473,vietnamese
-25163,italian
 10343,french
 10669,vietnamese
 39392,southern_us
@@ -9855,7 +9507,6 @@
 23896,italian
 43198,moroccan
 36055,italian
-3475,southern_us
 31300,chinese
 5081,mexican
 46942,chinese
@@ -9904,7 +9555,6 @@
 23669,french
 22520,moroccan
 25276,italian
-19718,southern_us
 18719,french
 15069,jamaican
 36061,cajun_creole
@@ -9929,7 +9579,6 @@
 42862,irish
 38593,french
 28763,japanese
-5430,southern_us
 26550,cajun_creole
 4373,italian
 15803,japanese
@@ -9976,7 +9625,6 @@
 38248,vietnamese
 5332,cajun_creole
 45065,british
-25612,italian
 7693,italian
 38051,italian
 46750,russian
@@ -9994,7 +9642,6 @@
 13278,spanish
 21115,mexican
 42428,southern_us
-29988,italian
 37477,italian
 45615,mexican
 41152,mexican
@@ -10069,7 +9716,6 @@
 36157,italian
 40949,moroccan
 44323,mexican
-6080,italian
 48577,italian
 44060,italian
 1090,mexican
@@ -10095,7 +9741,6 @@
 40243,french
 23463,indian
 44630,southern_us
-17465,southern_us
 44363,italian
 32229,southern_us
 33982,french
@@ -10143,8 +9788,6 @@
 785,chinese
 41028,british
 44179,japanese
-6553,southern_us
-42593,italian
 40368,southern_us
 2319,spanish
 32245,mexican
@@ -10165,8 +9808,6 @@
 30095,southern_us
 20465,southern_us
 19944,italian
-15875,italian
-23476,italian
 30997,italian
 26670,italian
 25491,italian
@@ -10232,7 +9873,6 @@
 44578,greek
 43413,southern_us
 32627,moroccan
-18239,italian
 29950,mexican
 23730,mexican
 11968,cajun_creole
@@ -10307,7 +9947,6 @@
 1212,greek
 3964,chinese
 37391,mexican
-35693,southern_us
 12790,mexican
 11579,southern_us
 27658,british
@@ -10324,7 +9963,6 @@
 27009,italian
 8627,irish
 41801,irish
-20062,southern_us
 42611,thai
 47165,chinese
 42265,mexican
@@ -10332,7 +9970,6 @@
 49678,mexican
 352,mexican
 26317,irish
-10605,italian
 6508,italian
 2824,british
 16203,spanish
@@ -10366,7 +10003,6 @@
 15276,cajun_creole
 28954,french
 48139,indian
-44133,southern_us
 5992,british
 26247,vietnamese
 43049,vietnamese
@@ -10447,7 +10083,6 @@
 42209,mexican
 1797,southern_us
 4975,french
-24662,southern_us
 12554,southern_us
 34370,italian
 17398,southern_us
@@ -10517,7 +10152,6 @@
 40200,mexican
 30177,mexican
 15254,indian
-22928,italian
 17026,italian
 30592,mexican
 9026,indian
@@ -10527,10 +10161,8 @@
 15414,french
 10335,mexican
 35261,mexican
-29354,italian
 48513,french
 35519,southern_us
-16543,southern_us
 38911,indian
 27975,italian
 23516,indian
@@ -10556,7 +10188,6 @@
 42610,indian
 19627,indian
 43542,moroccan
-42646,italian
 4258,italian
 11951,italian
 19092,cajun_creole
@@ -10652,7 +10283,6 @@
 25564,indian
 41651,southern_us
 25364,mexican
-32738,italian
 29164,korean
 8540,italian
 32668,mexican
@@ -10703,7 +10333,6 @@
 2134,mexican
 15164,korean
 22920,indian
-48157,southern_us
 41123,southern_us
 39185,italian
 17846,thai
@@ -10711,11 +10340,9 @@
 15213,southern_us
 46020,british
 4760,southern_us
-33639,southern_us
 23622,italian
 25445,mexican
 12098,italian
-36590,southern_us
 14024,italian
 32211,filipino
 590,italian
@@ -10775,13 +10402,11 @@
 32904,filipino
 18324,mexican
 46565,mexican
-15301,italian
 43050,japanese
 49585,italian
 45425,indian
 42885,mexican
 26092,italian
-4521,southern_us
 32365,italian
 13561,italian
 4076,indian
@@ -10790,7 +10415,6 @@
 11387,cajun_creole
 38652,mexican
 36382,french
-11242,italian
 26272,indian
 5587,spanish
 15117,italian
@@ -10822,7 +10446,6 @@
 28085,british
 19194,southern_us
 16105,japanese
-10163,italian
 2644,french
 14092,moroccan
 5246,indian
@@ -10831,7 +10454,6 @@
 25546,chinese
 46407,chinese
 39663,japanese
-47616,italian
 38193,greek
 6218,indian
 30502,cajun_creole
@@ -10840,12 +10462,9 @@
 17924,mexican
 6749,southern_us
 35905,korean
-6337,italian
 17618,indian
-31065,southern_us
 666,indian
 23954,mexican
-4142,italian
 29229,southern_us
 2725,french
 46771,italian
@@ -10961,10 +10580,8 @@
 20169,cajun_creole
 45894,chinese
 2309,mexican
-6464,southern_us
 22083,indian
 33211,french
-35194,italian
 4487,thai
 23567,brazilian
 10957,thai
@@ -10974,7 +10591,6 @@
 16493,moroccan
 5405,cajun_creole
 31832,japanese
-2973,italian
 37813,mexican
 23704,irish
 27871,indian
@@ -10982,7 +10598,6 @@
 47954,southern_us
 12335,irish
 24540,italian
-21566,italian
 16410,mexican
 28835,japanese
 26141,mexican
@@ -11000,7 +10615,6 @@
 43876,southern_us
 19625,chinese
 40772,french
-41980,italian
 36579,italian
 44991,southern_us
 33183,chinese
@@ -11028,7 +10642,6 @@
 46022,japanese
 11640,spanish
 18459,southern_us
-15476,southern_us
 16393,mexican
 687,italian
 38427,french
@@ -11036,7 +10649,6 @@
 31870,japanese
 33365,moroccan
 48017,indian
-8359,italian
 7060,thai
 8121,filipino
 6631,french
@@ -11048,12 +10660,10 @@
 48621,italian
 19908,british
 36965,french
-37917,italian
 38203,mexican
 47920,chinese
 29663,mexican
 35434,greek
-17427,italian
 46817,italian
 48839,italian
 49463,italian
@@ -11071,7 +10681,6 @@
 26236,mexican
 5232,russian
 31413,thai
-39781,southern_us
 17357,russian
 2951,greek
 38100,southern_us
@@ -11124,7 +10733,6 @@
 42869,italian
 36469,filipino
 18976,greek
-25225,southern_us
 34800,indian
 33508,italian
 20445,mexican
@@ -11180,7 +10788,6 @@
 20019,mexican
 3899,southern_us
 1504,filipino
-7068,southern_us
 16482,japanese
 7720,mexican
 24172,italian
@@ -11205,7 +10812,6 @@
 48114,mexican
 19553,italian
 16180,jamaican
-24494,italian
 46306,italian
 45718,italian
 13655,italian
@@ -11241,7 +10847,6 @@
 21971,british
 42572,southern_us
 12547,korean
-25365,southern_us
 39659,chinese
 40185,french
 46220,british
@@ -11262,7 +10867,6 @@
 30217,greek
 34534,spanish
 29385,italian
-45644,italian
 46645,french
 297,southern_us
 16930,southern_us
@@ -11299,13 +10903,11 @@
 20555,filipino
 38661,mexican
 49296,british
-10169,italian
 34226,italian
 44243,southern_us
 14412,southern_us
 25890,italian
 21739,greek
-10953,southern_us
 26607,southern_us
 4025,southern_us
 31742,southern_us
@@ -11319,7 +10921,6 @@
 25986,mexican
 35697,chinese
 14793,italian
-878,italian
 15561,southern_us
 46009,mexican
 16491,mexican
@@ -11368,9 +10969,7 @@
 34502,thai
 26898,japanese
 44111,chinese
-22981,southern_us
 17543,british
-46399,italian
 26261,southern_us
 12577,chinese
 40856,italian
@@ -11433,7 +11032,6 @@
 41584,mexican
 40326,greek
 8299,japanese
-13048,italian
 39235,brazilian
 36089,french
 10672,indian
@@ -11456,10 +11054,8 @@
 44486,spanish
 49294,french
 17348,mexican
-46454,italian
 30693,mexican
 42607,mexican
-9881,southern_us
 33552,japanese
 43774,mexican
 41987,mexican
@@ -11487,7 +11083,6 @@
 27923,irish
 8401,french
 9049,filipino
-42042,italian
 38668,chinese
 1991,russian
 27951,mexican
@@ -11546,7 +11141,6 @@
 33445,greek
 27138,japanese
 12058,cajun_creole
-35666,southern_us
 40377,italian
 22260,italian
 12651,mexican
@@ -11567,7 +11161,6 @@
 36202,vietnamese
 5953,indian
 45049,indian
-4145,italian
 25826,french
 16989,italian
 29295,japanese
@@ -11606,7 +11199,6 @@
 27035,french
 16628,korean
 36825,french
-8141,southern_us
 7521,french
 19549,mexican
 40167,thai
@@ -11626,7 +11218,6 @@
 3077,italian
 17621,moroccan
 37809,southern_us
-2466,italian
 23860,southern_us
 5883,indian
 9887,indian
@@ -11639,7 +11230,6 @@
 22983,italian
 41632,irish
 25961,vietnamese
-37522,southern_us
 31107,indian
 48581,french
 18470,moroccan
@@ -11703,12 +11293,10 @@
 47929,brazilian
 9508,southern_us
 44793,irish
-12831,italian
 17109,chinese
 32911,japanese
 4074,japanese
 19988,japanese
-22027,southern_us
 9337,italian
 16925,mexican
 1361,british
@@ -11732,7 +11320,6 @@
 37621,italian
 33811,french
 10104,indian
-4772,southern_us
 26151,italian
 45165,japanese
 19230,mexican
@@ -11769,7 +11356,6 @@
 40527,jamaican
 35129,mexican
 23707,mexican
-47205,southern_us
 19188,southern_us
 6982,mexican
 1618,irish
@@ -11777,13 +11363,11 @@
 39389,chinese
 31604,japanese
 34315,irish
-15091,italian
 3361,southern_us
 1844,southern_us
 20167,southern_us
 77,italian
 18344,vietnamese
-9975,italian
 44739,japanese
 14141,thai
 33549,irish
@@ -11863,7 +11447,6 @@
 27950,mexican
 33547,italian
 2501,indian
-46345,southern_us
 49582,southern_us
 33838,chinese
 32552,mexican
@@ -11935,7 +11518,6 @@
 3937,indian
 41401,japanese
 12594,cajun_creole
-18146,southern_us
 38760,indian
 28528,italian
 25653,southern_us
@@ -11953,16 +11535,13 @@
 1704,italian
 42023,japanese
 37358,mexican
-1152,southern_us
 12401,indian
 35948,british
 49008,filipino
-36308,italian
 14721,southern_us
 26508,indian
 35312,mexican
 16456,vietnamese
-47678,southern_us
 28032,italian
 9659,french
 1288,chinese
@@ -11981,7 +11560,6 @@
 37131,italian
 41935,thai
 41324,southern_us
-45287,southern_us
 9275,italian
 16023,italian
 10730,mexican
@@ -12022,7 +11600,6 @@
 5971,mexican
 6187,indian
 10186,korean
-29407,italian
 35501,mexican
 31045,chinese
 40937,italian
@@ -12040,7 +11617,6 @@
 40426,brazilian
 22867,mexican
 29947,cajun_creole
-21348,southern_us
 12892,thai
 27854,southern_us
 32976,jamaican
@@ -12055,7 +11631,6 @@
 34560,irish
 47831,italian
 29510,brazilian
-36682,italian
 11972,brazilian
 38296,southern_us
 12395,french
@@ -12066,7 +11641,6 @@
 20072,mexican
 44945,mexican
 44201,thai
-48404,italian
 32208,thai
 24844,mexican
 35535,southern_us
@@ -12087,7 +11661,6 @@
 15594,mexican
 20637,irish
 16257,greek
-49043,southern_us
 108,southern_us
 38841,irish
 44090,chinese
@@ -12146,7 +11719,6 @@
 38036,southern_us
 5974,southern_us
 27971,vietnamese
-16465,italian
 36042,japanese
 40646,greek
 25775,italian
@@ -12213,11 +11785,9 @@
 7907,irish
 7020,mexican
 40491,southern_us
-21619,italian
 3121,british
 23583,indian
 8927,italian
-27948,italian
 37974,moroccan
 4942,french
 27052,indian
@@ -12227,15 +11797,12 @@
 32848,chinese
 35873,mexican
 12174,thai
-20428,southern_us
 34886,mexican
 17259,mexican
 8915,southern_us
 4859,mexican
 10295,mexican
 20331,spanish
-41743,italian
-7389,italian
 18230,mexican
 14313,jamaican
 21405,irish
@@ -12336,7 +11903,6 @@
 5915,mexican
 35276,southern_us
 44426,jamaican
-20991,southern_us
 31217,mexican
 518,mexican
 38441,southern_us
@@ -12355,7 +11921,6 @@
 27879,moroccan
 24123,mexican
 26118,italian
-47179,southern_us
 46054,jamaican
 1831,irish
 38363,italian
@@ -12407,10 +11972,8 @@
 48888,mexican
 46980,mexican
 39754,french
-41597,italian
 34660,japanese
 13830,southern_us
-10260,southern_us
 28218,italian
 22294,vietnamese
 30092,mexican
@@ -12444,7 +12007,6 @@
 29200,italian
 14505,mexican
 27691,italian
-27794,italian
 40544,mexican
 29759,italian
 5377,italian
@@ -12487,7 +12049,6 @@
 14940,mexican
 18957,thai
 37413,southern_us
-4584,italian
 9318,spanish
 39892,french
 7829,french
@@ -12495,7 +12056,6 @@
 36417,indian
 20980,southern_us
 33540,southern_us
-24473,southern_us
 13981,italian
 42981,brazilian
 9936,chinese
@@ -12508,7 +12068,6 @@
 32223,southern_us
 9444,italian
 33215,southern_us
-11641,italian
 26791,british
 36866,mexican
 44008,mexican
@@ -12536,10 +12095,8 @@
 8815,italian
 32054,japanese
 12033,italian
-24061,southern_us
 4109,cajun_creole
 14233,mexican
-5101,italian
 43741,japanese
 812,thai
 17820,brazilian
@@ -12569,9 +12126,7 @@
 48218,indian
 10275,southern_us
 44885,southern_us
-7562,southern_us
 23129,indian
-25600,italian
 42918,italian
 41042,italian
 49353,thai
@@ -12649,14 +12204,11 @@
 1852,mexican
 9449,chinese
 41483,french
-22823,italian
 23359,mexican
 23326,southern_us
-17567,italian
 12141,thai
 21955,southern_us
 44816,chinese
-3280,southern_us
 6954,chinese
 38325,french
 44112,cajun_creole
@@ -12785,10 +12337,8 @@
 40475,southern_us
 46092,italian
 39224,vietnamese
-4480,italian
 17072,italian
 41724,french
-26156,italian
 49573,british
 8306,french
 15207,filipino
@@ -12796,7 +12346,6 @@
 13336,russian
 47054,mexican
 7433,thai
-30857,southern_us
 18956,indian
 47199,indian
 965,french
@@ -12826,7 +12375,6 @@
 49607,french
 13684,italian
 19170,italian
-27232,italian
 25419,thai
 5417,southern_us
 672,british
@@ -12837,7 +12385,6 @@
 19692,mexican
 47896,southern_us
 13499,cajun_creole
-21843,southern_us
 48728,indian
 33627,vietnamese
 45903,italian
@@ -12873,7 +12420,6 @@
 881,southern_us
 20718,italian
 19151,italian
-48828,italian
 10387,southern_us
 23711,british
 12119,italian
@@ -12883,7 +12429,6 @@
 43929,italian
 34965,mexican
 42952,filipino
-43239,southern_us
 33579,thai
 20112,mexican
 29220,mexican
@@ -12907,7 +12452,6 @@
 42537,italian
 3146,thai
 34526,mexican
-31868,italian
 27347,french
 38359,mexican
 34426,thai
@@ -12920,7 +12464,6 @@
 2172,italian
 27209,italian
 19403,jamaican
-42587,southern_us
 11243,mexican
 41731,indian
 22754,mexican
@@ -12962,7 +12505,6 @@
 13761,indian
 16305,italian
 42878,chinese
-42632,southern_us
 40679,mexican
 23552,chinese
 8510,mexican
@@ -12973,7 +12515,6 @@
 21464,vietnamese
 111,mexican
 12922,spanish
-34688,southern_us
 39177,mexican
 6805,mexican
 43282,mexican
@@ -13074,12 +12615,10 @@
 42006,russian
 39143,southern_us
 5898,mexican
-23739,italian
 4784,vietnamese
 19795,french
 13618,indian
 25770,irish
-26205,italian
 19435,korean
 23630,japanese
 3707,indian
@@ -13124,7 +12663,6 @@
 14757,spanish
 32517,italian
 31777,italian
-6233,italian
 18906,italian
 48224,italian
 7809,southern_us
@@ -13149,7 +12687,6 @@
 38457,mexican
 46885,cajun_creole
 34947,french
-34056,southern_us
 40757,mexican
 28369,thai
 32944,french
@@ -13169,7 +12706,6 @@
 35653,brazilian
 18563,mexican
 15783,italian
-9884,italian
 8399,italian
 18348,british
 18399,jamaican
@@ -13197,7 +12733,6 @@
 37901,irish
 21034,japanese
 14309,chinese
-24879,southern_us
 40596,chinese
 10140,french
 7434,russian
@@ -13222,7 +12757,6 @@
 35011,filipino
 25182,indian
 18778,italian
-45822,italian
 49498,british
 18910,italian
 41600,indian
@@ -13247,7 +12781,6 @@
 44978,greek
 10898,japanese
 43728,mexican
-2592,southern_us
 35690,chinese
 1837,italian
 38347,italian
@@ -13257,7 +12790,6 @@
 44105,italian
 36802,mexican
 36236,thai
-21035,southern_us
 27024,mexican
 32380,mexican
 3298,jamaican
@@ -13298,7 +12830,6 @@
 13497,brazilian
 34423,italian
 48551,mexican
-31996,southern_us
 7075,italian
 25939,british
 39083,italian
@@ -13319,7 +12850,6 @@
 23509,indian
 31813,thai
 3658,filipino
-34458,southern_us
 38883,italian
 31175,french
 10850,southern_us
@@ -13428,7 +12958,6 @@
 8895,mexican
 17208,italian
 35586,russian
-44669,italian
 14374,southern_us
 41681,chinese
 12474,thai
@@ -13447,12 +12976,10 @@
 40567,indian
 5501,mexican
 44034,thai
-47850,southern_us
 44648,mexican
 23976,southern_us
 21491,italian
 20717,moroccan
-34609,southern_us
 18443,southern_us
 8694,mexican
 14124,moroccan
@@ -13462,7 +12989,6 @@
 640,italian
 45134,cajun_creole
 14599,thai
-36658,italian
 49660,italian
 24032,chinese
 12961,japanese
@@ -13549,7 +13075,6 @@
 39624,french
 40008,spanish
 37947,indian
-8589,southern_us
 45264,italian
 20068,french
 5381,french
@@ -13580,7 +13105,6 @@
 41914,mexican
 4539,french
 14134,french
-2630,italian
 45017,italian
 3062,indian
 24572,japanese
@@ -13638,7 +13162,6 @@
 8737,british
 18211,mexican
 398,italian
-35506,italian
 29219,jamaican
 18118,mexican
 5087,japanese
@@ -13696,9 +13219,7 @@
 40579,irish
 2012,italian
 10817,italian
-15119,southern_us
 28530,mexican
-16343,italian
 24555,spanish
 29416,french
 41053,greek
@@ -13754,10 +13275,8 @@
 48276,brazilian
 2035,mexican
 5555,southern_us
-49315,italian
 28765,indian
 29823,spanish
-15559,southern_us
 41683,cajun_creole
 35029,japanese
 24873,mexican
@@ -13779,19 +13298,16 @@
 38884,chinese
 30066,moroccan
 46177,cajun_creole
-39866,southern_us
 33004,thai
 42697,chinese
 41424,italian
 10728,vietnamese
 4723,italian
 15094,italian
-38,southern_us
 11536,indian
 5519,italian
 18814,indian
 9471,cajun_creole
-38412,italian
 24388,italian
 34096,cajun_creole
 26578,mexican
@@ -13857,9 +13373,7 @@
 41139,mexican
 3840,italian
 26332,vietnamese
-3294,italian
 12115,italian
-15139,southern_us
 39381,mexican
 47870,russian
 641,indian
@@ -13907,7 +13421,6 @@
 47774,italian
 37705,southern_us
 39332,southern_us
-17736,southern_us
 47037,chinese
 30921,southern_us
 36547,korean
@@ -14011,14 +13524,12 @@
 6308,french
 21999,french
 45984,thai
-1859,italian
 35828,chinese
 1033,moroccan
 20635,irish
 29917,mexican
 7698,mexican
 9608,korean
-24920,italian
 29973,italian
 37894,mexican
 8841,chinese
@@ -14026,22 +13537,17 @@
 37531,southern_us
 6963,italian
 7937,spanish
-47293,italian
 30229,mexican
-38733,italian
 6336,italian
 15298,italian
-6622,italian
 48206,mexican
 44674,indian
-48869,italian
 46083,indian
 30576,thai
 36309,indian
 36052,chinese
 22092,mexican
 12182,indian
-16802,italian
 2505,mexican
 18508,thai
 28202,southern_us
@@ -14099,7 +13605,6 @@
 3814,russian
 12094,italian
 2932,japanese
-18554,italian
 27571,chinese
 4483,jamaican
 33382,italian
@@ -14126,7 +13631,6 @@
 23015,thai
 38867,chinese
 8067,indian
-4756,southern_us
 7988,irish
 34956,mexican
 30318,filipino
@@ -14215,7 +13719,6 @@
 12740,italian
 33078,jamaican
 7029,cajun_creole
-10501,southern_us
 4041,vietnamese
 33626,mexican
 35654,indian
@@ -14259,7 +13762,6 @@
 3871,cajun_creole
 38101,chinese
 35354,thai
-35924,southern_us
 5449,french
 8484,french
 48266,brazilian
@@ -14282,7 +13784,6 @@
 10434,russian
 47322,southern_us
 8872,italian
-5694,southern_us
 6068,indian
 22572,southern_us
 32628,british
@@ -14328,16 +13829,12 @@
 38766,southern_us
 14175,mexican
 15160,jamaican
-42232,italian
 4070,french
-41951,italian
 15733,mexican
 33270,chinese
 6774,korean
 4716,french
 18152,italian
-47231,southern_us
-18310,italian
 22827,mexican
 10946,italian
 26652,italian
@@ -14361,14 +13858,11 @@
 40632,japanese
 8628,indian
 5716,spanish
-39155,italian
 37407,cajun_creole
 26321,southern_us
 36774,vietnamese
-19037,italian
 28374,chinese
 9377,mexican
-42150,italian
 27580,indian
 16596,french
 282,korean
@@ -14429,7 +13923,6 @@
 2191,french
 32759,greek
 48035,mexican
-3681,italian
 15026,italian
 6298,chinese
 22560,thai
@@ -14453,7 +13946,6 @@
 6552,italian
 14839,italian
 7085,cajun_creole
-29884,italian
 20944,french
 43523,thai
 18480,japanese
@@ -14492,7 +13984,6 @@
 24302,cajun_creole
 34114,japanese
 24715,french
-26617,southern_us
 5452,chinese
 49616,greek
 4918,cajun_creole
@@ -14502,7 +13993,6 @@
 3866,italian
 34979,spanish
 19536,southern_us
-30784,southern_us
 34205,vietnamese
 1319,italian
 16486,french
@@ -14523,13 +14013,11 @@
 32600,moroccan
 30775,indian
 9298,thai
-3807,italian
 42317,italian
 3501,chinese
 26883,italian
 14685,thai
 3790,italian
-16685,italian
 40050,chinese
 33488,french
 10338,italian
@@ -14542,13 +14030,11 @@
 34686,indian
 38753,chinese
 29977,vietnamese
-29662,southern_us
 21107,japanese
 8778,jamaican
 26431,spanish
 1057,chinese
 33454,jamaican
-46937,italian
 103,southern_us
 42620,mexican
 9632,jamaican
@@ -14574,7 +14060,6 @@
 4474,filipino
 280,indian
 5271,greek
-16443,italian
 26514,chinese
 27413,southern_us
 15697,thai
@@ -14597,7 +14082,6 @@
 37263,mexican
 36569,vietnamese
 35794,brazilian
-41472,italian
 514,italian
 6732,italian
 49676,mexican
@@ -14631,7 +14115,6 @@
 49710,greek
 11621,thai
 26043,french
-21129,southern_us
 25241,irish
 10305,mexican
 40451,italian
@@ -14661,7 +14144,6 @@
 38550,british
 36242,mexican
 39258,mexican
-34277,southern_us
 39746,mexican
 48013,jamaican
 18391,italian
@@ -14700,7 +14182,6 @@
 32242,irish
 25737,thai
 28281,japanese
-31392,southern_us
 34007,italian
 6957,french
 17029,russian
@@ -14757,7 +14238,6 @@
 34429,french
 8042,italian
 31229,mexican
-9813,italian
 20646,italian
 15727,chinese
 49142,mexican
@@ -14777,7 +14257,6 @@
 16193,greek
 35193,chinese
 26961,chinese
-40598,italian
 40970,mexican
 8307,chinese
 45108,southern_us
@@ -14788,7 +14267,6 @@
 29105,chinese
 34224,southern_us
 43853,italian
-44119,southern_us
 42586,french
 10049,thai
 44912,moroccan
@@ -14798,7 +14276,6 @@
 43168,greek
 40260,italian
 47377,italian
-29956,southern_us
 16476,indian
 45612,french
 41004,mexican
@@ -14818,7 +14295,6 @@
 42812,japanese
 21148,italian
 12001,vietnamese
-8576,southern_us
 6276,cajun_creole
 32784,irish
 20220,southern_us
@@ -14863,7 +14339,6 @@
 5297,southern_us
 21705,italian
 39976,greek
-23978,italian
 22855,italian
 23324,russian
 43188,russian
@@ -14978,7 +14453,6 @@
 21495,chinese
 18952,cajun_creole
 7183,italian
-690,italian
 19914,french
 2096,vietnamese
 24079,indian
@@ -15062,7 +14536,6 @@
 43866,greek
 25486,southern_us
 44619,cajun_creole
-7534,southern_us
 13447,indian
 36669,cajun_creole
 3617,mexican
@@ -15082,7 +14555,6 @@
 14246,japanese
 1551,italian
 11293,french
-15342,southern_us
 16554,mexican
 43398,chinese
 27922,cajun_creole
@@ -15092,7 +14564,6 @@
 29451,cajun_creole
 32383,indian
 4899,indian
-35338,italian
 10145,vietnamese
 33124,italian
 17520,filipino
@@ -15105,7 +14576,6 @@
 3540,spanish
 8705,british
 11628,chinese
-49170,southern_us
 43222,vietnamese
 40695,mexican
 29202,indian
@@ -15171,7 +14641,6 @@
 16680,southern_us
 49662,italian
 8558,moroccan
-4886,italian
 31261,mexican
 46269,chinese
 43943,italian
@@ -15205,7 +14674,6 @@
 18227,indian
 36207,french
 7644,italian
-36154,italian
 45550,southern_us
 47865,mexican
 30913,southern_us
@@ -15226,7 +14694,6 @@
 46433,southern_us
 21968,french
 21470,chinese
-35548,italian
 37636,southern_us
 14027,italian
 23042,korean
@@ -15251,10 +14718,8 @@
 22379,irish
 21772,french
 11645,indian
-2135,italian
 41506,italian
 20925,indian
-21595,southern_us
 32534,greek
 46013,italian
 19386,japanese
@@ -15284,7 +14749,6 @@
 45613,vietnamese
 7430,cajun_creole
 12467,cajun_creole
-38087,italian
 49519,french
 30999,jamaican
 3885,italian
@@ -15301,7 +14765,6 @@
 8865,greek
 18085,french
 31932,chinese
-24033,italian
 9070,mexican
 7225,chinese
 10741,cajun_creole
@@ -15413,7 +14876,6 @@
 43734,french
 38222,southern_us
 314,indian
-2282,southern_us
 5715,spanish
 13328,mexican
 45679,mexican
@@ -15469,7 +14931,6 @@
 6434,italian
 21215,french
 18069,japanese
-19168,southern_us
 4569,irish
 3636,italian
 6478,japanese
@@ -15506,7 +14967,6 @@
 42472,mexican
 2009,italian
 14001,spanish
-11552,southern_us
 726,spanish
 12906,irish
 35765,southern_us
@@ -15523,7 +14983,6 @@
 10456,italian
 8079,british
 25152,indian
-7652,southern_us
 29358,spanish
 11149,filipino
 45714,thai
@@ -15543,7 +15002,6 @@
 8447,vietnamese
 15893,mexican
 21504,vietnamese
-32822,italian
 13356,french
 15817,italian
 6202,indian
@@ -15569,7 +15027,6 @@
 13954,indian
 44191,thai
 20152,italian
-2627,southern_us
 30078,mexican
 29191,russian
 4542,french
@@ -15602,7 +15059,6 @@
 1398,mexican
 45964,mexican
 43532,chinese
-33354,italian
 17414,italian
 16530,moroccan
 34706,italian
@@ -15619,12 +15075,10 @@
 26461,spanish
 33927,chinese
 17644,southern_us
-1552,italian
 5364,mexican
 42327,korean
 19468,french
 7301,french
-47411,italian
 15007,chinese
 42146,russian
 27642,indian
@@ -15669,7 +15123,6 @@
 39566,italian
 453,french
 49355,mexican
-13814,italian
 48265,french
 2065,greek
 44372,russian
@@ -15681,10 +15134,8 @@
 20518,southern_us
 44851,southern_us
 35255,chinese
-18047,italian
 39325,mexican
 4714,spanish
-12532,italian
 13128,italian
 10231,southern_us
 32478,mexican
@@ -15692,7 +15143,6 @@
 22767,cajun_creole
 36797,italian
 29435,southern_us
-23814,italian
 36519,indian
 24809,moroccan
 41369,vietnamese
@@ -15753,8 +15203,6 @@
 13733,italian
 16096,jamaican
 18275,thai
-46426,italian
-23822,italian
 2887,indian
 16378,french
 12214,italian
@@ -15796,7 +15244,6 @@
 7816,french
 47887,french
 19735,mexican
-8864,southern_us
 10973,indian
 19052,italian
 42880,mexican
@@ -15901,7 +15348,6 @@
 26625,italian
 41331,french
 30807,chinese
-38655,italian
 27680,mexican
 45786,japanese
 32952,filipino
@@ -15977,14 +15423,11 @@
 28670,french
 25221,southern_us
 36167,japanese
-10303,southern_us
 11037,cajun_creole
 44126,french
-45271,italian
 1275,french
 46265,italian
 26856,greek
-921,southern_us
 38263,french
 4314,mexican
 31323,southern_us
@@ -16119,7 +15562,6 @@
 15158,cajun_creole
 59,mexican
 40706,russian
-4523,italian
 40061,japanese
 44631,mexican
 42590,mexican
@@ -16146,7 +15588,6 @@
 42777,chinese
 39118,british
 44624,mexican
-16832,italian
 35297,mexican
 14293,moroccan
 1769,italian
@@ -16168,7 +15609,6 @@
 22024,italian
 39980,southern_us
 37252,southern_us
-27386,italian
 35037,italian
 31288,chinese
 8250,mexican
@@ -16192,12 +15632,10 @@
 11638,southern_us
 5684,irish
 16778,thai
-27033,italian
 44706,korean
 6784,italian
 45346,greek
 6066,french
-28465,italian
 15564,moroccan
 29819,chinese
 31953,southern_us
@@ -16233,7 +15671,6 @@
 5316,mexican
 35088,british
 38480,french
-49176,southern_us
 37177,french
 39088,russian
 30760,mexican
@@ -16253,7 +15690,6 @@
 21225,chinese
 22135,thai
 9858,mexican
-41843,southern_us
 43526,chinese
 25406,mexican
 35211,japanese
@@ -16271,7 +15707,6 @@
 45592,indian
 2297,british
 15871,brazilian
-20417,southern_us
 37062,mexican
 34147,cajun_creole
 41387,southern_us
@@ -16331,7 +15766,6 @@
 29203,mexican
 22132,southern_us
 43597,greek
-24293,southern_us
 31254,british
 8445,french
 18631,french
@@ -16351,7 +15785,6 @@
 28591,italian
 42682,jamaican
 6684,italian
-31570,italian
 34604,southern_us
 48304,filipino
 2399,italian
@@ -16364,7 +15797,6 @@
 25272,greek
 31968,italian
 33176,spanish
-36444,southern_us
 21376,thai
 44660,mexican
 2956,mexican
@@ -16440,9 +15872,7 @@
 21488,japanese
 17238,italian
 3261,thai
-34946,italian
 25190,southern_us
-37039,southern_us
 10821,french
 30146,italian
 15608,french
@@ -16467,7 +15897,6 @@
 17204,mexican
 28709,italian
 13314,southern_us
-22764,italian
 11687,thai
 33895,greek
 14646,mexican
@@ -16634,7 +16063,6 @@
 17883,french
 35149,cajun_creole
 6350,spanish
-10452,southern_us
 45892,russian
 29612,cajun_creole
 11254,indian
@@ -16647,7 +16075,6 @@
 49131,italian
 19713,mexican
 6746,italian
-25459,italian
 33814,mexican
 47532,southern_us
 17006,chinese
@@ -16668,7 +16095,6 @@
 39113,japanese
 6567,thai
 16513,cajun_creole
-17680,italian
 35368,mexican
 35574,mexican
 32331,chinese
@@ -16678,7 +16104,6 @@
 44535,italian
 4129,japanese
 13844,thai
-7557,southern_us
 27607,cajun_creole
 18787,chinese
 7727,mexican
@@ -16733,7 +16158,6 @@
 8594,greek
 40286,british
 2020,indian
-7341,southern_us
 6959,italian
 9115,italian
 8071,moroccan
@@ -16745,7 +16169,6 @@
 44231,indian
 36035,korean
 32067,moroccan
-32128,southern_us
 40334,italian
 15167,mexican
 2661,italian
@@ -16847,7 +16270,6 @@
 16098,italian
 11802,vietnamese
 17342,irish
-7716,italian
 12247,italian
 7276,italian
 35337,italian
@@ -16861,7 +16283,6 @@
 2061,italian
 39170,indian
 10886,mexican
-3626,italian
 17563,russian
 13333,italian
 3855,irish
@@ -16887,7 +16308,6 @@
 22703,french
 48691,korean
 8064,cajun_creole
-49451,southern_us
 10588,greek
 28719,french
 30579,italian
@@ -16910,7 +16330,6 @@
 4589,moroccan
 25497,mexican
 9461,chinese
-870,italian
 29405,japanese
 13826,mexican
 10365,chinese
@@ -16933,7 +16352,6 @@
 32451,french
 39898,mexican
 43411,japanese
-804,southern_us
 4639,mexican
 3389,southern_us
 11747,spanish
@@ -16965,7 +16383,6 @@
 23903,greek
 7038,italian
 35267,mexican
-5168,italian
 3538,japanese
 42057,mexican
 17128,japanese
@@ -16984,7 +16401,6 @@
 29875,southern_us
 34237,russian
 38508,korean
-6378,southern_us
 7851,vietnamese
 7915,mexican
 34792,italian
@@ -17014,7 +16430,6 @@
 45664,chinese
 4764,southern_us
 31704,italian
-15087,southern_us
 14367,mexican
 41604,thai
 9433,indian
@@ -17050,8 +16465,6 @@
 38245,italian
 23644,spanish
 21786,mexican
-35273,southern_us
-11411,italian
 43392,italian
 19413,mexican
 31999,thai
@@ -17112,7 +16525,6 @@
 42143,chinese
 33463,italian
 1847,italian
-23225,italian
 28876,french
 19281,italian
 3032,southern_us
@@ -17120,7 +16532,6 @@
 12621,italian
 3183,southern_us
 44878,moroccan
-17177,southern_us
 33681,italian
 30046,italian
 16601,british
@@ -17137,7 +16548,6 @@
 36641,thai
 15661,french
 37010,cajun_creole
-32723,italian
 27042,greek
 23082,french
 6816,southern_us
@@ -17195,7 +16605,6 @@
 4195,italian
 33766,greek
 48233,chinese
-19896,italian
 33096,italian
 21506,japanese
 47578,mexican
@@ -17230,8 +16639,6 @@
 30613,french
 32192,russian
 23452,french
-5858,italian
-46767,italian
 33110,southern_us
 38154,italian
 19565,thai
@@ -17275,9 +16682,7 @@
 33902,korean
 2863,french
 32963,cajun_creole
-14619,italian
 28567,vietnamese
-38737,italian
 34668,mexican
 28163,chinese
 39131,moroccan
@@ -17288,7 +16693,6 @@
 32251,chinese
 47141,spanish
 18774,french
-16163,italian
 39563,italian
 3700,indian
 10931,greek
@@ -17409,12 +16813,9 @@
 26630,spanish
 14722,greek
 34998,cajun_creole
-25725,southern_us
-24340,southern_us
 30233,italian
 20181,italian
 15768,italian
-4509,southern_us
 33558,southern_us
 49454,italian
 35282,greek
@@ -17445,7 +16846,6 @@
 35896,indian
 34941,brazilian
 3189,southern_us
-24110,southern_us
 46411,indian
 31695,cajun_creole
 4134,mexican
@@ -17470,7 +16870,6 @@
 6048,japanese
 38820,moroccan
 28863,italian
-22904,southern_us
 1873,irish
 30017,mexican
 38660,jamaican
@@ -17516,15 +16915,12 @@
 9261,french
 30853,british
 42084,southern_us
-35480,southern_us
 36478,korean
 1714,italian
-4014,southern_us
 36018,indian
 995,jamaican
 44209,italian
 16008,chinese
-17061,southern_us
 13968,southern_us
 3833,mexican
 17841,italian
@@ -17646,15 +17042,12 @@
 48010,filipino
 2277,southern_us
 43391,russian
-37758,italian
 29779,italian
 35210,greek
 21977,filipino
 40502,russian
 28650,italian
-5854,italian
 2730,italian
-32829,italian
 46197,italian
 32138,indian
 5409,italian
@@ -17669,9 +17062,7 @@
 10910,indian
 41367,mexican
 43826,indian
-43385,italian
 24643,italian
-3162,southern_us
 23011,japanese
 35785,southern_us
 9579,chinese
@@ -17693,7 +17084,6 @@
 24126,southern_us
 20952,vietnamese
 22630,italian
-42845,southern_us
 33425,southern_us
 34710,mexican
 49026,mexican
@@ -17745,7 +17135,6 @@
 7673,japanese
 40394,italian
 49564,greek
-38143,southern_us
 13644,japanese
 35496,indian
 17134,indian
@@ -17760,7 +17149,6 @@
 43493,mexican
 19650,korean
 5275,spanish
-28660,southern_us
 29874,italian
 33228,russian
 49421,italian
@@ -17788,9 +17176,7 @@
 21760,japanese
 43153,greek
 25757,indian
-12658,italian
 22395,mexican
-20596,italian
 30630,italian
 40447,spanish
 27833,spanish
@@ -17800,7 +17186,6 @@
 23397,chinese
 37711,indian
 193,mexican
-28990,southern_us
 28868,russian
 29849,southern_us
 34292,italian
@@ -17830,7 +17215,6 @@
 24734,indian
 27892,jamaican
 14796,indian
-28284,italian
 34491,french
 46883,irish
 21192,jamaican
@@ -17913,7 +17297,6 @@
 10103,cajun_creole
 26409,italian
 40216,french
-39801,southern_us
 1157,southern_us
 29218,indian
 1930,italian
@@ -17937,7 +17320,6 @@
 19995,italian
 40033,mexican
 4842,thai
-42933,southern_us
 30241,chinese
 8112,indian
 28322,greek
@@ -17947,7 +17329,6 @@
 27806,chinese
 3572,french
 32334,japanese
-24465,italian
 33233,french
 1577,italian
 37050,southern_us
@@ -17969,9 +17350,7 @@
 2912,southern_us
 39065,thai
 47813,indian
-23259,southern_us
 8368,mexican
-46674,italian
 16976,irish
 12924,indian
 35490,french
@@ -18074,7 +17453,6 @@
 26990,french
 33045,spanish
 35174,mexican
-7864,southern_us
 34023,mexican
 1416,filipino
 16766,mexican
@@ -18082,7 +17460,6 @@
 21400,greek
 19600,british
 49541,irish
-6053,southern_us
 35982,southern_us
 3754,indian
 3212,italian
@@ -18167,7 +17544,6 @@
 48425,mexican
 46543,chinese
 3801,italian
-10179,italian
 21468,mexican
 42182,southern_us
 47080,thai
@@ -18182,7 +17558,6 @@
 48329,thai
 21270,italian
 36023,mexican
-28091,southern_us
 23480,thai
 26369,cajun_creole
 8909,vietnamese
@@ -18285,7 +17660,6 @@
 28393,mexican
 12963,british
 35184,southern_us
-38166,southern_us
 44517,italian
 42741,southern_us
 45905,indian
@@ -18307,11 +17681,9 @@
 25067,chinese
 41093,italian
 34414,southern_us
-5335,italian
 33800,filipino
 21315,mexican
 820,french
-23556,southern_us
 36957,mexican
 45411,indian
 13991,southern_us
@@ -18348,8 +17720,6 @@
 5004,filipino
 23840,chinese
 41064,french
-44183,southern_us
-16030,southern_us
 12622,mexican
 11929,mexican
 13059,indian
@@ -18383,7 +17753,6 @@
 41154,italian
 24722,filipino
 33107,mexican
-3452,southern_us
 3054,korean
 15549,mexican
 14623,cajun_creole
@@ -18391,7 +17760,6 @@
 8039,mexican
 26854,chinese
 21018,french
-38971,southern_us
 21260,indian
 12096,italian
 43486,french
@@ -18406,7 +17774,6 @@
 14203,italian
 27585,thai
 13253,mexican
-7468,italian
 3395,vietnamese
 27840,italian
 401,italian
@@ -18454,7 +17821,6 @@
 28084,italian
 9744,chinese
 35909,italian
-10710,southern_us
 19073,italian
 38503,southern_us
 28133,southern_us
@@ -18550,7 +17916,6 @@
 42252,italian
 6920,french
 6686,southern_us
-22738,italian
 36929,french
 8066,southern_us
 6232,mexican
@@ -18625,12 +17990,10 @@
 1865,italian
 2584,mexican
 42982,italian
-39783,southern_us
 10272,southern_us
 49520,mexican
 13683,mexican
 28275,mexican
-39253,southern_us
 2305,southern_us
 17997,irish
 12353,southern_us
@@ -18649,7 +18012,6 @@
 43450,greek
 17762,italian
 6619,thai
-33010,southern_us
 47266,mexican
 15739,french
 26065,mexican
@@ -18678,7 +18040,6 @@
 29110,vietnamese
 4087,mexican
 43475,thai
-15097,southern_us
 28910,mexican
 6900,italian
 43036,italian
@@ -18723,7 +18084,6 @@
 21329,french
 1933,cajun_creole
 47008,mexican
-3058,italian
 9677,thai
 47837,chinese
 3159,spanish
@@ -18759,7 +18119,6 @@
 43015,french
 43579,italian
 28116,italian
-2387,italian
 12511,italian
 33875,italian
 861,southern_us
@@ -18784,7 +18143,6 @@
 12215,southern_us
 6897,mexican
 48355,thai
-24626,southern_us
 17694,mexican
 546,mexican
 11798,french
@@ -18800,7 +18158,6 @@
 16064,filipino
 40017,indian
 2877,spanish
-25322,southern_us
 44212,brazilian
 49270,indian
 32897,italian
@@ -18823,7 +18180,6 @@
 40506,french
 41607,southern_us
 32975,southern_us
-43670,italian
 2173,italian
 35241,mexican
 28345,italian
@@ -18843,7 +18199,6 @@
 43163,french
 16194,southern_us
 11957,italian
-13766,italian
 34124,italian
 18371,italian
 26663,cajun_creole
@@ -18955,7 +18310,6 @@
 44880,japanese
 9183,italian
 34005,southern_us
-19232,italian
 2397,irish
 8635,chinese
 34242,french
@@ -19048,11 +18402,9 @@
 8263,spanish
 48450,chinese
 539,mexican
-783,southern_us
 12143,southern_us
 46425,chinese
 40770,spanish
-16755,southern_us
 22416,moroccan
 29129,indian
 42484,italian
@@ -19070,9 +18422,7 @@
 22026,indian
 4050,indian
 45333,southern_us
-39213,southern_us
 2430,mexican
-35870,italian
 15329,mexican
 20601,russian
 32846,french
@@ -19139,7 +18489,6 @@
 37931,southern_us
 42654,mexican
 10845,italian
-13282,southern_us
 21152,southern_us
 34894,french
 294,indian
@@ -19180,7 +18529,6 @@
 6972,thai
 33035,british
 10558,southern_us
-16865,italian
 22041,southern_us
 6917,japanese
 46067,chinese
@@ -19192,9 +18540,7 @@
 8161,mexican
 16208,mexican
 34488,french
-43898,italian
 40133,indian
-4681,southern_us
 13879,russian
 8019,mexican
 46541,indian
@@ -19255,7 +18601,6 @@
 18222,italian
 44127,greek
 29790,chinese
-27093,southern_us
 18006,french
 1962,italian
 16472,mexican
@@ -19330,7 +18675,6 @@
 46158,southern_us
 7499,greek
 17583,italian
-34752,italian
 32262,indian
 20209,vietnamese
 32532,mexican
@@ -19350,7 +18694,6 @@
 20296,italian
 26258,chinese
 5077,mexican
-10551,italian
 9494,mexican
 20719,moroccan
 39136,cajun_creole
@@ -19429,11 +18772,8 @@
 31202,irish
 38912,french
 7012,japanese
-20673,italian
-25884,southern_us
 38714,indian
 2879,southern_us
-12648,italian
 30657,chinese
 42738,french
 16577,chinese
@@ -19509,7 +18849,6 @@
 17598,greek
 39888,chinese
 12562,chinese
-32234,italian
 23044,mexican
 14930,southern_us
 29171,chinese
@@ -19525,13 +18864,11 @@
 29028,italian
 34924,indian
 8535,thai
-30431,southern_us
 33785,mexican
 4151,greek
 3270,chinese
 25143,italian
 21466,southern_us
-13692,southern_us
 49625,southern_us
 28869,italian
 39217,southern_us
@@ -19593,7 +18930,6 @@
 34865,italian
 2857,chinese
 21422,italian
-48424,southern_us
 3339,indian
 18448,mexican
 12309,british
@@ -19607,7 +18943,6 @@
 6328,indian
 30237,french
 10426,jamaican
-18374,southern_us
 11771,french
 46502,greek
 43212,mexican
@@ -19636,7 +18971,6 @@
 18682,indian
 16237,italian
 15345,jamaican
-2355,southern_us
 25944,indian
 41219,italian
 30733,filipino
@@ -19682,9 +19016,7 @@
 39405,moroccan
 16826,mexican
 45303,mexican
-45310,italian
 6040,chinese
-14676,italian
 26241,italian
 38048,southern_us
 33581,spanish
@@ -19719,7 +19051,6 @@
 6103,chinese
 36285,italian
 18425,irish
-32322,italian
 36388,indian
 28428,southern_us
 48044,british
@@ -19757,7 +19088,6 @@
 1994,southern_us
 37543,italian
 42263,mexican
-37956,italian
 6482,southern_us
 22522,southern_us
 22259,italian
@@ -19786,7 +19116,6 @@
 13509,irish
 4991,mexican
 41754,italian
-37533,italian
 15494,southern_us
 18535,filipino
 13325,southern_us
@@ -19826,7 +19155,6 @@
 41475,chinese
 47612,mexican
 28804,mexican
-20498,italian
 9612,brazilian
 19302,mexican
 40859,italian
@@ -19936,13 +19264,11 @@
 33755,irish
 1818,mexican
 4420,mexican
-42543,southern_us
 27949,irish
 29789,japanese
 15300,southern_us
 49308,indian
 8980,spanish
-9713,southern_us
 42737,thai
 14103,mexican
 37641,southern_us
@@ -20001,17 +19327,14 @@
 4110,moroccan
 47868,mexican
 5330,southern_us
-21766,southern_us
 22144,spanish
 25857,mexican
 28969,southern_us
 16239,russian
 47633,mexican
-28436,southern_us
 9772,jamaican
 1881,french
 48262,korean
-4660,italian
 15130,jamaican
 21327,italian
 21320,korean
@@ -20025,7 +19348,6 @@
 14142,mexican
 3894,korean
 19175,vietnamese
-40752,southern_us
 3056,japanese
 9119,italian
 20493,italian
@@ -20037,7 +19359,6 @@
 22791,indian
 46534,thai
 26783,spanish
-35599,italian
 8827,irish
 35120,filipino
 4213,cajun_creole
@@ -20052,7 +19373,6 @@
 8896,mexican
 32455,mexican
 49191,mexican
-47256,southern_us
 10040,italian
 46533,indian
 48020,italian
@@ -20069,12 +19389,10 @@
 6329,mexican
 2667,mexican
 46367,brazilian
-4220,italian
 33803,mexican
 16087,chinese
 36232,southern_us
 33688,mexican
-6903,southern_us
 49394,mexican
 18869,indian
 5523,italian
@@ -20098,9 +19416,7 @@
 2299,southern_us
 26136,korean
 9412,italian
-14738,southern_us
 40087,mexican
-43954,southern_us
 38748,italian
 13359,indian
 48418,mexican
@@ -20123,7 +19439,6 @@
 19495,mexican
 7243,italian
 48623,french
-13727,italian
 46747,thai
 32158,southern_us
 17907,moroccan
@@ -20174,7 +19489,6 @@
 48007,italian
 6165,french
 46011,greek
-30782,italian
 29955,moroccan
 29883,indian
 18931,indian
@@ -20232,18 +19546,13 @@
 47876,italian
 9535,chinese
 43986,jamaican
-39648,italian
 18092,korean
-28972,southern_us
-9716,southern_us
 13873,filipino
 15375,french
 9601,chinese
-17615,southern_us
 29890,cajun_creole
 28858,french
 14181,mexican
-22588,italian
 4123,french
 34450,cajun_creole
 47488,italian
@@ -20251,7 +19560,6 @@
 7970,mexican
 23648,mexican
 17454,chinese
-5955,italian
 45348,italian
 42992,indian
 48961,indian
@@ -20349,12 +19657,10 @@
 12370,mexican
 41150,indian
 44345,italian
-14243,italian
 12056,southern_us
 33291,italian
 40230,italian
 23934,french
-23863,southern_us
 28531,mexican
 10191,italian
 30521,thai
@@ -20362,7 +19668,6 @@
 1928,mexican
 45364,southern_us
 48052,italian
-6828,italian
 17184,thai
 11805,italian
 47674,italian
@@ -20385,20 +19690,16 @@
 21433,spanish
 20630,mexican
 28129,brazilian
-7486,italian
 109,korean
 5281,greek
 6315,southern_us
 6199,french
 18933,italian
 20954,italian
-5856,italian
 22321,italian
 32505,french
-7823,southern_us
 20599,mexican
 6142,mexican
-17243,italian
 14897,thai
 33057,french
 31872,french
@@ -20485,7 +19786,6 @@
 6518,italian
 14154,moroccan
 44653,moroccan
-19032,southern_us
 49401,french
 18699,spanish
 44274,moroccan
@@ -20496,14 +19796,12 @@
 16419,japanese
 30134,thai
 42998,mexican
-9955,italian
 38239,thai
 33886,southern_us
 21258,italian
 33612,mexican
 26759,indian
 25798,southern_us
-45810,italian
 41373,japanese
 49059,southern_us
 19040,thai
@@ -20516,7 +19814,6 @@
 21481,indian
 32760,mexican
 15810,mexican
-14355,italian
 9693,chinese
 16172,indian
 28789,mexican
@@ -20545,7 +19842,6 @@
 4601,mexican
 32751,mexican
 24327,indian
-41744,southern_us
 45443,italian
 20216,jamaican
 28390,italian
@@ -20580,7 +19876,6 @@
 38003,chinese
 33333,italian
 9402,southern_us
-9235,italian
 45860,irish
 39215,italian
 21912,indian
@@ -20591,7 +19886,6 @@
 28017,southern_us
 19058,french
 33555,moroccan
-30549,southern_us
 46707,mexican
 22365,korean
 2615,italian
@@ -20602,10 +19896,8 @@
 32564,moroccan
 6902,southern_us
 24596,irish
-17099,italian
 33859,thai
 39789,italian
-47115,italian
 6516,southern_us
 45549,mexican
 14050,cajun_creole
@@ -20613,11 +19905,9 @@
 43262,mexican
 14677,jamaican
 46742,southern_us
-43381,italian
 19335,italian
 45603,chinese
 17588,italian
-3699,southern_us
 39069,chinese
 49073,italian
 19114,greek
@@ -20641,7 +19931,6 @@
 17892,british
 16441,indian
 36692,french
-14794,southern_us
 10468,chinese
 7180,japanese
 49716,indian
@@ -20666,7 +19955,6 @@
 32978,british
 33070,moroccan
 30369,italian
-43023,italian
 8346,italian
 38465,italian
 33673,italian
@@ -20676,12 +19964,10 @@
 19044,mexican
 2900,mexican
 39800,chinese
-40889,southern_us
 33776,mexican
 32956,japanese
 5314,chinese
 46639,greek
-15677,southern_us
 33724,french
 2026,southern_us
 34184,chinese
@@ -20690,9 +19976,7 @@
 41718,korean
 45855,spanish
 8278,cajun_creole
-45449,southern_us
 5876,greek
-7384,italian
 33239,mexican
 47320,spanish
 6566,french
@@ -20732,7 +20016,6 @@
 36770,french
 20476,japanese
 47904,mexican
-36363,italian
 14016,french
 10857,southern_us
 7344,mexican
@@ -20741,9 +20024,7 @@
 3727,southern_us
 9362,italian
 6564,indian
-15145,southern_us
 39249,thai
-35133,southern_us
 47337,southern_us
 37485,italian
 38445,japanese
@@ -20812,7 +20093,6 @@
 2640,mexican
 22218,moroccan
 2291,indian
-21725,southern_us
 23404,indian
 44696,japanese
 42156,british
@@ -20831,7 +20111,6 @@
 19762,russian
 18114,mexican
 49479,moroccan
-1312,southern_us
 18881,greek
 27403,mexican
 44376,spanish
@@ -20947,7 +20226,6 @@
 40609,southern_us
 19340,spanish
 3102,indian
-1885,southern_us
 48997,italian
 17744,brazilian
 22257,southern_us
@@ -20959,7 +20237,6 @@
 42733,indian
 48746,italian
 43942,italian
-18274,italian
 35542,southern_us
 28838,mexican
 19800,mexican
@@ -20983,7 +20260,6 @@
 49708,italian
 25224,indian
 9135,irish
-29159,southern_us
 32849,southern_us
 24418,russian
 28244,indian
@@ -21010,7 +20286,6 @@
 177,italian
 32483,italian
 38266,mexican
-39889,southern_us
 38075,japanese
 5810,jamaican
 14837,moroccan
@@ -21020,7 +20295,6 @@
 41033,indian
 14944,british
 15639,brazilian
-43195,italian
 41445,french
 616,filipino
 32510,korean
@@ -21060,7 +20334,6 @@
 46978,thai
 21533,mexican
 5282,southern_us
-32887,southern_us
 46233,italian
 38743,italian
 31488,french
@@ -21068,7 +20341,6 @@
 20908,indian
 8730,brazilian
 48871,moroccan
-40756,italian
 5178,french
 406,mexican
 12260,thai
@@ -21130,7 +20402,6 @@
 36768,mexican
 25122,mexican
 8883,italian
-15936,southern_us
 1821,indian
 34276,cajun_creole
 12745,chinese
@@ -21156,7 +20427,6 @@
 23462,indian
 14210,italian
 4785,chinese
-47374,southern_us
 26140,vietnamese
 24565,southern_us
 2102,mexican
@@ -21168,7 +20438,6 @@
 48489,mexican
 3248,mexican
 39729,southern_us
-2906,southern_us
 1997,spanish
 9696,southern_us
 331,southern_us
@@ -21186,7 +20455,6 @@
 26829,filipino
 38709,italian
 25501,greek
-47178,southern_us
 27979,chinese
 29504,mexican
 2398,italian
@@ -21213,7 +20481,6 @@
 25082,british
 36065,italian
 15555,italian
-30702,southern_us
 1323,southern_us
 41117,italian
 29815,southern_us
@@ -21226,7 +20493,6 @@
 28095,italian
 30685,filipino
 45742,mexican
-4281,southern_us
 40296,moroccan
 5986,chinese
 23076,french
@@ -21261,7 +20527,6 @@
 36095,cajun_creole
 46437,mexican
 7346,southern_us
-14410,southern_us
 26026,indian
 49544,southern_us
 7333,japanese
@@ -21288,7 +20553,6 @@
 34207,moroccan
 36199,irish
 44103,indian
-28397,southern_us
 23381,mexican
 28976,italian
 45180,southern_us
@@ -21309,7 +20573,6 @@
 33900,mexican
 10352,thai
 15714,chinese
-39417,italian
 18843,jamaican
 33936,mexican
 852,vietnamese
@@ -21321,7 +20584,6 @@
 44743,italian
 39023,cajun_creole
 27441,cajun_creole
-31289,southern_us
 3039,thai
 11148,indian
 5603,mexican
@@ -21376,7 +20638,6 @@
 38637,italian
 39086,korean
 44150,french
-27941,southern_us
 7462,mexican
 49569,southern_us
 9991,irish
@@ -21409,7 +20670,6 @@
 29037,indian
 7834,french
 14974,greek
-154,italian
 45570,indian
 34923,italian
 40925,southern_us
@@ -21417,7 +20677,6 @@
 23992,irish
 32863,indian
 16743,vietnamese
-17318,italian
 24987,thai
 39002,italian
 48409,mexican
@@ -21584,7 +20843,6 @@
 27900,mexican
 29827,mexican
 36835,mexican
-21979,southern_us
 16415,moroccan
 44795,thai
 27267,french
@@ -21592,7 +20850,6 @@
 10432,southern_us
 19370,mexican
 22497,southern_us
-23925,italian
 23304,french
 47143,italian
 43264,mexican
@@ -21609,7 +20866,6 @@
 1495,cajun_creole
 42386,southern_us
 31220,mexican
-47042,southern_us
 30953,moroccan
 11005,italian
 16880,french
@@ -21642,7 +20898,6 @@
 2914,japanese
 2984,mexican
 17411,mexican
-2209,italian
 28885,moroccan
 13119,moroccan
 16321,spanish
@@ -21671,7 +20926,6 @@
 2623,irish
 36450,cajun_creole
 1233,chinese
-18524,italian
 5469,italian
 23087,southern_us
 1386,indian
@@ -21707,7 +20961,6 @@
 25843,korean
 41430,indian
 12466,irish
-45796,southern_us
 40832,french
 10887,japanese
 16902,indian
@@ -21732,7 +20985,6 @@
 23610,thai
 16332,chinese
 26941,spanish
-31375,southern_us
 25074,mexican
 23292,southern_us
 21244,italian
@@ -21756,7 +21008,6 @@
 20771,greek
 23100,italian
 3503,italian
-27046,southern_us
 25640,irish
 16135,mexican
 5418,indian
@@ -21784,7 +21035,6 @@
 20487,southern_us
 21777,french
 7599,southern_us
-7454,southern_us
 24884,mexican
 11397,italian
 33658,moroccan
@@ -21807,7 +21057,6 @@
 38343,southern_us
 20728,russian
 14294,french
-20734,italian
 34462,mexican
 17181,greek
 8678,italian
@@ -21840,7 +21089,6 @@
 31922,chinese
 41455,mexican
 12367,mexican
-8287,italian
 23222,indian
 26254,filipino
 26594,indian
@@ -21863,14 +21111,11 @@
 34890,thai
 21703,southern_us
 45662,indian
-45077,italian
 15732,greek
 21615,mexican
-2909,italian
 43512,italian
 33471,chinese
 24082,italian
-2081,italian
 575,southern_us
 34087,french
 34266,thai
@@ -21924,7 +21169,6 @@
 8492,korean
 41030,irish
 43314,mexican
-46896,italian
 2818,chinese
 15842,cajun_creole
 16539,italian
@@ -21978,8 +21222,6 @@
 11500,italian
 21966,mexican
 3276,vietnamese
-20800,southern_us
-13867,italian
 15159,japanese
 5865,cajun_creole
 39941,chinese
@@ -21999,11 +21241,9 @@
 11057,jamaican
 10192,greek
 9225,french
-26339,italian
 48405,mexican
 19615,cajun_creole
 31275,italian
-5900,southern_us
 38707,french
 19104,irish
 37137,british
@@ -22048,7 +21288,6 @@
 44558,southern_us
 25324,italian
 13819,italian
-6629,italian
 9998,mexican
 27126,italian
 26315,japanese
@@ -22060,14 +21299,12 @@
 3135,indian
 1395,mexican
 11257,indian
-2470,italian
 26722,mexican
 49534,chinese
 13924,mexican
 20122,italian
 16780,irish
 7964,vietnamese
-7924,southern_us
 2024,french
 23286,french
 30420,italian
@@ -22084,7 +21321,6 @@
 23539,southern_us
 42854,italian
 43669,mexican
-3548,italian
 49072,mexican
 12586,russian
 1566,mexican
@@ -22149,7 +21385,6 @@
 12436,italian
 35751,italian
 7755,italian
-20482,southern_us
 15340,italian
 990,chinese
 37849,italian
@@ -22185,7 +21420,6 @@
 31030,southern_us
 32826,french
 7089,moroccan
-32867,italian
 18296,mexican
 10554,french
 2714,indian
@@ -22298,7 +21532,6 @@
 36549,indian
 36294,greek
 46170,southern_us
-34774,southern_us
 32667,filipino
 1660,vietnamese
 31325,southern_us
@@ -22334,7 +21567,6 @@
 40342,mexican
 41407,jamaican
 7313,italian
-40726,southern_us
 44670,spanish
 16234,french
 25304,mexican
@@ -22406,8 +21638,6 @@
 6032,indian
 651,filipino
 10657,mexican
-923,italian
-34112,italian
 24124,thai
 43960,moroccan
 3949,indian
@@ -22441,7 +21671,6 @@
 36694,italian
 37989,cajun_creole
 41341,filipino
-35197,southern_us
 44256,french
 35516,italian
 27073,mexican
@@ -22465,7 +21694,6 @@
 34917,french
 45297,british
 49407,french
-35815,italian
 47257,mexican
 880,southern_us
 44629,mexican
@@ -22494,7 +21722,6 @@
 15356,korean
 46952,mexican
 34050,southern_us
-27654,southern_us
 30378,southern_us
 15098,japanese
 23495,french
@@ -22559,7 +21786,6 @@
 9014,cajun_creole
 28739,mexican
 30285,italian
-24267,italian
 33328,italian
 7227,mexican
 966,italian
@@ -22584,25 +21810,21 @@
 44602,spanish
 9960,mexican
 24325,french
-18066,italian
 41089,indian
 30353,mexican
 33942,italian
 32007,mexican
 19587,mexican
 26313,thai
-37907,italian
 39222,southern_us
 20523,italian
 33044,mexican
 31204,italian
 24587,italian
-24747,southern_us
 38152,chinese
 12291,spanish
 42054,mexican
 20349,mexican
-22332,southern_us
 4191,indian
 769,italian
 47655,italian
@@ -22611,7 +21833,6 @@
 48202,japanese
 41828,italian
 29543,japanese
-14043,italian
 322,thai
 49596,indian
 3156,indian
@@ -22632,7 +21853,6 @@
 4551,chinese
 25996,thai
 36208,italian
-43939,italian
 26648,italian
 37028,southern_us
 21735,greek
@@ -22662,7 +21882,6 @@
 37164,chinese
 19568,italian
 27405,italian
-22467,southern_us
 18049,indian
 15418,italian
 43065,italian
@@ -22716,7 +21935,6 @@
 39532,mexican
 10024,french
 9728,filipino
-38012,southern_us
 16177,italian
 21784,mexican
 42975,cajun_creole
@@ -22786,7 +22004,6 @@
 8373,cajun_creole
 28747,italian
 2738,mexican
-33430,italian
 22093,french
 4471,french
 25953,southern_us
@@ -22824,7 +22041,6 @@
 2610,italian
 46331,mexican
 21902,southern_us
-11484,italian
 42963,french
 5882,french
 30956,indian
@@ -22852,7 +22068,6 @@
 40209,french
 45415,jamaican
 22736,italian
-1641,italian
 11200,italian
 41371,southern_us
 22649,mexican
@@ -22864,7 +22079,6 @@
 43022,greek
 19561,french
 40968,mexican
-40279,italian
 7475,italian
 22644,thai
 37991,filipino
@@ -22903,7 +22117,6 @@
 3271,chinese
 16244,indian
 10693,spanish
-25634,southern_us
 2253,indian
 34904,cajun_creole
 36453,mexican
@@ -22913,7 +22126,6 @@
 12788,greek
 14782,mexican
 49487,irish
-44434,italian
 15275,moroccan
 47160,british
 45000,mexican
@@ -22926,7 +22138,6 @@
 13137,italian
 4140,french
 17118,chinese
-8308,italian
 42514,french
 24504,italian
 4603,vietnamese
@@ -22939,7 +22150,6 @@
 21175,cajun_creole
 41242,mexican
 3571,italian
-23245,southern_us
 48200,italian
 1313,greek
 33405,indian
@@ -23000,7 +22210,6 @@
 914,mexican
 40764,mexican
 18454,cajun_creole
-39516,italian
 42770,italian
 38011,moroccan
 35009,italian
@@ -23048,12 +22257,10 @@
 37289,cajun_creole
 7814,french
 17787,mexican
-1792,italian
 8026,southern_us
 33608,japanese
 254,italian
 415,brazilian
-23736,italian
 21870,mexican
 18444,indian
 15413,mexican
@@ -23141,7 +22348,6 @@
 24190,indian
 6517,spanish
 6758,french
-27552,italian
 3144,vietnamese
 29679,mexican
 34727,spanish
@@ -23182,7 +22388,6 @@
 45514,chinese
 30783,italian
 36256,moroccan
-42031,southern_us
 49399,greek
 49168,japanese
 39911,cajun_creole
@@ -23218,12 +22423,9 @@
 25691,chinese
 16446,indian
 17432,korean
-24213,italian
 49551,italian
 8685,italian
 14917,southern_us
-49457,italian
-41255,italian
 3868,french
 45239,greek
 12921,indian
@@ -23273,7 +22475,6 @@
 26557,chinese
 48966,italian
 24903,italian
-4779,italian
 47447,southern_us
 2986,italian
 692,italian
@@ -23290,7 +22491,6 @@
 28596,italian
 1062,mexican
 23335,mexican
-38396,southern_us
 16278,italian
 39211,cajun_creole
 48895,southern_us
@@ -23298,7 +22498,6 @@
 35169,southern_us
 45441,thai
 10198,mexican
-30980,italian
 26778,mexican
 24437,jamaican
 23128,british
@@ -23336,7 +22535,6 @@
 3860,mexican
 10524,french
 48517,mexican
-33988,italian
 19838,thai
 35781,italian
 45946,mexican
@@ -23348,11 +22546,9 @@
 22250,chinese
 5909,italian
 4983,british
-14418,italian
 27916,italian
 8887,vietnamese
 25066,irish
-3710,italian
 35582,filipino
 2963,mexican
 48521,french
@@ -23385,7 +22581,6 @@
 44011,italian
 15862,thai
 36814,southern_us
-1223,southern_us
 31631,italian
 37259,spanish
 19610,italian
@@ -23442,7 +22637,6 @@
 32966,mexican
 9381,mexican
 32959,mexican
-16722,italian
 32750,chinese
 21025,italian
 2,french
@@ -23566,7 +22760,6 @@
 1582,italian
 11752,italian
 22556,vietnamese
-13707,southern_us
 40058,mexican
 26846,indian
 25057,italian
@@ -23641,7 +22834,6 @@
 18041,greek
 5919,mexican
 5069,italian
-8252,italian
 19932,japanese
 42569,italian
 14810,italian
@@ -23701,7 +22893,6 @@
 6177,mexican
 38162,thai
 46856,mexican
-12393,italian
 17840,cajun_creole
 10656,mexican
 46796,mexican
@@ -23709,7 +22900,6 @@
 9752,indian
 47697,indian
 32087,chinese
-34736,southern_us
 9597,italian
 3616,chinese
 23786,spanish
@@ -23746,10 +22936,8 @@
 1982,spanish
 28854,mexican
 19773,italian
-45864,southern_us
 17389,mexican
 16510,moroccan
-44299,italian
 5368,italian
 37644,moroccan
 49661,italian
@@ -23762,7 +22950,6 @@
 3980,filipino
 45536,cajun_creole
 7152,thai
-31334,southern_us
 41861,indian
 1858,mexican
 29761,thai
@@ -23804,7 +22991,6 @@
 7129,jamaican
 39631,french
 43169,japanese
-15756,italian
 43999,brazilian
 22325,indian
 43721,irish
@@ -23813,7 +22999,6 @@
 6271,chinese
 26194,french
 25162,southern_us
-34613,italian
 9193,mexican
 13581,chinese
 21795,moroccan
@@ -23881,7 +23066,6 @@
 15330,greek
 31718,brazilian
 9244,indian
-6425,italian
 10915,chinese
 14470,indian
 3217,french
@@ -23890,9 +23074,7 @@
 39930,vietnamese
 40763,indian
 39562,moroccan
-429,italian
 17093,french
-15776,southern_us
 22610,moroccan
 46863,british
 33613,korean
@@ -23914,7 +23096,6 @@
 87,filipino
 8768,indian
 860,thai
-36045,southern_us
 40812,southern_us
 39641,mexican
 21734,vietnamese
@@ -23952,14 +23133,12 @@
 4445,italian
 9255,southern_us
 26421,italian
-23482,southern_us
 38954,italian
 9123,mexican
 5921,indian
 46389,thai
 7602,vietnamese
 18950,italian
-16160,italian
 34004,mexican
 13875,french
 22115,indian
@@ -23967,7 +23146,6 @@
 43601,russian
 25865,mexican
 33423,spanish
-22099,southern_us
 32358,italian
 35005,filipino
 21439,mexican
@@ -24009,7 +23187,6 @@
 44830,indian
 33663,mexican
 13522,british
-48431,italian
 24493,southern_us
 32545,french
 44842,italian
@@ -24018,10 +23195,8 @@
 26569,indian
 7042,thai
 21606,mexican
-19651,italian
 48779,italian
 14878,mexican
-4371,italian
 29910,southern_us
 6128,chinese
 8639,italian
@@ -24054,14 +23229,12 @@
 8818,british
 46701,spanish
 37080,indian
-21406,southern_us
 5648,italian
 6025,italian
 7145,italian
 47653,mexican
 18713,italian
 5199,southern_us
-41155,italian
 7480,mexican
 39504,french
 10726,irish
@@ -24119,11 +23292,9 @@
 39112,mexican
 36503,irish
 24852,thai
-35844,southern_us
 16518,russian
 13030,japanese
 3783,thai
-9761,italian
 25692,thai
 34104,thai
 12201,southern_us
@@ -24149,7 +23320,6 @@
 11933,chinese
 42515,chinese
 24938,mexican
-43735,italian
 29516,italian
 35076,mexican
 17084,mexican
@@ -24164,7 +23334,6 @@
 32795,mexican
 597,mexican
 10495,southern_us
-41658,southern_us
 25146,southern_us
 17097,chinese
 7819,italian
@@ -24206,8 +23375,6 @@
 37399,southern_us
 49127,spanish
 35758,vietnamese
-38376,southern_us
-42605,italian
 23651,greek
 49433,spanish
 47236,french
@@ -24233,7 +23400,6 @@
 2454,moroccan
 42243,french
 17829,mexican
-16698,southern_us
 40637,mexican
 13214,french
 16736,mexican
@@ -24247,7 +23413,6 @@
 24158,brazilian
 14901,mexican
 14650,korean
-33984,italian
 39336,russian
 44520,indian
 9787,mexican
@@ -24263,7 +23428,6 @@
 38798,british
 46736,mexican
 14249,indian
-49210,southern_us
 9801,italian
 27511,chinese
 13293,mexican
@@ -24322,7 +23486,6 @@
 34901,vietnamese
 43887,brazilian
 29660,moroccan
-26333,italian
 38770,chinese
 23000,italian
 36150,mexican
@@ -24457,7 +23620,6 @@
 10298,indian
 41121,indian
 19676,chinese
-13285,italian
 28399,southern_us
 16664,southern_us
 29337,italian
@@ -24518,7 +23680,6 @@
 21007,italian
 34386,french
 9511,korean
-22730,italian
 34623,indian
 15152,greek
 14430,southern_us
@@ -24634,7 +23795,6 @@
 18429,irish
 18417,french
 40724,mexican
-4788,southern_us
 19570,southern_us
 4137,british
 22748,korean
@@ -24648,8 +23808,6 @@
 11360,greek
 34178,southern_us
 16654,british
-26805,italian
-12205,italian
 25219,chinese
 49536,japanese
 30595,chinese
@@ -24660,7 +23818,6 @@
 24840,italian
 19829,italian
 27928,mexican
-24016,italian
 45655,italian
 7624,chinese
 13675,chinese
@@ -24680,7 +23837,6 @@
 44051,italian
 18702,cajun_creole
 15775,mexican
-15788,southern_us
 7204,french
 30526,italian
 25646,brazilian
@@ -24717,13 +23873,11 @@
 46920,jamaican
 4064,vietnamese
 32983,jamaican
-41617,southern_us
 26393,thai
 3599,korean
 2479,italian
 28783,indian
 37692,italian
-29563,italian
 45804,japanese
 5552,cajun_creole
 28113,french
@@ -24733,7 +23887,6 @@
 31266,mexican
 14546,cajun_creole
 32389,mexican
-36481,southern_us
 37118,korean
 7198,chinese
 49565,korean
@@ -24762,7 +23915,6 @@
 37508,mexican
 37223,cajun_creole
 16506,indian
-38525,southern_us
 36520,french
 2233,greek
 23057,italian
@@ -24775,7 +23927,6 @@
 37680,irish
 3536,italian
 47937,southern_us
-46160,italian
 36880,cajun_creole
 34700,japanese
 28306,italian
@@ -24787,7 +23938,6 @@
 49345,french
 32761,brazilian
 44467,cajun_creole
-30144,italian
 38288,thai
 43519,italian
 13327,mexican
@@ -24867,7 +24017,6 @@
 48133,indian
 6065,mexican
 23548,southern_us
-9430,southern_us
 23724,southern_us
 33831,italian
 35195,chinese
@@ -24878,14 +24027,12 @@
 33039,italian
 11699,french
 13020,mexican
-26653,italian
 44074,mexican
 25027,indian
 6688,filipino
 7509,italian
 20479,indian
 32740,italian
-43087,italian
 39366,southern_us
 45678,indian
 10324,mexican
@@ -24924,12 +24071,10 @@
 33028,southern_us
 38630,spanish
 17953,spanish
-1176,italian
 14584,southern_us
 45806,french
 15583,mexican
 14884,italian
-9705,italian
 25645,moroccan
 31856,indian
 28569,mexican
@@ -25025,7 +24170,6 @@
 10924,mexican
 16509,spanish
 22251,vietnamese
-7953,italian
 4073,southern_us
 13362,mexican
 4439,greek
@@ -25101,14 +24245,11 @@
 9680,jamaican
 25102,mexican
 32642,vietnamese
-17308,southern_us
 45648,chinese
 20300,chinese
 26719,cajun_creole
 45220,chinese
-47844,italian
 15941,mexican
-3169,italian
 43129,mexican
 37171,cajun_creole
 41090,italian
@@ -25158,7 +24299,6 @@
 5193,greek
 33243,mexican
 30308,mexican
-15190,italian
 46665,southern_us
 4577,southern_us
 25660,greek
@@ -25170,7 +24310,6 @@
 32447,mexican
 35631,italian
 30736,indian
-28006,southern_us
 34477,italian
 4725,thai
 6170,italian
@@ -25194,7 +24333,6 @@
 24918,italian
 4787,mexican
 28600,mexican
-1085,italian
 8396,chinese
 40478,mexican
 40431,mexican
@@ -25271,7 +24409,6 @@
 1976,chinese
 26654,southern_us
 16541,chinese
-44656,italian
 46813,italian
 35724,chinese
 8713,cajun_creole
@@ -25281,25 +24418,20 @@
 19681,mexican
 11855,italian
 28225,spanish
-48481,southern_us
 29113,indian
 35079,mexican
 30111,italian
 21833,italian
-47757,southern_us
 11711,southern_us
 1,mexican
 21269,southern_us
 28473,thai
 12391,moroccan
-14881,southern_us
 9042,italian
 24444,italian
-33133,southern_us
 30085,southern_us
 10453,mexican
 32246,mexican
-23395,italian
 16701,thai
 42151,british
 12948,italian
@@ -25311,7 +24443,6 @@
 18622,italian
 48686,cajun_creole
 47525,chinese
-44184,italian
 20337,british
 32695,thai
 36729,mexican
@@ -25397,7 +24528,6 @@
 3648,indian
 21669,italian
 23880,jamaican
-218,southern_us
 6519,vietnamese
 49464,spanish
 14196,italian
@@ -25427,7 +24557,6 @@
 25782,mexican
 46278,cajun_creole
 15729,spanish
-33068,southern_us
 16345,moroccan
 45132,italian
 23333,vietnamese
@@ -25448,7 +24577,6 @@
 32305,southern_us
 14766,spanish
 15898,mexican
-48289,southern_us
 41542,indian
 33863,brazilian
 9790,mexican
@@ -25458,7 +24586,6 @@
 8187,british
 33715,indian
 28887,cajun_creole
-29384,italian
 13880,french
 26746,greek
 4239,italian
@@ -25504,7 +24631,6 @@
 11847,vietnamese
 32961,indian
 589,mexican
-49490,italian
 18304,italian
 48992,greek
 37528,mexican
@@ -25521,7 +24647,6 @@
 12968,cajun_creole
 45991,french
 26530,indian
-47945,southern_us
 48021,mexican
 13573,italian
 19353,cajun_creole
@@ -25538,7 +24663,6 @@
 43699,japanese
 16195,mexican
 37474,french
-45713,italian
 10404,greek
 21668,mexican
 19280,japanese
@@ -25548,7 +24672,6 @@
 35616,chinese
 43433,italian
 25898,southern_us
-41889,southern_us
 11142,filipino
 17591,french
 10032,mexican
@@ -25651,7 +24774,6 @@
 20033,mexican
 2800,moroccan
 39270,chinese
-2670,southern_us
 10028,mexican
 45566,mexican
 19021,moroccan
@@ -25688,7 +24810,6 @@
 26922,italian
 40278,japanese
 23981,mexican
-38238,italian
 42476,indian
 34855,russian
 4094,korean
@@ -25707,17 +24828,13 @@
 2894,italian
 36108,indian
 47222,italian
-38019,italian
 3916,indian
 44823,jamaican
 4219,italian
 21084,thai
 20435,spanish
-48863,italian
 44419,british
-30973,southern_us
 3415,filipino
-47274,italian
 47393,italian
 12190,indian
 34702,korean
@@ -25734,7 +24851,6 @@
 346,mexican
 19987,korean
 42622,italian
-12759,italian
 3756,italian
 19412,mexican
 20238,thai
@@ -25759,7 +24875,6 @@
 18620,filipino
 11574,vietnamese
 27736,cajun_creole
-17160,italian
 21588,mexican
 12596,mexican
 18432,british
@@ -25788,7 +24903,6 @@
 37556,russian
 23081,chinese
 5480,southern_us
-25621,southern_us
 34615,italian
 29798,brazilian
 29501,mexican
@@ -25831,7 +24945,6 @@
 2108,french
 10991,mexican
 40127,chinese
-36231,italian
 11561,japanese
 1098,italian
 3197,mexican
@@ -25849,7 +24962,6 @@
 20206,southern_us
 43073,greek
 13957,cajun_creole
-33599,italian
 18975,moroccan
 34413,moroccan
 44200,chinese
@@ -25905,12 +25017,10 @@
 26951,filipino
 19157,french
 15545,italian
-17961,italian
 25140,irish
 41066,italian
 41856,mexican
 32775,indian
-171,southern_us
 7825,vietnamese
 8126,japanese
 14761,indian
@@ -25948,14 +25058,12 @@
 5011,greek
 5738,filipino
 46211,jamaican
-47552,italian
 24846,italian
 21718,british
 19815,mexican
 16386,indian
 1136,italian
 20109,brazilian
-11799,southern_us
 3132,japanese
 26809,filipino
 21862,indian
@@ -25966,7 +25074,6 @@
 13999,italian
 20512,indian
 37898,mexican
-14123,italian
 4710,chinese
 20257,indian
 4914,british
@@ -25978,7 +25085,6 @@
 36532,italian
 32500,thai
 29428,moroccan
-15922,southern_us
 38104,italian
 46369,french
 3546,southern_us
@@ -25996,7 +25102,6 @@
 24449,greek
 6331,chinese
 40549,british
-34253,italian
 32565,french
 16259,chinese
 40328,mexican
@@ -26053,7 +25158,6 @@
 24602,chinese
 49526,cajun_creole
 7130,greek
-16988,italian
 14237,southern_us
 28005,mexican
 23007,filipino
@@ -26081,7 +25185,6 @@
 5597,greek
 21368,moroccan
 18135,french
-28843,italian
 33037,mexican
 25528,italian
 24691,greek
@@ -26102,7 +25205,6 @@
 14750,mexican
 37908,italian
 13049,mexican
-11666,southern_us
 44360,japanese
 29420,italian
 32313,mexican
@@ -26145,7 +25247,6 @@
 13575,mexican
 28350,mexican
 21155,italian
-7660,italian
 6565,indian
 1919,irish
 8764,mexican
@@ -26242,7 +25343,6 @@
 39125,french
 8747,korean
 11494,indian
-44784,southern_us
 8573,cajun_creole
 24877,mexican
 33526,italian
@@ -26255,7 +25355,6 @@
 42116,southern_us
 41174,french
 10445,french
-21140,italian
 30279,mexican
 27026,thai
 16156,indian
@@ -26266,7 +25365,6 @@
 30096,chinese
 6554,cajun_creole
 33977,southern_us
-32810,italian
 48528,filipino
 31198,mexican
 21594,southern_us
@@ -26312,7 +25410,6 @@
 34085,southern_us
 20608,italian
 22448,spanish
-43881,italian
 42321,moroccan
 19345,italian
 18927,cajun_creole
@@ -26346,7 +25443,6 @@
 45050,indian
 5699,italian
 46720,french
-33507,italian
 32136,vietnamese
 34649,italian
 42001,mexican
@@ -26367,7 +25463,6 @@
 45195,mexican
 11033,southern_us
 35847,french
-42534,italian
 7939,thai
 46579,thai
 46714,japanese
@@ -26436,7 +25531,6 @@
 16742,italian
 8982,italian
 25571,british
-36702,italian
 12081,italian
 14288,italian
 16811,italian
@@ -26476,7 +25570,6 @@
 20825,mexican
 23653,irish
 16114,french
-15386,italian
 3117,southern_us
 13627,greek
 37630,japanese
@@ -26523,14 +25616,12 @@
 1328,italian
 17856,chinese
 30836,italian
-32034,southern_us
 49180,moroccan
 399,spanish
 40532,italian
 20411,cajun_creole
 35208,italian
 44762,southern_us
-39283,italian
 42186,mexican
 45758,italian
 33997,indian
@@ -26570,7 +25661,6 @@
 26304,italian
 4803,mexican
 41097,indian
-13609,italian
 48170,chinese
 23337,mexican
 19222,british
@@ -26609,7 +25699,6 @@
 46453,russian
 41569,cajun_creole
 10575,mexican
-29846,italian
 4249,mexican
 48196,southern_us
 29224,italian
@@ -26621,7 +25710,6 @@
 364,british
 9669,mexican
 31822,chinese
-42806,italian
 44938,italian
 17335,mexican
 27708,mexican
@@ -26632,7 +25720,6 @@
 35043,mexican
 26556,korean
 14464,southern_us
-15694,southern_us
 26079,thai
 21918,southern_us
 33440,spanish
@@ -26650,7 +25737,6 @@
 3948,chinese
 21965,spanish
 10092,thai
-1945,southern_us
 16790,mexican
 909,french
 48207,italian
@@ -26662,7 +25748,6 @@
 18752,cajun_creole
 46129,cajun_creole
 14683,indian
-35053,italian
 29596,indian
 13251,mexican
 22985,mexican
@@ -26700,7 +25785,6 @@
 22704,french
 13943,southern_us
 46386,filipino
-44079,italian
 38552,thai
 33649,italian
 24822,moroccan
@@ -26722,7 +25806,6 @@
 39200,mexican
 22148,southern_us
 20145,southern_us
-20332,southern_us
 42460,chinese
 39878,greek
 5973,greek
@@ -26770,7 +25853,6 @@
 47999,indian
 23844,vietnamese
 2642,italian
-28167,southern_us
 38191,italian
 36410,vietnamese
 15942,italian
@@ -26809,7 +25891,6 @@
 32417,greek
 26909,mexican
 18396,chinese
-40893,italian
 5530,korean
 45575,french
 22177,french
@@ -26859,12 +25940,10 @@
 14376,mexican
 22097,mexican
 4625,indian
-44145,southern_us
 31928,italian
 45004,french
 9779,southern_us
 16308,southern_us
-22158,italian
 22524,indian
 9639,chinese
 35672,italian
@@ -26936,7 +26015,6 @@
 45468,chinese
 47285,indian
 46550,italian
-44698,southern_us
 40623,indian
 41176,thai
 2340,japanese
@@ -26979,7 +26057,6 @@
 27489,french
 16162,french
 44298,southern_us
-18027,italian
 3850,cajun_creole
 43834,cajun_creole
 26023,southern_us
@@ -26988,13 +26065,11 @@
 16129,southern_us
 5932,french
 31270,chinese
-43103,southern_us
 592,chinese
 1943,mexican
 42617,chinese
 19904,italian
 37478,jamaican
-30067,southern_us
 15124,italian
 27541,mexican
 34347,thai
@@ -27008,7 +26083,6 @@
 24769,filipino
 26817,italian
 49123,korean
-12551,southern_us
 3337,french
 46574,cajun_creole
 25141,thai
@@ -27034,12 +26108,10 @@
 41585,mexican
 13234,chinese
 45366,italian
-1598,southern_us
 25065,italian
 14109,japanese
 16702,italian
 36230,korean
-32535,italian
 14411,mexican
 2955,chinese
 20132,spanish
@@ -27067,11 +26139,9 @@
 26673,chinese
 26600,japanese
 38571,chinese
-8786,southern_us
 24837,indian
 10519,italian
 12281,mexican
-8332,italian
 16947,mexican
 19476,greek
 13774,southern_us
@@ -27106,7 +26176,6 @@
 6762,italian
 14379,french
 9676,southern_us
-25800,italian
 45639,indian
 7323,indian
 328,italian
@@ -27137,7 +26206,6 @@
 8093,thai
 15798,mexican
 17387,jamaican
-14391,southern_us
 34907,southern_us
 3997,french
 4910,indian
@@ -27212,7 +26280,6 @@
 14719,moroccan
 45866,italian
 11220,filipino
-41119,southern_us
 41523,mexican
 19357,indian
 2950,greek
@@ -27232,11 +26299,9 @@
 34797,japanese
 10290,southern_us
 17229,mexican
-2907,italian
 46313,japanese
 45567,chinese
 47102,thai
-41783,southern_us
 10132,filipino
 16314,japanese
 8355,cajun_creole
@@ -27267,7 +26332,6 @@
 27098,mexican
 16609,indian
 43600,chinese
-43813,italian
 33933,moroccan
 45023,chinese
 29748,french
@@ -27289,7 +26353,6 @@
 13549,mexican
 41721,mexican
 14592,italian
-10929,southern_us
 4895,mexican
 38762,british
 32238,chinese
@@ -27301,12 +26364,10 @@
 47490,french
 45771,southern_us
 46103,mexican
-41649,southern_us
 24661,moroccan
 43782,italian
 48369,mexican
 37579,british
-18818,southern_us
 2817,southern_us
 25436,chinese
 45532,jamaican
@@ -27377,7 +26438,6 @@
 35676,mexican
 4567,mexican
 34307,greek
-40493,southern_us
 20764,mexican
 19002,southern_us
 1254,chinese
@@ -27389,7 +26449,6 @@
 46273,russian
 8194,french
 15980,brazilian
-11980,southern_us
 24134,indian
 48642,italian
 26823,mexican
@@ -27438,12 +26497,10 @@
 9635,spanish
 19531,greek
 18894,mexican
-27154,italian
 39512,greek
 48069,japanese
 37081,spanish
 32885,mexican
-46918,italian
 23023,mexican
 19074,thai
 1849,spanish
@@ -27507,7 +26564,6 @@
 446,french
 10046,cajun_creole
 12730,italian
-35951,italian
 32721,mexican
 20059,mexican
 48344,italian
@@ -27519,7 +26575,6 @@
 3740,greek
 3008,chinese
 48639,japanese
-3295,italian
 7121,mexican
 8115,vietnamese
 23037,indian
@@ -27542,7 +26597,6 @@
 33169,spanish
 13297,mexican
 43033,chinese
-24581,italian
 31906,chinese
 48614,british
 37693,italian
@@ -27551,14 +26605,12 @@
 29082,southern_us
 12438,mexican
 27148,mexican
-32771,southern_us
 5848,thai
 44193,mexican
 39306,british
 48496,mexican
 9424,italian
 38017,vietnamese
-49137,italian
 26302,italian
 2223,irish
 34862,brazilian
@@ -27573,15 +26625,12 @@
 23585,vietnamese
 23369,cajun_creole
 33213,mexican
-17071,italian
 15032,jamaican
 12539,cajun_creole
 9385,thai
 30110,italian
-17678,italian
 33628,indian
 21819,mexican
-43808,southern_us
 21900,italian
 14187,mexican
 7820,cajun_creole
@@ -27619,7 +26668,6 @@
 7380,chinese
 33013,mexican
 32385,indian
-34140,southern_us
 43779,southern_us
 5565,southern_us
 24436,french
@@ -27676,8 +26724,6 @@
 22973,southern_us
 1170,italian
 39150,vietnamese
-35826,italian
-48023,italian
 28664,french
 25494,italian
 284,korean
@@ -27703,7 +26749,6 @@
 6894,mexican
 22788,italian
 37369,russian
-26426,italian
 40528,indian
 39169,thai
 20672,greek
@@ -27720,9 +26765,7 @@
 5782,british
 47099,mexican
 4082,mexican
-38338,southern_us
 33485,cajun_creole
-21067,italian
 45038,mexican
 18119,mexican
 29228,italian
@@ -27739,7 +26782,6 @@
 18591,indian
 9877,italian
 49100,mexican
-2360,italian
 36421,italian
 32197,cajun_creole
 29274,french
@@ -27765,7 +26807,6 @@
 25966,french
 30503,cajun_creole
 41337,indian
-12414,southern_us
 44651,mexican
 29273,italian
 16746,french
@@ -27797,7 +26838,6 @@
 9092,mexican
 1862,thai
 42914,indian
-37429,italian
 36805,italian
 1950,italian
 41516,italian
@@ -27832,7 +26872,6 @@
 25866,mexican
 1992,irish
 3653,italian
-19063,southern_us
 38985,italian
 20222,japanese
 27988,indian
@@ -27845,11 +26884,9 @@
 47761,mexican
 4883,italian
 42089,french
-41694,southern_us
 31364,french
 10932,french
 33153,mexican
-25589,italian
 39569,indian
 24710,italian
 18293,italian
@@ -27884,18 +26921,13 @@
 41913,mexican
 30934,russian
 19260,indian
-37789,italian
 34410,italian
-3576,southern_us
 27831,southern_us
 17055,mexican
 34218,italian
-22543,italian
 5338,indian
-12168,italian
 45455,southern_us
 29397,southern_us
-29774,southern_us
 31778,italian
 4002,irish
 23802,mexican
@@ -27905,14 +26937,12 @@
 3834,vietnamese
 46708,mexican
 33025,french
-33098,southern_us
 9414,french
 20740,irish
 38414,indian
 22924,chinese
 9094,greek
 37445,french
-42532,southern_us
 44394,moroccan
 15169,mexican
 46061,indian
@@ -27970,12 +27000,10 @@
 5460,cajun_creole
 20515,southern_us
 4952,indian
-20119,italian
 45840,southern_us
 33372,spanish
 6432,greek
 38582,chinese
-32109,italian
 37377,japanese
 2449,southern_us
 47459,mexican
@@ -28123,12 +27151,9 @@
 37643,korean
 36193,greek
 43130,italian
-42699,southern_us
-3507,italian
 44252,indian
 43507,indian
 28468,italian
-33472,southern_us
 10039,korean
 36365,chinese
 40536,cajun_creole
@@ -28138,7 +27163,6 @@
 5943,southern_us
 39642,french
 25776,mexican
-47389,italian
 39637,southern_us
 10173,indian
 2972,mexican
@@ -28152,7 +27176,6 @@
 36737,southern_us
 6222,brazilian
 33878,southern_us
-27720,italian
 35039,mexican
 9108,indian
 8268,indian
@@ -28226,7 +27249,6 @@
 15689,italian
 42415,mexican
 31636,italian
-2288,italian
 35768,italian
 44273,italian
 24276,italian
@@ -28251,7 +27273,6 @@
 7308,jamaican
 24144,brazilian
 11425,italian
-27132,italian
 15468,indian
 14211,french
 49206,cajun_creole
@@ -28264,7 +27285,6 @@
 18794,filipino
 10190,italian
 14221,korean
-33479,southern_us
 37739,vietnamese
 3588,italian
 45997,mexican
@@ -28317,7 +27337,6 @@
 20741,mexican
 25854,thai
 10156,mexican
-25305,southern_us
 15679,mexican
 48443,indian
 36816,cajun_creole
@@ -28326,10 +27345,8 @@
 39939,italian
 3214,indian
 15601,french
-40785,southern_us
 15297,mexican
 12463,italian
-37397,italian
 6257,italian
 21796,thai
 44282,italian
@@ -28364,7 +27381,6 @@
 15582,italian
 38482,southern_us
 21118,italian
-47723,southern_us
 8557,japanese
 40231,mexican
 6854,jamaican
@@ -28423,7 +27439,6 @@
 6304,mexican
 23949,southern_us
 11231,mexican
-31852,southern_us
 38967,korean
 43624,korean
 19346,chinese
@@ -28537,7 +27552,6 @@
 12298,chinese
 553,thai
 41107,japanese
-3260,italian
 42984,mexican
 28459,irish
 30545,chinese
@@ -28553,7 +27567,6 @@
 46554,moroccan
 17079,japanese
 22590,filipino
-8080,italian
 38501,italian
 32942,southern_us
 29894,southern_us
@@ -28569,7 +27582,6 @@
 13677,vietnamese
 32540,indian
 35999,chinese
-19453,italian
 8446,japanese
 45339,mexican
 28519,french
@@ -28624,14 +27636,12 @@
 39949,southern_us
 48249,mexican
 30344,southern_us
-9009,italian
 43055,italian
 32901,thai
 5728,moroccan
 43725,mexican
 28861,italian
 23350,french
-23545,southern_us
 25804,italian
 8091,french
 42901,indian
@@ -28645,7 +27655,6 @@
 39593,filipino
 32555,thai
 1510,southern_us
-16142,southern_us
 41539,mexican
 23882,mexican
 23278,mexican
@@ -28673,7 +27682,6 @@
 36005,southern_us
 3644,italian
 47219,italian
-30930,southern_us
 30795,italian
 46202,greek
 49365,french
@@ -28736,7 +27744,6 @@
 29965,italian
 4674,korean
 44559,filipino
-11199,italian
 32638,french
 20008,mexican
 39436,japanese
@@ -28765,7 +27772,6 @@
 33749,southern_us
 45826,southern_us
 9637,italian
-10269,southern_us
 9296,chinese
 5133,thai
 45581,indian
@@ -28801,7 +27807,6 @@
 12929,korean
 45882,mexican
 30727,french
-9795,southern_us
 44414,italian
 23758,british
 7874,french
@@ -28835,14 +27840,11 @@
 16938,chinese
 24374,southern_us
 49005,italian
-33481,southern_us
 15165,filipino
-19441,italian
 10919,southern_us
 13299,russian
 12654,chinese
 2169,russian
-23478,southern_us
 44448,italian
 5104,southern_us
 26191,italian
@@ -28859,7 +27861,6 @@
 41543,vietnamese
 34167,italian
 37261,italian
-47181,southern_us
 2272,mexican
 25683,cajun_creole
 48294,russian
@@ -28868,7 +27869,6 @@
 6677,brazilian
 48308,korean
 7350,mexican
-17031,southern_us
 611,vietnamese
 38437,moroccan
 10484,spanish
@@ -28925,13 +27925,11 @@
 49533,italian
 46126,italian
 44618,russian
-15443,southern_us
 26512,southern_us
 8354,filipino
 9260,mexican
 12575,cajun_creole
 20866,thai
-24529,southern_us
 3766,korean
 13767,mexican
 30426,chinese
@@ -28976,7 +27974,6 @@
 1148,russian
 22700,italian
 45382,indian
-6697,italian
 24888,italian
 48659,mexican
 39791,jamaican
@@ -29001,7 +27998,6 @@
 4866,korean
 3920,chinese
 25091,thai
-40407,southern_us
 48142,mexican
 31405,chinese
 28758,moroccan
@@ -29025,7 +28021,6 @@
 5881,southern_us
 34981,mexican
 32782,mexican
-9992,southern_us
 25230,french
 37497,mexican
 5806,british
@@ -29118,7 +28113,6 @@
 5860,japanese
 24789,french
 16392,southern_us
-15428,italian
 13736,cajun_creole
 8800,indian
 18739,italian
@@ -29153,7 +28147,6 @@
 40818,indian
 48979,filipino
 34589,cajun_creole
-24185,italian
 159,mexican
 1677,japanese
 21075,japanese
@@ -29182,7 +28175,6 @@
 49667,moroccan
 48393,southern_us
 46109,irish
-9170,southern_us
 6107,french
 22242,chinese
 36516,italian
@@ -29227,7 +28219,6 @@
 47020,southern_us
 16285,indian
 9582,southern_us
-8917,southern_us
 2997,greek
 28352,southern_us
 5871,southern_us
@@ -29235,9 +28226,7 @@
 13090,italian
 18359,french
 83,southern_us
-29907,southern_us
 16335,chinese
-48983,italian
 38549,moroccan
 11127,indian
 35628,greek
@@ -29266,7 +28255,6 @@
 28963,mexican
 26187,chinese
 7191,filipino
-21006,italian
 26100,italian
 28639,italian
 6743,french
@@ -29313,7 +28301,6 @@
 46082,italian
 17862,southern_us
 27460,filipino
-10496,italian
 20489,southern_us
 2519,italian
 7631,chinese
@@ -29380,7 +28367,6 @@
 17688,cajun_creole
 20751,italian
 2312,japanese
-10344,southern_us
 42566,japanese
 17010,french
 18289,mexican
@@ -29419,7 +28405,6 @@
 47966,indian
 25480,italian
 1490,mexican
-39961,italian
 34144,cajun_creole
 15339,chinese
 38611,italian
@@ -29439,7 +28424,6 @@
 22318,italian
 8848,spanish
 27763,chinese
-10829,italian
 47609,japanese
 21191,mexican
 45863,mexican
@@ -29461,7 +28445,6 @@
 18525,southern_us
 13878,italian
 7200,mexican
-34961,italian
 40939,italian
 27811,chinese
 26991,italian
@@ -29478,7 +28461,6 @@
 39890,mexican
 20400,indian
 11466,italian
-11375,southern_us
 45450,chinese
 14574,british
 37962,mexican
@@ -29510,7 +28492,6 @@
 24853,mexican
 41750,irish
 27367,chinese
-29196,italian
 34241,italian
 43358,cajun_creole
 12433,thai
@@ -29541,12 +28522,10 @@
 21424,italian
 42125,cajun_creole
 45261,southern_us
-14882,southern_us
 44413,indian
 34067,mexican
 21264,italian
 22,mexican
-43559,italian
 44972,korean
 40207,greek
 27783,italian
@@ -29569,7 +28548,6 @@
 37710,italian
 15584,japanese
 36736,southern_us
-34042,italian
 20685,southern_us
 30005,mexican
 23453,southern_us
@@ -29589,7 +28567,6 @@
 40413,mexican
 7711,french
 34581,korean
-40158,italian
 5626,italian
 37885,mexican
 37648,southern_us
@@ -29633,7 +28610,6 @@
 18865,vietnamese
 10366,moroccan
 1406,mexican
-37442,italian
 1271,mexican
 37864,korean
 6979,southern_us
@@ -29641,7 +28617,6 @@
 30831,french
 10108,indian
 36761,mexican
-24043,italian
 25089,moroccan
 16944,italian
 32709,italian
@@ -29687,7 +28662,6 @@
 36379,moroccan
 47100,mexican
 31039,indian
-29395,southern_us
 36317,mexican
 22875,mexican
 8914,mexican
@@ -29715,7 +28689,6 @@
 12569,spanish
 43729,chinese
 27528,vietnamese
-34091,southern_us
 4535,mexican
 26384,mexican
 36305,french
@@ -29739,7 +28712,6 @@
 18303,indian
 10487,french
 34725,cajun_creole
-10508,italian
 30553,mexican
 31491,spanish
 30700,southern_us
@@ -29760,7 +28732,6 @@
 36900,italian
 32466,greek
 5634,thai
-6951,italian
 38722,italian
 20769,thai
 18994,italian
@@ -29776,12 +28747,10 @@
 4200,indian
 43620,mexican
 12333,mexican
-14327,southern_us
 38563,italian
 9741,thai
 26256,jamaican
 25758,indian
-29401,italian
 5023,french
 16139,japanese
 45326,mexican
@@ -29858,12 +28827,9 @@
 21039,british
 7732,southern_us
 17151,filipino
-35432,southern_us
 43101,southern_us
-37939,italian
 27401,filipino
 2463,mexican
-32902,southern_us
 43590,spanish
 12982,spanish
 7517,irish
@@ -29901,7 +28867,6 @@
 28594,vietnamese
 37893,french
 43938,southern_us
-15518,southern_us
 12063,mexican
 14642,italian
 13144,southern_us
@@ -29984,7 +28949,6 @@
 25904,mexican
 20723,brazilian
 45969,italian
-348,southern_us
 4680,italian
 18857,vietnamese
 10992,chinese
@@ -29998,7 +28962,6 @@
 43466,mexican
 47351,indian
 37292,thai
-24349,italian
 14560,italian
 49682,filipino
 25905,southern_us
@@ -30057,7 +29020,6 @@
 232,indian
 4248,chinese
 48956,southern_us
-25797,italian
 49145,japanese
 16029,italian
 32119,southern_us
@@ -30135,10 +29097,8 @@
 34443,mexican
 42613,british
 22513,chinese
-15948,italian
 8544,southern_us
 32929,italian
-39454,italian
 33475,italian
 26588,indian
 18609,thai
@@ -30159,7 +29119,6 @@
 2030,japanese
 19558,japanese
 6793,mexican
-31575,italian
 49428,russian
 42902,italian
 3289,italian
@@ -30178,7 +29137,6 @@
 6859,moroccan
 8032,moroccan
 6672,mexican
-12223,italian
 44162,british
 17460,chinese
 20293,greek
@@ -30234,7 +29192,6 @@
 40665,filipino
 36783,italian
 6323,chinese
-48485,italian
 27492,thai
 21868,mexican
 32601,moroccan
@@ -30316,12 +29273,10 @@
 5366,indian
 9046,chinese
 47227,french
-8969,italian
 29438,korean
 10177,southern_us
 39910,italian
 41766,southern_us
-31625,italian
 14889,indian
 17353,mexican
 17469,italian
@@ -30332,7 +29287,6 @@
 21764,french
 17896,southern_us
 22317,korean
-41488,italian
 49279,thai
 8054,thai
 8322,southern_us
@@ -30380,13 +29334,11 @@
 47760,french
 12428,southern_us
 7481,russian
-23358,southern_us
 35332,italian
 31957,southern_us
 32937,italian
 22507,italian
 24255,greek
-37514,italian
 11541,japanese
 18687,british
 5830,southern_us
@@ -30405,7 +29357,6 @@
 30707,italian
 43013,thai
 12669,mexican
-43837,italian
 24115,french
 34587,cajun_creole
 2261,chinese
@@ -30437,7 +29388,6 @@
 11245,greek
 9827,italian
 21730,indian
-41517,italian
 22662,cajun_creole
 24633,mexican
 7629,mexican
@@ -30496,7 +29446,6 @@
 28918,brazilian
 33817,mexican
 45375,french
-33189,italian
 444,italian
 1225,irish
 20085,italian
@@ -30506,7 +29455,6 @@
 11530,italian
 4689,italian
 4632,mexican
-7451,southern_us
 32698,southern_us
 45309,mexican
 49488,greek
@@ -30546,9 +29494,7 @@
 16295,mexican
 28409,greek
 8478,italian
-4645,southern_us
 39618,french
-19727,southern_us
 14888,mexican
 48969,italian
 41195,chinese
@@ -30561,7 +29507,6 @@
 36137,thai
 13940,mexican
 25750,irish
-25079,southern_us
 2596,mexican
 37166,italian
 4043,mexican
@@ -30620,7 +29565,6 @@
 28117,filipino
 7292,southern_us
 5623,vietnamese
-1531,southern_us
 17420,filipino
 10306,cajun_creole
 25410,chinese
@@ -30628,7 +29572,6 @@
 36810,italian
 37585,mexican
 20570,filipino
-27946,italian
 40031,brazilian
 5644,italian
 6533,french
@@ -30639,7 +29582,6 @@
 12226,cajun_creole
 49240,italian
 27719,french
-31123,italian
 45943,chinese
 21365,french
 19196,french
@@ -30665,7 +29607,6 @@
 32293,irish
 31460,mexican
 37924,southern_us
-29873,southern_us
 27309,greek
 27700,chinese
 28886,italian
@@ -30678,7 +29619,6 @@
 4596,indian
 48625,southern_us
 43623,chinese
-7912,southern_us
 38370,italian
 32857,french
 24183,mexican
@@ -30686,7 +29626,6 @@
 7765,italian
 46549,japanese
 34882,indian
-39384,italian
 26329,southern_us
 44959,italian
 14963,southern_us
@@ -30735,9 +29674,7 @@
 28942,mexican
 22096,indian
 33795,indian
-9351,italian
 836,spanish
-49695,southern_us
 4717,italian
 8971,italian
 3821,southern_us
@@ -30777,7 +29714,6 @@
 48054,chinese
 25035,mexican
 33583,jamaican
-44989,italian
 36247,italian
 2508,indian
 4757,thai
@@ -30806,13 +29742,11 @@
 34259,jamaican
 20976,italian
 16230,thai
-14075,southern_us
 31120,french
 32888,italian
 3880,mexican
 26438,indian
 5977,mexican
-24525,italian
 43626,indian
 45451,british
 3781,british
@@ -30874,7 +29808,6 @@
 35380,japanese
 22571,mexican
 5910,french
-16668,italian
 3172,jamaican
 10313,italian
 29283,moroccan
@@ -30900,7 +29833,6 @@
 44939,moroccan
 49171,greek
 19244,indian
-46944,italian
 39433,spanish
 14638,mexican
 32232,indian
@@ -30912,7 +29844,6 @@
 18228,southern_us
 38365,french
 1887,filipino
-27124,italian
 984,indian
 21638,indian
 38758,cajun_creole
@@ -30938,7 +29869,6 @@
 13312,southern_us
 4263,french
 32191,italian
-43368,italian
 42559,thai
 21877,indian
 31806,italian
@@ -30972,7 +29902,6 @@
 42552,italian
 34327,greek
 43611,italian
-13741,italian
 13176,korean
 37498,southern_us
 14069,mexican
@@ -31018,7 +29947,6 @@
 18722,southern_us
 2139,filipino
 28498,french
-15338,southern_us
 35728,chinese
 14349,indian
 26484,mexican
@@ -31026,7 +29954,6 @@
 451,indian
 12117,italian
 27162,italian
-39920,italian
 47458,mexican
 2215,italian
 29557,greek
@@ -31048,7 +29975,6 @@
 36151,filipino
 682,irish
 26735,spanish
-8013,italian
 22486,mexican
 33412,italian
 40032,mexican
@@ -31064,14 +29990,12 @@
 10407,mexican
 48789,mexican
 28115,japanese
-46560,italian
 2143,mexican
 13181,indian
 20221,french
 7893,british
 15801,southern_us
 24308,italian
-3651,italian
 46380,italian
 4349,italian
 2767,chinese
@@ -31119,7 +30043,6 @@
 17556,southern_us
 33487,mexican
 14671,mexican
-41366,southern_us
 46088,mexican
 22112,spanish
 34325,jamaican
@@ -31128,7 +30051,6 @@
 31786,chinese
 36666,italian
 9658,cajun_creole
-32152,italian
 4957,indian
 42757,russian
 39269,moroccan
@@ -31138,7 +30060,6 @@
 14573,jamaican
 12325,italian
 22357,chinese
-39458,southern_us
 38886,thai
 19065,italian
 13319,cajun_creole
@@ -31194,7 +30115,6 @@
 29372,spanish
 1009,japanese
 31502,korean
-10086,italian
 41896,jamaican
 47961,korean
 42553,greek
@@ -31239,7 +30159,6 @@
 10204,italian
 4648,southern_us
 47889,korean
-22555,italian
 28471,french
 42315,thai
 4731,mexican
@@ -31266,10 +30185,8 @@
 43968,british
 12300,chinese
 49105,mexican
-3211,southern_us
 38479,italian
 34918,italian
-18248,italian
 1892,indian
 26726,italian
 26320,british
@@ -31421,7 +30338,6 @@
 34591,greek
 1458,indian
 22720,chinese
-21280,southern_us
 46328,indian
 9253,southern_us
 7016,southern_us
@@ -31443,7 +30359,6 @@
 22584,indian
 48531,southern_us
 17266,cajun_creole
-857,italian
 13166,italian
 13055,chinese
 29720,southern_us
@@ -31474,7 +30389,6 @@
 42659,chinese
 18669,italian
 11391,italian
-25928,italian
 41650,irish
 1584,southern_us
 32962,southern_us
@@ -31496,12 +30410,10 @@
 45194,brazilian
 14636,british
 1237,british
-28411,italian
 49389,indian
 36941,chinese
 1798,moroccan
 12381,irish
-32131,southern_us
 40476,indian
 31312,italian
 41975,indian
@@ -31521,7 +30433,6 @@
 19223,southern_us
 6996,mexican
 38488,italian
-26960,southern_us
 34822,moroccan
 47430,jamaican
 4729,mexican
@@ -31578,10 +30489,8 @@
 40916,cajun_creole
 4417,cajun_creole
 19830,mexican
-46489,italian
 47329,mexican
 396,mexican
-34577,italian
 17662,chinese
 12675,mexican
 13907,southern_us
@@ -31592,7 +30501,6 @@
 46468,chinese
 28546,greek
 22123,french
-1220,italian
 27703,southern_us
 39620,french
 18185,greek
@@ -31660,7 +30568,6 @@
 27006,japanese
 48596,italian
 168,british
-958,southern_us
 42356,cajun_creole
 22786,french
 12737,italian
@@ -31685,7 +30592,6 @@
 36386,chinese
 12304,jamaican
 18845,italian
-23492,southern_us
 20101,italian
 45626,italian
 7676,british
@@ -31713,7 +30619,6 @@
 17913,italian
 25829,brazilian
 40238,mexican
-26382,italian
 29079,indian
 42165,moroccan
 27171,spanish
@@ -31777,7 +30682,6 @@
 11845,indian
 19251,southern_us
 15838,southern_us
-4339,southern_us
 2550,indian
 34516,mexican
 5515,greek
@@ -31833,7 +30737,6 @@
 44388,italian
 31093,french
 8044,mexican
-26518,italian
 16318,southern_us
 9387,thai
 29817,indian
@@ -31917,7 +30820,6 @@
 35842,southern_us
 43935,italian
 10904,korean
-37149,southern_us
 40448,french
 9307,japanese
 39159,thai
@@ -31985,7 +30887,6 @@
 33843,korean
 44504,italian
 34135,moroccan
-25523,italian
 39902,mexican
 1528,mexican
 30739,mexican
@@ -32026,28 +30927,22 @@
 45328,italian
 19922,mexican
 20832,brazilian
-33704,southern_us
 13651,chinese
 9041,italian
 6999,korean
 23566,italian
 30147,italian
-27788,southern_us
 19809,mexican
-9913,southern_us
 7413,mexican
 32797,italian
 27723,mexican
-39603,southern_us
 16026,southern_us
 15246,french
 41304,mexican
 3199,italian
 42439,indian
 34545,french
-24960,southern_us
 9974,thai
-9766,italian
 27164,french
 46422,french
 42517,southern_us
@@ -32105,12 +31000,10 @@
 31206,thai
 12805,japanese
 19000,indian
-37822,southern_us
 32434,korean
 5061,thai
 43345,greek
 11221,mexican
-38690,italian
 46487,russian
 33019,thai
 35925,indian
@@ -32152,7 +31045,6 @@
 34057,chinese
 44818,italian
 15316,thai
-32488,southern_us
 43917,irish
 41873,moroccan
 33896,thai
@@ -32164,8 +31056,6 @@
 36604,italian
 48413,chinese
 17854,italian
-20105,italian
-7567,southern_us
 22794,thai
 5836,french
 31440,mexican
@@ -32173,7 +31063,6 @@
 16501,french
 652,southern_us
 44507,moroccan
-897,italian
 26697,italian
 2486,chinese
 23911,mexican
@@ -32187,7 +31076,6 @@
 37017,cajun_creole
 49320,chinese
 5756,chinese
-30612,italian
 46174,spanish
 993,chinese
 15318,italian
@@ -32196,7 +31084,6 @@
 33754,indian
 26585,chinese
 3120,thai
-39334,italian
 36668,italian
 45595,mexican
 10250,jamaican
@@ -32222,7 +31109,6 @@
 2220,cajun_creole
 37095,japanese
 18727,chinese
-22156,italian
 15703,cajun_creole
 48373,french
 32005,vietnamese
@@ -32238,14 +31124,12 @@
 10559,indian
 48669,italian
 46902,indian
-48325,italian
 25139,mexican
 29737,vietnamese
 37225,jamaican
 28691,mexican
 48938,italian
 12242,mexican
-18358,italian
 16289,spanish
 38822,japanese
 24474,thai
@@ -32365,7 +31249,6 @@
 26139,indian
 44381,italian
 25960,italian
-23290,southern_us
 29306,japanese
 14230,italian
 4897,indian
@@ -32388,7 +31271,6 @@
 44895,filipino
 25031,thai
 24533,irish
-29549,italian
 21981,italian
 24701,italian
 42797,southern_us
@@ -32423,13 +31305,11 @@
 2350,chinese
 12184,moroccan
 31067,southern_us
-35716,italian
 11646,mexican
 13192,french
 16598,jamaican
 11351,italian
 34001,southern_us
-34273,italian
 12919,southern_us
 35730,irish
 29757,filipino
@@ -32465,7 +31345,6 @@
 23405,jamaican
 15457,southern_us
 23518,italian
-22439,southern_us
 20572,italian
 37069,french
 31094,vietnamese
@@ -32519,7 +31398,6 @@
 29785,italian
 12960,mexican
 5312,mexican
-33174,southern_us
 41043,cajun_creole
 48340,italian
 39935,cajun_creole
@@ -32584,7 +31462,6 @@
 1917,irish
 43457,cajun_creole
 32290,french
-39442,italian
 19299,japanese
 29189,mexican
 35721,mexican
@@ -32642,7 +31519,6 @@
 32228,italian
 36266,mexican
 21377,filipino
-22426,italian
 618,thai
 34492,french
 35325,moroccan
@@ -32680,7 +31556,6 @@
 18067,southern_us
 9100,mexican
 14990,thai
-38120,southern_us
 34301,filipino
 29588,spanish
 3125,thai
@@ -32717,7 +31592,6 @@
 29803,cajun_creole
 6223,mexican
 15920,french
-41806,italian
 14819,southern_us
 21254,greek
 13445,spanish
@@ -32769,7 +31643,6 @@
 28788,british
 9207,italian
 32144,italian
-11497,italian
 45374,italian
 1633,italian
 14998,italian
@@ -32788,7 +31661,6 @@
 44389,mexican
 6079,korean
 38622,southern_us
-38196,italian
 32306,southern_us
 10119,southern_us
 5936,greek
@@ -32823,8 +31695,6 @@
 46567,italian
 46774,southern_us
 47098,italian
-16279,italian
-27294,southern_us
 27899,french
 6925,french
 9272,italian
@@ -32833,7 +31703,6 @@
 30546,mexican
 43200,italian
 36573,indian
-34357,italian
 23237,indian
 37922,indian
 35213,french
@@ -32859,7 +31728,6 @@
 32289,mexican
 28981,japanese
 36582,mexican
-11721,italian
 42465,british
 34794,mexican
 14201,italian
@@ -32880,11 +31748,9 @@
 49604,greek
 15422,cajun_creole
 27163,southern_us
-11863,italian
 19733,indian
 4872,mexican
 20801,french
-37828,italian
 27797,french
 21331,chinese
 47533,mexican
@@ -32935,7 +31801,6 @@
 5047,irish
 14536,irish
 20946,brazilian
-26675,italian
 6730,mexican
 24412,indian
 23943,british
@@ -32957,7 +31822,6 @@
 37047,italian
 31341,brazilian
 14535,chinese
-43509,italian
 49397,italian
 20125,indian
 21068,mexican
@@ -32985,7 +31849,6 @@
 23715,thai
 9954,french
 31290,mexican
-22926,italian
 36804,italian
 1617,southern_us
 6129,southern_us
@@ -32998,7 +31861,6 @@
 21812,italian
 39307,thai
 16818,southern_us
-41979,italian
 2516,italian
 6485,southern_us
 8582,chinese
@@ -33081,7 +31943,6 @@
 39044,japanese
 9208,brazilian
 9980,southern_us
-34285,italian
 4805,japanese
 26111,mexican
 20947,mexican
@@ -33178,7 +32039,6 @@
 2310,cajun_creole
 24688,italian
 37425,french
-13570,southern_us
 40047,italian
 41519,italian
 14475,southern_us
@@ -33230,14 +32090,12 @@
 38400,spanish
 38125,italian
 46152,italian
-10079,southern_us
 12772,southern_us
 6624,japanese
 7981,thai
 35921,thai
 30507,italian
 10520,southern_us
-34044,italian
 3773,cajun_creole
 49501,spanish
 17776,indian
@@ -33277,7 +32135,6 @@
 23928,chinese
 36184,korean
 39971,italian
-38220,southern_us
 16060,italian
 26478,vietnamese
 26831,mexican
@@ -33332,7 +32189,6 @@
 39313,greek
 20339,mexican
 13466,southern_us
-902,italian
 30611,mexican
 11642,southern_us
 32073,mexican
@@ -33349,7 +32205,6 @@
 44865,cajun_creole
 34750,chinese
 23481,cajun_creole
-46018,southern_us
 27765,mexican
 15204,mexican
 18744,indian
@@ -33380,14 +32235,12 @@
 36096,southern_us
 14337,southern_us
 4753,indian
-23402,italian
 23759,italian
 37230,southern_us
 27166,mexican
 41534,filipino
 2936,french
 46068,indian
-21746,italian
 9332,indian
 18974,cajun_creole
 46462,mexican
@@ -33398,7 +32251,6 @@
 38961,french
 42722,indian
 7728,mexican
-20961,italian
 47608,indian
 3354,jamaican
 38358,italian
@@ -33473,7 +32325,6 @@
 18462,thai
 917,southern_us
 14873,french
-41642,italian
 27901,chinese
 6779,french
 45847,japanese
@@ -33487,7 +32338,6 @@
 4602,french
 19158,french
 44960,italian
-20191,italian
 10017,chinese
 18390,mexican
 32591,indian
@@ -33543,7 +32393,6 @@
 41415,italian
 21505,italian
 15992,french
-22030,southern_us
 8550,french
 18760,greek
 32523,southern_us
@@ -33649,7 +32498,6 @@
 41770,mexican
 40867,southern_us
 39683,brazilian
-40042,southern_us
 30954,greek
 33433,thai
 4503,southern_us
@@ -33699,17 +32547,14 @@
 5419,french
 25638,southern_us
 38044,greek
-16286,italian
 29715,southern_us
 14326,mexican
 17066,italian
-16178,southern_us
 42468,italian
 33261,italian
 7926,southern_us
 7682,filipino
 184,italian
-38426,southern_us
 33385,thai
 22050,japanese
 41083,french
@@ -33770,7 +32615,6 @@
 2147,southern_us
 34740,french
 19928,french
-33008,italian
 31373,italian
 44594,italian
 41284,italian
@@ -33787,7 +32631,6 @@
 34046,chinese
 21040,southern_us
 10500,southern_us
-33453,southern_us
 23891,italian
 4898,spanish
 43629,southern_us
@@ -33800,7 +32643,6 @@
 5106,indian
 49,southern_us
 40906,southern_us
-6647,southern_us
 47547,southern_us
 46726,mexican
 43148,moroccan
@@ -33814,7 +32656,6 @@
 17908,mexican
 19984,mexican
 43250,mexican
-15975,southern_us
 36598,italian
 45433,italian
 1036,chinese
@@ -33843,7 +32684,6 @@
 36576,french
 4917,italian
 43521,italian
-48127,southern_us
 16636,chinese
 5819,italian
 7193,mexican
@@ -33979,7 +32819,6 @@
 24272,southern_us
 2225,southern_us
 43070,chinese
-21366,italian
 39187,british
 35972,italian
 48324,italian
@@ -34073,7 +32912,6 @@
 44995,southern_us
 32408,jamaican
 20107,italian
-15644,italian
 26388,indian
 20399,italian
 37715,italian
@@ -34138,14 +32976,12 @@
 25762,japanese
 39882,italian
 41582,southern_us
-13670,southern_us
 22413,mexican
 33787,southern_us
 29620,mexican
 10788,vietnamese
 487,southern_us
 43749,chinese
-14773,italian
 42979,italian
 35805,mexican
 12530,filipino
@@ -34161,7 +32997,6 @@
 12909,moroccan
 26958,french
 42300,spanish
-34719,southern_us
 49322,filipino
 39656,italian
 3746,italian
@@ -34228,16 +33063,13 @@
 11140,italian
 23494,british
 6194,spanish
-26417,southern_us
 6319,moroccan
 14792,greek
 6321,thai
 4348,thai
 13387,southern_us
-39382,southern_us
 26036,chinese
 35898,mexican
-48316,southern_us
 23071,southern_us
 751,french
 18588,mexican
@@ -34265,12 +33097,10 @@
 44086,japanese
 6306,southern_us
 11693,mexican
-47744,southern_us
 34748,italian
 41968,italian
 8691,italian
 19479,cajun_creole
-4177,southern_us
 37140,chinese
 10985,mexican
 13553,spanish
@@ -34278,7 +33108,6 @@
 41777,chinese
 13399,vietnamese
 9723,brazilian
-46540,southern_us
 45716,japanese
 20009,southern_us
 28075,southern_us
@@ -34358,7 +33187,6 @@
 32207,moroccan
 38904,southern_us
 43308,mexican
-11322,southern_us
 43576,chinese
 41057,chinese
 24904,indian
@@ -34409,7 +33237,6 @@
 15019,thai
 42203,british
 21768,southern_us
-1441,southern_us
 12362,spanish
 14924,french
 48986,greek
@@ -34445,7 +33272,6 @@
 40304,japanese
 33847,mexican
 7453,indian
-29583,italian
 46444,mexican
 32206,italian
 36012,japanese
@@ -34453,7 +33279,6 @@
 49015,mexican
 41603,mexican
 26390,italian
-36506,southern_us
 16059,french
 33451,greek
 13785,korean
@@ -34461,7 +33286,6 @@
 41375,thai
 20848,italian
 37450,french
-41312,italian
 11917,italian
 10563,mexican
 25664,chinese
@@ -34562,7 +33386,6 @@
 33905,cajun_creole
 39379,british
 24913,indian
-10908,southern_us
 6116,italian
 16640,spanish
 3777,mexican
@@ -34581,7 +33404,6 @@
 38689,spanish
 11214,southern_us
 13229,southern_us
-16639,southern_us
 34119,filipino
 34416,mexican
 829,italian
@@ -34598,8 +33420,6 @@
 13450,chinese
 49311,mexican
 42858,mexican
-17855,italian
-15100,southern_us
 17806,southern_us
 28340,italian
 38406,british
@@ -34623,14 +33443,12 @@
 4370,southern_us
 14009,chinese
 32444,mexican
-7336,southern_us
 10339,french
 22188,mexican
 580,cajun_creole
 21747,mexican
 27913,japanese
 36787,mexican
-31787,italian
 15535,indian
 45462,southern_us
 12500,russian
@@ -34663,7 +33481,6 @@
 29418,italian
 10301,italian
 20690,italian
-417,southern_us
 11527,southern_us
 24544,russian
 5447,moroccan
@@ -34707,7 +33524,6 @@
 38602,french
 20838,italian
 10342,southern_us
-22851,southern_us
 20856,greek
 1468,chinese
 38174,mexican
@@ -34732,7 +33548,6 @@
 7717,indian
 32069,chinese
 18737,jamaican
-9916,italian
 2417,indian
 35015,japanese
 1755,spanish
@@ -34772,7 +33587,6 @@
 17852,greek
 27850,italian
 11706,irish
-10266,southern_us
 16524,mexican
 14095,mexican
 47467,indian
@@ -34792,7 +33606,6 @@
 30792,jamaican
 818,mexican
 41999,southern_us
-10611,southern_us
 42813,french
 20065,italian
 35621,italian
@@ -34857,7 +33670,6 @@
 48043,greek
 5793,southern_us
 24347,mexican
-14435,southern_us
 19252,french
 42441,mexican
 9963,mexican
@@ -34870,7 +33682,6 @@
 2537,southern_us
 43860,mexican
 39870,chinese
-5761,italian
 29678,mexican
 34513,greek
 43286,chinese
@@ -34917,7 +33728,6 @@
 29271,greek
 13416,vietnamese
 29656,mexican
-28358,southern_us
 44499,chinese
 49220,italian
 43075,jamaican
@@ -34941,11 +33751,9 @@
 24164,italian
 3493,mexican
 45351,thai
-31579,southern_us
 18370,mexican
 36943,southern_us
 39873,italian
-1320,italian
 2591,italian
 1283,mexican
 39524,mexican
@@ -34962,7 +33770,6 @@
 27955,chinese
 43864,mexican
 16034,korean
-18400,southern_us
 28079,greek
 26510,mexican
 13357,jamaican
@@ -34972,7 +33779,6 @@
 13729,brazilian
 48750,greek
 15305,japanese
-12125,southern_us
 3131,indian
 38976,indian
 37609,irish
@@ -34994,7 +33800,6 @@
 23969,italian
 3682,southern_us
 23262,vietnamese
-14477,italian
 30531,indian
 12346,french
 15987,italian
@@ -35012,7 +33817,6 @@
 40252,korean
 4267,vietnamese
 20796,jamaican
-6203,southern_us
 19991,vietnamese
 12868,japanese
 43690,italian
@@ -35020,7 +33824,6 @@
 46288,greek
 19139,japanese
 37458,indian
-9587,southern_us
 2290,filipino
 10761,spanish
 49646,indian
@@ -35089,7 +33892,6 @@
 8070,indian
 258,irish
 38477,mexican
-20115,southern_us
 30427,italian
 30098,italian
 38888,southern_us
@@ -35101,9 +33903,7 @@
 41010,filipino
 35612,italian
 48603,mexican
-30051,southern_us
 15205,mexican
-25395,italian
 21572,french
 40331,italian
 36939,cajun_creole
@@ -35123,7 +33923,6 @@
 12419,french
 14424,cajun_creole
 16265,mexican
-6135,southern_us
 10215,thai
 36909,moroccan
 9441,southern_us
@@ -35181,7 +33980,6 @@
 2967,mexican
 22111,chinese
 3106,mexican
-9080,italian
 37045,italian
 32379,southern_us
 5610,indian
@@ -35198,12 +33996,10 @@
 17807,filipino
 18782,chinese
 21823,cajun_creole
-9609,southern_us
 40085,italian
 25080,korean
 6877,italian
 45070,italian
-30135,italian
 36477,cajun_creole
 28119,indian
 6105,filipino
@@ -35236,7 +34032,6 @@
 23615,indian
 12023,filipino
 23608,japanese
-5324,italian
 19544,chinese
 8758,indian
 4230,japanese
@@ -35324,7 +34119,6 @@
 4451,italian
 47819,mexican
 24244,french
-25208,italian
 43545,southern_us
 47379,spanish
 35976,mexican
@@ -35334,7 +34128,6 @@
 32467,italian
 27333,vietnamese
 7803,italian
-6401,italian
 27501,greek
 2773,italian
 9889,japanese
@@ -35359,7 +34152,6 @@
 14286,chinese
 18513,thai
 39792,russian
-6946,italian
 16102,mexican
 49624,russian
 14934,italian
@@ -35377,9 +34169,7 @@
 8316,mexican
 25584,indian
 20469,thai
-8348,italian
 32847,italian
-10835,southern_us
 2858,french
 37040,italian
 30245,italian
@@ -35425,7 +34215,6 @@
 40132,mexican
 46928,french
 36327,italian
-43190,italian
 37398,italian
 32077,mexican
 7026,greek
@@ -35542,7 +34331,6 @@
 9181,italian
 40020,vietnamese
 23468,mexican
-39301,southern_us
 15598,italian
 16733,spanish
 11672,mexican
@@ -35553,7 +34341,6 @@
 24874,indian
 46925,italian
 46026,chinese
-16996,southern_us
 17577,italian
 14074,italian
 45283,southern_us
@@ -35568,7 +34355,6 @@
 30491,british
 10105,mexican
 30266,japanese
-14173,italian
 28572,southern_us
 5893,cajun_creole
 27567,italian
@@ -35585,7 +34371,6 @@
 45319,southern_us
 12703,mexican
 12690,japanese
-16914,southern_us
 4806,british
 30498,french
 41540,spanish
@@ -35598,7 +34383,6 @@
 11865,mexican
 32880,southern_us
 24178,indian
-23300,southern_us
 27683,italian
 43683,chinese
 19543,indian
@@ -35614,9 +34398,7 @@
 29684,italian
 18264,italian
 20137,irish
-10652,italian
 39703,southern_us
-32856,southern_us
 27681,thai
 48018,irish
 46531,chinese
@@ -35626,8 +34408,6 @@
 8228,mexican
 44313,japanese
 43672,french
-8116,italian
-10153,italian
 35839,cajun_creole
 33241,southern_us
 17838,cajun_creole
@@ -35641,7 +34421,6 @@
 2859,british
 24469,indian
 40490,french
-25339,southern_us
 13605,indian
 37176,vietnamese
 13441,mexican
@@ -35671,7 +34450,6 @@
 17774,indian
 39390,italian
 15723,korean
-33374,italian
 39084,french
 44519,cajun_creole
 40455,indian
@@ -35685,7 +34463,6 @@
 40388,chinese
 13732,southern_us
 10623,greek
-40367,italian
 43955,mexican
 24011,vietnamese
 39760,southern_us
@@ -35700,7 +34477,6 @@
 15833,italian
 28966,southern_us
 23182,british
-26532,italian
 42456,italian
 13628,thai
 34199,chinese
@@ -35797,7 +34573,6 @@
 36293,mexican
 13751,thai
 20017,vietnamese
-1421,southern_us
 3612,mexican
 25667,italian
 9389,southern_us
@@ -35830,7 +34605,6 @@
 10684,greek
 33605,italian
 30283,chinese
-24286,southern_us
 6461,filipino
 1812,southern_us
 10063,mexican
@@ -36019,7 +34793,6 @@
 36082,brazilian
 21698,italian
 43649,british
-32814,southern_us
 30878,thai
 37112,greek
 46836,mexican
@@ -36089,12 +34862,9 @@
 6658,indian
 42111,italian
 33879,italian
-19054,southern_us
-24642,southern_us
 3829,indian
 35030,cajun_creole
 33127,southern_us
-42249,italian
 7051,chinese
 20078,indian
 3744,mexican
@@ -36130,7 +34900,6 @@
 42434,italian
 13717,indian
 27430,chinese
-48552,southern_us
 11650,chinese
 44654,indian
 1446,spanish
@@ -36161,7 +34930,6 @@
 15187,italian
 31688,cajun_creole
 14483,italian
-13827,southern_us
 33825,filipino
 31524,british
 40811,japanese
@@ -36347,7 +35115,6 @@
 45114,brazilian
 25343,italian
 31978,mexican
-23777,southern_us
 32533,french
 45432,french
 47214,mexican
@@ -36417,7 +35184,6 @@
 8375,chinese
 27045,thai
 12673,southern_us
-17512,italian
 18928,mexican
 38415,southern_us
 15265,mexican
@@ -36459,7 +35225,6 @@
 31578,cajun_creole
 21079,french
 16959,irish
-41820,italian
 21078,japanese
 23248,spanish
 1248,indian
@@ -36511,11 +35276,9 @@
 34130,filipino
 30952,spanish
 9484,french
-21176,southern_us
 41334,french
 10325,mexican
 33298,moroccan
-35744,southern_us
 11848,mexican
 46557,japanese
 27547,italian
@@ -36541,7 +35304,6 @@
 29249,italian
 17983,cajun_creole
 48433,mexican
-33660,southern_us
 48217,french
 27791,spanish
 24057,french
@@ -36587,7 +35349,6 @@
 41688,greek
 17676,chinese
 19521,southern_us
-26025,southern_us
 27179,mexican
 38231,indian
 31860,italian
@@ -36612,7 +35373,6 @@
 48298,indian
 16931,southern_us
 39785,mexican
-5132,southern_us
 39737,french
 35783,mexican
 31588,vietnamese
@@ -36649,7 +35409,6 @@
 26485,japanese
 38826,cajun_creole
 30779,indian
-34183,italian
 16128,italian
 33415,mexican
 45601,mexican
@@ -36657,7 +35416,6 @@
 5576,cajun_creole
 9962,brazilian
 24940,thai
-2807,italian
 7289,filipino
 17914,chinese
 22142,mexican
@@ -36676,7 +35434,6 @@
 15374,jamaican
 11871,indian
 43755,chinese
-24375,italian
 15607,french
 6101,spanish
 3118,british
@@ -36714,7 +35471,6 @@
 8197,irish
 41182,indian
 1463,southern_us
-37670,southern_us
 15052,greek
 39722,cajun_creole
 30458,southern_us
@@ -36743,7 +35499,6 @@
 1151,southern_us
 6826,french
 21221,southern_us
-26402,italian
 37832,chinese
 3334,japanese
 19807,french
@@ -36771,7 +35526,6 @@
 41544,italian
 8488,mexican
 43856,cajun_creole
-36499,italian
 33606,moroccan
 6067,greek
 21964,filipino
@@ -36795,7 +35549,6 @@
 49691,thai
 21546,greek
 48255,italian
-45910,italian
 23085,mexican
 28455,chinese
 28312,japanese
@@ -36814,7 +35567,6 @@
 33229,filipino
 40972,thai
 42135,thai
-10584,southern_us
 28452,cajun_creole
 12146,mexican
 18491,chinese
@@ -36829,8 +35581,6 @@
 208,cajun_creole
 22329,indian
 12377,italian
-48386,southern_us
-5286,italian
 33976,thai
 40793,mexican
 21845,british
@@ -36850,7 +35600,6 @@
 7821,british
 15872,british
 46943,southern_us
-40392,italian
 39189,moroccan
 27137,jamaican
 48473,indian
@@ -36900,7 +35649,6 @@
 10247,mexican
 31132,italian
 25421,mexican
-30003,southern_us
 42834,italian
 1123,italian
 8932,french
@@ -36908,7 +35656,6 @@
 42046,mexican
 48816,mexican
 30054,korean
-21970,italian
 13424,southern_us
 43001,thai
 47881,french
@@ -36917,11 +35664,9 @@
 47736,italian
 5036,greek
 8861,mexican
-17611,southern_us
 33589,mexican
 16860,french
 33846,mexican
-48667,southern_us
 34857,chinese
 3977,irish
 29067,french
@@ -36938,7 +35683,6 @@
 29555,mexican
 33256,french
 27584,filipino
-46694,italian
 44429,southern_us
 2439,italian
 21483,korean
@@ -36947,7 +35691,6 @@
 20582,british
 4225,indian
 29666,greek
-9140,southern_us
 16603,french
 23699,moroccan
 14330,mexican
@@ -36986,10 +35729,8 @@
 18820,indian
 25175,japanese
 35075,chinese
-16986,italian
 28205,greek
 29807,indian
-27666,southern_us
 17403,indian
 18536,greek
 39539,korean
@@ -37020,7 +35761,6 @@
 47551,irish
 4868,jamaican
 18352,mexican
-8290,southern_us
 14396,thai
 10175,mexican
 37914,italian
@@ -37067,7 +35807,6 @@
 18187,french
 1042,chinese
 27775,italian
-13539,italian
 2151,japanese
 36322,southern_us
 12804,indian
@@ -37177,7 +35916,6 @@
 28276,italian
 44265,italian
 11964,filipino
-10022,italian
 24009,irish
 42131,japanese
 8009,vietnamese
@@ -37208,8 +35946,6 @@
 40919,mexican
 40010,southern_us
 10465,irish
-24063,southern_us
-47931,italian
 35086,italian
 41378,thai
 492,mexican
@@ -37226,7 +35962,6 @@
 24242,moroccan
 32645,cajun_creole
 44974,italian
-9490,italian
 13564,southern_us
 42764,indian
 13802,brazilian
@@ -37255,7 +35990,6 @@
 16874,korean
 32176,indian
 2614,italian
-40189,italian
 47309,chinese
 19225,mexican
 37646,italian
@@ -37271,7 +36005,6 @@
 27193,italian
 27670,italian
 9559,filipino
-34407,italian
 39962,italian
 30100,chinese
 36490,jamaican
@@ -37292,7 +36025,6 @@
 49066,mexican
 37802,chinese
 40383,chinese
-10949,southern_us
 14076,italian
 28344,southern_us
 25989,mexican
@@ -37304,7 +36036,6 @@
 48350,italian
 25717,french
 24114,greek
-18216,southern_us
 43780,italian
 40877,brazilian
 39711,french
@@ -37331,7 +36062,6 @@
 4538,greek
 47477,cajun_creole
 16323,mexican
-9622,southern_us
 24606,southern_us
 8103,spanish
 20036,italian
@@ -37346,7 +36076,6 @@
 14416,mexican
 17132,italian
 10873,chinese
-39268,southern_us
 19971,indian
 155,korean
 2726,italian
@@ -37354,7 +36083,6 @@
 19321,cajun_creole
 46019,brazilian
 37855,irish
-10916,italian
 42630,southern_us
 32001,jamaican
 20376,italian
@@ -37382,7 +36110,6 @@
 34575,italian
 19356,indian
 24516,greek
-40821,southern_us
 2015,italian
 44782,italian
 21317,indian
@@ -37422,7 +36149,6 @@
 37406,southern_us
 10248,mexican
 48452,italian
-4600,italian
 9638,british
 6540,italian
 49130,korean
@@ -37468,7 +36194,6 @@
 40530,italian
 27823,brazilian
 5369,italian
-2843,southern_us
 760,filipino
 1674,italian
 46260,indian
@@ -37498,7 +36223,6 @@
 43209,mexican
 27722,chinese
 9605,mexican
-23534,southern_us
 38521,italian
 6012,italian
 44680,italian
@@ -37592,7 +36316,6 @@
 2702,french
 48716,french
 3993,spanish
-42238,southern_us
 36442,italian
 17281,italian
 33317,french
@@ -37665,14 +36388,12 @@
 36971,italian
 40658,indian
 10336,jamaican
-42271,southern_us
 41320,southern_us
 28651,italian
 35315,japanese
 28203,vietnamese
 38789,french
 37667,southern_us
-1213,southern_us
 17874,italian
 20590,japanese
 11181,italian
@@ -37794,7 +36515,6 @@
 15054,chinese
 19199,british
 9842,mexican
-11251,italian
 21010,british
 29799,italian
 41943,indian
@@ -37821,7 +36541,6 @@
 8759,mexican
 42766,korean
 4631,chinese
-26228,southern_us
 4820,southern_us
 700,chinese
 49590,chinese
@@ -37832,10 +36551,8 @@
 40727,irish
 22984,irish
 15971,thai
-20920,italian
 2605,mexican
 26119,indian
-38320,southern_us
 25356,korean
 647,chinese
 31317,italian
@@ -37864,7 +36581,6 @@
 46529,italian
 49503,cajun_creole
 35816,italian
-33313,italian
 30809,russian
 31155,french
 7146,jamaican
@@ -37878,7 +36594,6 @@
 30819,mexican
 21616,chinese
 33007,italian
-32599,italian
 43372,korean
 43566,indian
 8899,french
@@ -37905,8 +36620,6 @@
 42377,british
 39851,moroccan
 46705,brazilian
-4065,italian
-27682,italian
 26219,moroccan
 1613,cajun_creole
 26820,indian
@@ -37932,7 +36645,6 @@
 29533,chinese
 22062,chinese
 5315,indian
-13863,italian
 38566,mexican
 10357,irish
 32404,greek
@@ -37994,7 +36706,6 @@
 45853,southern_us
 34047,spanish
 47662,italian
-24455,italian
 20256,japanese
 17685,cajun_creole
 16686,southern_us
@@ -38028,7 +36739,6 @@
 22679,korean
 34840,italian
 43180,indian
-17922,southern_us
 22039,chinese
 10542,cajun_creole
 47959,mexican
@@ -38105,7 +36815,6 @@
 4331,french
 23412,moroccan
 47112,chinese
-29643,italian
 7253,southern_us
 43477,italian
 12074,french
@@ -38147,7 +36856,6 @@
 24726,chinese
 34522,indian
 47327,mexican
-39692,southern_us
 19399,vietnamese
 44721,spanish
 47604,italian
@@ -38172,7 +36880,6 @@
 15931,southern_us
 39054,chinese
 45628,southern_us
-27515,southern_us
 47291,mexican
 26167,vietnamese
 28326,spanish
@@ -38181,7 +36888,6 @@
 37948,filipino
 5866,french
 42641,southern_us
-31297,italian
 12026,cajun_creole
 41548,british
 10029,japanese
@@ -38246,7 +36952,6 @@
 32180,mexican
 7544,irish
 10976,french
-35886,italian
 45034,southern_us
 34172,mexican
 21517,thai
@@ -38276,7 +36981,6 @@
 16576,mexican
 12046,southern_us
 19085,italian
-49405,southern_us
 12629,mexican
 35329,mexican
 481,irish
@@ -38384,7 +37088,6 @@
 47040,french
 11198,moroccan
 10211,indian
-26774,italian
 43818,filipino
 14315,filipino
 23620,japanese
@@ -38408,8 +37111,6 @@
 41031,japanese
 26134,thai
 4180,chinese
-24946,italian
-80,southern_us
 8859,filipino
 33741,filipino
 38478,british
@@ -38430,7 +37131,6 @@
 11282,mexican
 16336,indian
 11334,mexican
-18422,italian
 46060,cajun_creole
 48537,spanish
 19574,indian
@@ -38455,7 +37155,6 @@
 35649,cajun_creole
 30651,italian
 15878,southern_us
-23357,southern_us
 40580,mexican
 22183,spanish
 38721,southern_us
@@ -38535,7 +37234,6 @@
 21150,irish
 47845,indian
 14841,greek
-17969,southern_us
 49386,russian
 47727,mexican
 31587,irish
@@ -38571,7 +37269,6 @@
 33474,mexican
 29648,southern_us
 23138,italian
-10772,southern_us
 23199,vietnamese
 15449,mexican
 14770,french
@@ -38595,7 +37292,6 @@
 46190,mexican
 24574,mexican
 1230,mexican
-34789,southern_us
 42735,mexican
 47442,southern_us
 2331,italian
@@ -38609,7 +37305,6 @@
 49344,italian
 4223,jamaican
 7135,greek
-3129,italian
 22761,italian
 25191,italian
 22732,mexican
@@ -38624,7 +37319,6 @@
 20390,jamaican
 1419,japanese
 28641,italian
-24199,italian
 12364,indian
 33595,mexican
 42926,chinese
@@ -38777,10 +37471,8 @@
 32850,spanish
 27156,indian
 26110,filipino
-36025,italian
 31945,southern_us
 33844,italian
-38635,italian
 47790,indian
 45295,italian
 33188,moroccan
@@ -38861,7 +37553,6 @@
 1153,greek
 44390,chinese
 18978,thai
-26799,southern_us
 29022,moroccan
 11740,mexican
 15705,french
@@ -38903,7 +37594,6 @@
 21297,chinese
 39936,southern_us
 360,mexican
-44584,southern_us
 39837,cajun_creole
 23842,british
 39818,mexican
@@ -38932,7 +37622,6 @@
 15292,mexican
 38391,italian
 32549,italian
-28895,southern_us
 36800,japanese
 40805,southern_us
 29820,southern_us
@@ -38946,7 +37635,6 @@
 2651,italian
 37467,mexican
 12583,british
-43814,southern_us
 10217,mexican
 40140,french
 29175,moroccan
@@ -38984,9 +37672,7 @@
 12160,italian
 11408,indian
 13454,mexican
-29006,southern_us
 2609,italian
-48194,southern_us
 808,italian
 24751,italian
 15603,cajun_creole
@@ -38994,7 +37680,6 @@
 5695,spanish
 48732,mexican
 11080,french
-30030,southern_us
 25223,british
 44085,indian
 11509,italian
@@ -39009,7 +37694,6 @@
 29144,indian
 5703,southern_us
 34780,indian
-33381,italian
 23186,thai
 14232,mexican
 36556,southern_us
@@ -39017,7 +37701,6 @@
 25252,irish
 15524,mexican
 48367,mexican
-7651,southern_us
 20653,thai
 3527,japanese
 14049,italian
@@ -39053,7 +37736,6 @@
 30160,chinese
 6666,southern_us
 25189,korean
-44993,italian
 548,moroccan
 1081,mexican
 48466,french
@@ -39063,7 +37745,6 @@
 8269,japanese
 2809,mexican
 5917,italian
-36177,southern_us
 33427,vietnamese
 27329,vietnamese
 10098,southern_us
@@ -39089,7 +37770,6 @@
 14602,southern_us
 25131,jamaican
 15080,greek
-47964,southern_us
 29359,irish
 241,mexican
 29805,thai
@@ -39134,14 +37814,12 @@
 29387,indian
 8433,mexican
 18639,italian
-1734,italian
 31920,mexican
 46351,thai
 23372,japanese
 35125,greek
 38837,southern_us
 26022,vietnamese
-1445,italian
 9823,mexican
 27526,southern_us
 41094,indian
@@ -39166,7 +37844,6 @@
 37231,japanese
 27241,cajun_creole
 26565,italian
-8314,italian
 17053,italian
 43216,chinese
 22943,italian
@@ -39195,7 +37872,6 @@
 3288,italian
 1652,filipino
 2157,italian
-9946,italian
 46675,chinese
 21908,japanese
 15708,italian
@@ -39218,7 +37894,6 @@
 48027,filipino
 43334,irish
 48192,indian
-25469,italian
 9163,southern_us
 29922,indian
 8327,italian
@@ -39279,7 +37954,6 @@
 6071,italian
 13804,spanish
 22480,italian
-4055,southern_us
 34836,indian
 43537,mexican
 21173,southern_us
@@ -39303,11 +37977,9 @@
 12680,french
 6305,thai
 17801,spanish
-35637,italian
 37826,french
 30778,mexican
 32725,korean
-28659,southern_us
 30254,mexican
 21456,mexican
 7317,chinese
@@ -39321,7 +37993,6 @@
 44973,brazilian
 22463,indian
 143,moroccan
-45066,italian
 2458,irish
 17936,chinese
 12851,french
@@ -39331,9 +38002,7 @@
 23791,italian
 2551,brazilian
 35419,french
-18934,italian
 49193,cajun_creole
-17535,southern_us
 12659,thai
 23657,italian
 41860,french
@@ -39357,7 +38026,6 @@
 18526,indian
 22750,cajun_creole
 3542,italian
-34324,italian
 32717,moroccan
 9179,southern_us
 30187,brazilian
@@ -39380,7 +38048,6 @@
 9589,spanish
 30879,southern_us
 29793,french
-36486,southern_us
 40624,southern_us
 2400,chinese
 39435,filipino
@@ -39409,7 +38076,6 @@
 36071,korean
 20970,indian
 40578,mexican
-49318,southern_us
 10573,mexican
 41634,spanish
 7185,italian
@@ -39427,7 +38093,6 @@
 37366,mexican
 49692,southern_us
 39011,southern_us
-21271,southern_us
 46334,korean
 6253,indian
 25327,french
@@ -39505,7 +38170,6 @@
 30709,italian
 17625,italian
 40675,indian
-48745,southern_us
 17415,southern_us
 3632,cajun_creole
 6674,thai
@@ -39546,7 +38210,6 @@
 47041,korean
 13269,cajun_creole
 11404,cajun_creole
-33144,italian
 2359,cajun_creole
 8429,jamaican
 27002,indian
@@ -39600,7 +38263,6 @@
 35492,italian
 28370,southern_us
 16564,thai
-48299,italian
 42948,moroccan
 44194,thai
 47597,italian
@@ -39611,7 +38273,6 @@
 13749,italian
 46499,chinese
 41588,irish
-37510,southern_us
 1832,southern_us
 12365,italian
 18666,moroccan
@@ -39642,19 +38303,16 @@
 5157,mexican
 12803,chinese
 8587,mexican
-48002,italian
 6265,cajun_creole
 49090,filipino
 32097,greek
 34633,cajun_creole
 21691,italian
-35635,southern_us
 45184,moroccan
 32714,thai
 18039,russian
 14494,southern_us
 36903,italian
-12806,southern_us
 32137,southern_us
 46309,mexican
 41002,chinese
