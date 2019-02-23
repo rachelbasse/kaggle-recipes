@@ -5,9 +5,14 @@
 
 
 # imports
-from collections import Counter, defaultdict, namedtuple
+
+# standard
+from collections import Counter, defaultdict
+from itertools import product
+from math import log
 
 #extra
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
@@ -15,18 +20,24 @@ import pandas as pd
 # In[ ]:
 
 
-percent = lambda x, y: round(100 * x / y)
-flatten = lambda lists: [item for lst in lists for item in lst]
+new_features = {
+    'east': ['japanese', 'korean', 'vietnamese', 'chinese', 'thai', 'filipino', 'indian'],
+    'west': ['russian', 'british', 'irish', 'french', 'italian', 'greek', 'spanish', 'cajun_creole',
+             'moroccan', 'southern_us', 'mexican', 'jamaican', 'brazilian'],
+    'frenchlike': ['british', 'french', 'russian'],
+    'italianlike': ['greek', 'italian', 'mexican', 'spanish'],
+    'japaneselike': ['chinese', 'indian', 'japanese', 'korean'],
+    'mexicanlike': ['indian', 'mexican', 'thai', 'vietnamese'],
+    'southern_uslike': ['cajun_creole', 'jamaican', 'mexican', 'southern_us']
+}
 
 
 # In[ ]:
 
 
-Ing = namedtuple('Ing', ['head', 'mods', 'states', 'brands', 'langs', 'cuisine', 'rcpid'])
-
 def load_clean_data():
     recipes = pd.read_csv('data/cleaned_data.csv', header=0, index_col=0, encoding='utf-8',
-                          # convert named tuple literals to Ings
+                          # convert list literals to lists
                           converters={'ingredients': lambda x: eval(x)})
     print('{:,} recipes'.format(recipes.shape[0]))
     return recipes
@@ -35,138 +46,168 @@ def load_clean_data():
 # In[ ]:
 
 
-def group_by(ings, attribute):
-    groups = defaultdict(list)
-    for ing in ings:
-        groups[getattr(ing, attribute)].append(ing)
-    return groups
+flatten = lambda lists: [item for lst in lists for item in lst]
 
 
 # In[ ]:
 
 
-def make_metrics(recipes):
-    columns = []
-    recipe_count = []
-    recipe_mean_length = []
-    head_count = []
-    unique_count = []
-    rare_count = []
+def remove_states(ings):
+    return ings.map(lambda lst: [ing for ing in flatten(lst) if '_state' not in ing])
+
+
+# In[ ]:
+
+
+def remove_dupes(ings):
+    return ings.map(set).map(list)
+
+
+# In[ ]:
+
+
+def update_names(ings, renamed):
+    return [renamed[feature] if feature in renamed else feature for feature in ings]
+
+
+# In[ ]:
+
+
+def make_counts(recipes):
+    counts = {}
     for cuisine, group in recipes.groupby('cuisine'):
-        columns.append(cuisine)
-        recipe_count.append(group.shape[0])
-        recipe_mean_length.append(round(group.ingredients.apply(len).mean()))
-        head_list = [ing.heads[0] for ings in group.ingredients for ing in ings]
-        head_count.append(len(head_list))
-        head_counts = Counter(head_list)
-        unique_count.append(len(head_counts))
-        rare_head = 0
-        for head, count in head_counts.items():
-            if count < 4:
-                rare_head += 1
-        rare_count.append(rare_head)
-    rare_pct = [percent(rare, total) for rare, total in zip(rare_count, unique_count)]
-    index = ['recipe_count', 'recipe_length', 'unique_count', 'head_count', 'rare_count', 'rare_pct', 'cuisine']
-    metrics = pd.DataFrame([recipe_count, recipe_mean_length, unique_count, head_count, rare_count, rare_pct, columns],
-                           index=index, columns=columns, dtype=np.uint32)
-    return metrics.transpose()
-
-
-# In[ ]:
-
-
-def make_attribute_counts(ings, attribute, categories):
-    atts = defaultdict(list)
-    for ing in iter(ings):
-        for att in getattr(ing, attribute):
-            atts[att].append(ing.cuisine)
-    att_counts = {}
-    for att, cuisine_list in atts.items():
-        att_counts[att] = Counter(cuisine_list)
-    counts = pd.DataFrame.from_dict(att_counts, orient='index', columns=categories, dtype=np.float64)
+        all_ings = flatten(group.ingredients.to_list())
+        counts[cuisine] = Counter(all_ings)
+    counts = pd.DataFrame.from_dict(counts, orient='columns', dtype=np.float64)
     counts.fillna(0.0, inplace=True)
+    counts.test = 0.0
+    print('{} features'.format(counts.shape[0]))
     return counts
 
 
 # In[ ]:
 
 
-def normalize_counts(counts, weights=None):
-    if weights:
-        counts = counts.apply(lambda col: col.map(lambda x: x / weights[col.name]), axis='index')
-    count_min = counts.values.min()
-    count_range = counts.values.max() - count_min
-    counts = counts.applymap(lambda x: (x - count_min) / count_range)
+def scale_counts(counts, scales):
+    counts = counts.apply(lambda col: col.map(lambda x: x / scales[col.name]), axis='index')
     return counts
 
 
 # In[ ]:
 
 
-def equalize_counts(counts, smoothing=.6):
-    proportions = counts.T / counts.sum(axis='columns')
-    smooth_tails = lambda x: x / (smoothing + x)
-    if smoothing:
-        proportions = proportions.applymap(smooth_tails)
+def merge_arrows(arrows, update):
+    arrows.update(update)
+    for origin, target in arrows.items():
+        if target in arrows:
+            arrows[origin] = arrows[target]
+    return arrows
+
+def get_target_feature(feature, bad_features, catchall):
+    parts = feature.split('-')
+    if parts[-1] == catchall:
+        target = parts[0]
+    else:
+        parts[-1] = catchall
+        target = '-'.join(parts)
+    if target in bad_features:
+        target = get_target_feature(target, bad_features, catchall)
+    return target
+
+def merge_features(counts, features_to_merge, catchall):
+    renamed_features = {}
+    counts = counts.copy()
+    if catchall in features_to_merge:
+        features_to_merge = features_to_merge.copy()
+        features_to_merge.remove(catchall)
+    features_to_keep = set(counts.index) - set(features_to_merge)
+    for feature in features_to_merge:
+        target = get_target_feature(feature, features_to_merge, catchall)
+        renamed_features[feature] = target
+        if target in features_to_keep:
+            counts.loc[target] += counts.loc[feature]
+            continue
+        counts.loc[target] = counts.loc[feature]
+    counts = counts.drop(index=features_to_merge)
+    print('{} merged, {} features left'.format(len(renamed_features), len(counts)))
+    return (counts, renamed_features)
+
+
+# In[ ]:
+
+
+def merge_rare_features(counts, cutoff, catchall):
+    totals = counts.max(axis='columns')
+    rare_features = totals[totals <= cutoff].index.to_list()
+    long_features = [feature for feature in rare_features if len(feature.split('-')) > 1]
+    merged, renamed = merge_features(counts, long_features, catchall)
+    
+    totals = merged.max(axis='columns')
+    rare_features = totals[totals <= cutoff].index.to_list()
+    raretype_features = [feature for feature in rare_features if len(feature.split('-')) > 1]
+    merged, renamed_update = merge_features(merged, raretype_features, catchall)
+    renamed = merge_arrows(renamed, renamed_update)
+    
+    totals = merged.max(axis='columns')
+    rare_features = totals[totals <= cutoff].index.to_list()
+    merged, renamed_update = merge_features(merged, rare_features, catchall)
+    renamed = merge_arrows(renamed, renamed_update)
+    
+    return (merged, renamed)
+
+
+# In[ ]:
+
+
+def get_proportions(counts):
+    total = counts.sum(axis='columns')
+    inverse_total = total.map(lambda x: 1 / x if x else 0)
+    proportions = counts.T * inverse_total
     return proportions.T
 
 
 # In[ ]:
 
 
-def make_scores(recipe, counts):
-    def get_scores(ings):
-        features = flatten([getattr(ing, att) for ing in ings])
-        scores = counts.loc[features].drop(columns=['test'])
-        if not features:
-            return scores.sum(axis='index')
-        return scores.sum(axis='index') / len(features)
-    att_scores = []
-    for att in ['mods', 'states', 'brands', 'langs']:
-        recipe_scores = get_scores(recipe.ingredients)
-        att_scores.append(recipe_scores.add_prefix('{}_'.format(att)))
-    return pd.concat(att_scores, axis='index')
+def make_scores(recipe, points, group=True):
+    scores = points.loc[recipe.ingredients]
+    if group:
+        groups = scores.groupby(lambda ing: ing.split('-')[0])
+        return groups.mean().mean()
+    return scores.mean()
 
 
 # In[ ]:
 
 
-def replace_rare_name(name):
-    parts = name.split('-')
-    parts[-1] = 'raretype'
-    return '-'.join(parts)
+def add_score_features(scores):
+    to_add = []
+    for name, cats in new_features.items():
+        series = scores[cats].mean(axis='columns')
+        series.name = name
+        to_add.append(series)
+    scores = pd.concat([scores] + to_add, axis='columns')
+    return scores
 
 
 # In[ ]:
 
 
-def make_indicators(recipes, rare_cutoff=0, common_cutoff=None):
-    get_ing_attributes = lambda ings: flatten([ing.mods + ing.states + ing.brands + ing.langs for ing in ings])
-    recipe_features = recipes.ingredients.map(get_ing_attributes)
-    all_features = sorted(set(flatten(recipe_features)))
-    feature_array = np.zeros([len(recipe_features), len(all_features)], dtype=np.uint8)
-    feature_index = {feature: i for i, feature in enumerate(all_features)}
-    for row_i, features in enumerate(recipe_features):
-        for feature in features:
-            feature_array[row_i, feature_index[feature]] = 1
-    features = pd.DataFrame(feature_array, index=recipe_features.index, columns=all_features)
-    feature_counts = features.sum(axis='index')
-    if common_cutoff:
-        common_value = feature_counts.quantile(q=common_cutoff)
-        common_features = feature_counts[feature_counts >= common_value].index
-        features = features.drop(columns=common_features)
-        print('dropped {} common features >= count {}'.format(len(common_features), int(common_value)))
-    rare_value = feature_counts.quantile(q=rare_cutoff)
-    rare_features = feature_counts[feature_counts <= rare_value].index
-    for rare_feature in rare_features:
-        super_feature = replace_rare_name(rare_feature)
-        if super_feature in features:
-            features[super_feature] += features[rare_feature]
-            continue
-        features[super_feature] = features[rare_feature]
-    features = features.drop(columns=rare_features)
-    print('merged {} rare features <= count {}'.format(len(rare_features), int(rare_value)))
-    return features
+def plot_cnf(cm, classes):
+    plt.figure(figsize=(9,9))
+    plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
+    tick_marks = np.arange(len(classes))
+    plt.xticks(tick_marks, classes, rotation=80)
+    plt.yticks(tick_marks, classes)
+    thresh = cm.max() / 2.
+    for i, j in product(range(cm.shape[0]), range(cm.shape[1])):
+        plt.text(j, i, format(cm[i, j], 'd'),
+                 horizontalalignment="center",
+                 color="white" if cm[i, j] > thresh else "black")
+    plt.ylabel('True label')
+    plt.xlabel('Predicted label')
+    plt.tight_layout()
+    plt.grid(False)
 
 
 # In[ ]:

@@ -6,11 +6,18 @@
 
 # imports
 
+# standard
+from collections import defaultdict
+
 # extra
 import numpy as np
 import pandas as pd
-import parfit.parfit as pf
-from sklearn.model_selection import ParameterGrid
+from sklearn import metrics
+from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
+from sklearn.linear_model import LogisticRegression, SGDClassifier
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+from xgboost import XGBClassifier
 
 
 # In[ ]:
@@ -30,63 +37,66 @@ def load_data():
 # In[ ]:
 
 
-def train_validate_split(data, val_size=.22, seed=1):
-    samples = []
-    for cuisine, group in data.groupby('cuisine'):
-        samples.append(group.sample(frac=val_size, replace=False, random_state=seed, axis='index'))
-    val = pd.concat(samples, axis='index')
-    train = data.drop(index=val.index)
-    X_train = train.drop('cuisine', axis=1)
-    X_val = val.drop('cuisine', axis=1)
-    y_train = train['cuisine']
-    y_val = val['cuisine']
-    return (X_train, y_train, X_val, y_val)
+dtc = DecisionTreeClassifier(max_depth=None)
+dtc_grid = {
+    'criterion': ['gini'], # gini
+    'class_weight': [None], # None
+    'min_samples_split': [2, 10, 40], # 2-60
+    'min_samples_leaf': [40, 60], # 40
+} # best: smoothing=.6: 75.4
 
+dtcabc = DecisionTreeClassifier(max_depth=1, criterion='gini', min_samples_split=2, min_samples_leaf=2, class_weight=None)
+abc = AdaBoostClassifier(base_estimator=dtcabc)
+abc_grid = {
+    'n_estimators': [60], # 60
+    'learning_rate': [.5] # .5
+} # best: smoothing=.6: 69.4
 
-# In[ ]:
+rfc = RandomForestClassifier(max_depth=None, random_state=1)
+rfc_grid = {
+    'min_samples_split': [2], # 2
+    'min_samples_leaf': [1], # 1
+    'n_estimators': [100, 200, 400], # 200
+    'class_weight': [None], # None
+    'criterion': ['gini'] #
+} # best: smoothing=.6: 78.1
 
+xgc = XGBClassifier(seed=1, num_class=20)
+xgc_grid = {
+    'objective': ['reg:logistic'], # reg:logistic, multi:softmax
+    'booster': ['dart'], # dart
+    'max_depth': [10], # 5, 10, 20
+    'lambda': [1], # 1, 2, 5
+    'alpha': [0], # 0, 1
+    'gamma': [0], # 0, 1
+    'eta': [.3], # range: [0,1]
+    'base_score': [.5], # .1, .5, .9
+    'min_child_weight': [0], # 0, 1, 2
+    'max_delta_step': [5], # 0, 1-10 larger
+    'subsample': [1], # range: (0,1]
+    'sample_type': ['uniform', 'weighted'], # uniform, weighted
+    'normalize_type': ['tree', 'forest'], # tree, forest
+    'rate_drop': [0] # 0-1
+} # best: smoothing=.6: 80.7
 
-def test_hyperparams(clf, grid, metric, X_train, y_train, X_val, y_val):
-    param_grid = ParameterGrid(grid)
-    best_model, best_score, all_models, all_scores = pf.bestFit(
-        clf, param_grid, X_train, y_train, X_val, y_val, metric=metric, greater_is_better=True)
-    print(best_model, best_score)
+lrc = LogisticRegression(random_state=1)
+lrc_grid = {
+    'C': [10, 50, 150], # 150
+    'fit_intercept': [True], # True
+    'solver': ['lbfgs'], # lbfgs
+    'penalty': ['l2'], # l2 (l2 only: newton-cg, sag, lbfgs)
+    'multi_class': ['multinomial'], # multinomial (multinomial: newton-cg, sag, saga, lbfgs)
+    'class_weight': ['balanced'], # None
+    'dual': [False], # False
+    'max_iter': [500] # 500
+} # best: smoothing=.6: 80.3
 
-
-# In[ ]:
-
-
-pct = lambda v: int(v * 100)
-
-def test(X, y, title, clf, sampler=None, splits=3):
-    kfold = KFold(n_splits=splits, shuffle=True, random_state=1)
-    for train_i, test_i in kfold.split(X):
-        X_train, X_test = X.iloc[train_i], X.iloc[test_i]
-        y_train, y_test = y.iloc[train_i], y.iloc[test_i]
-        if sampler:
-            X_train, y_train = sampler.fit_resample(X_train, y_train)
-        model = clf.fit(X_train, y_train)
-        preds = model.predict(X_test)
-        print(metrics.accuracy_score(y_test, preds))
-        print(metrics.classification_report(y_test, preds))
-
-def get_errors(X, y, model, sort_col=None):
-    errors = []
-    preds = []
-    for i in range(X.shape[0]):
-        obs = X.iloc[i:i+1]
-        real = y.iloc[i]
-        y_pred = model.predict(obs)
-        if y_pred != [real]:
-            errors.append(i)
-            preds.append(y_pred)
-    errs = pd.concat([X.iloc[errors], y.iloc[errors]], axis=1)
-    preds_df = pd.DataFrame(preds, index=errs.index, columns=['pred'])
-    errs = pd.concat([errs, preds_df], axis=1)
-    print('Errors:', errs.shape[0])
-    if sort_col:
-        errs.sort_values(sort_col, inplace=True)
-    return errs
+sgd = SGDClassifier(random_state=1, fit_intercept=True, penalty='l2')
+sgd_grid = {
+    'loss': ['log'], # log
+    'alpha': [1e-6], # 1e-6
+    'max_iter': [1100] # 1100
+} # best: smoothing=.6: 79.5
 
 
 # In[ ]:
