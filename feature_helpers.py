@@ -169,6 +169,55 @@ def get_proportions(counts):
 # In[ ]:
 
 
+def make_indicators(recipes, features):
+    indicators = np.zeros([recipes.shape[0], len(features)], dtype=np.uint8)
+    feature_index = {feature: i for i, feature in enumerate(features)}
+    for row_i, ings in enumerate(recipes.ingredients):
+        for feature in ings:
+            indicators[row_i, feature_index[feature]] = 1
+    indicators = pd.DataFrame(indicators, index=recipes.index, columns=features)
+    return indicators
+
+
+# In[ ]:
+
+
+def make_points(props, adj=True):
+    smooth = lambda data, i: data.applymap(lambda x: log(1.01 + (x / (i + x))) if x else 0)
+    points = smooth(props, .1)
+    weights = {
+        # drop
+        'british': .925,
+        'cajun_creole': .875,
+        #'chinese': .99,
+        #'greek': .99,
+        'indian': .95,
+        'irish': .97,
+        'jamaican': .91,
+        'korean': .985,
+        'moroccan': .89,
+        'russian': .92,
+        'spanish': .984,
+        'thai': .95,
+        'vietnamese': .93,
+        # boost
+        'brazilian': 1.01,
+        'filipino': 1.01,
+        'french': 1.03,
+        'italian': 1.12,
+        'japanese': 1.11,
+        'mexican': 1.04,
+        'southern_us': 1.03
+    }
+    if adj:
+        for cuisine, weight in weights.items():
+            points[cuisine] = weight * points[cuisine]
+    return points
+
+
+# In[ ]:
+
+
 def make_scores(recipe, points, group=True):
     scores = points.loc[recipe.ingredients]
     if group:
@@ -213,7 +262,7 @@ def plot_cnf(cm, classes):
 # In[ ]:
 
 
-def save_output(output):
+def save_output(output, prefix='temp_'):
     output = output.drop(columns=['ingredients'])
     
     train = output.query('cuisine != "test"')
@@ -224,6 +273,6 @@ def save_output(output):
     train = train.drop(columns=['cuisine'])
     test = test.drop(columns=['cuisine'])
     
-    train.to_csv('data/temp_train.csv', header=True, encoding='utf-8') 
-    test.to_csv('data/temp_test.csv', header=True, encoding='utf-8')
+    train.to_csv('data/' + prefix + 'train.csv', header=True, encoding='utf-8') 
+    test.to_csv('data/' + prefix + 'test.csv', header=True, encoding='utf-8')
 
