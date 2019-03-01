@@ -8,7 +8,7 @@
 
 # standard
 from collections import Counter, defaultdict
-from itertools import product
+from itertools import combinations, product
 from math import log
 
 #extra
@@ -21,14 +21,14 @@ import pandas as pd
 
 
 new_features = {
-    'east': ['japanese', 'korean', 'vietnamese', 'chinese', 'thai', 'filipino', 'indian'],
+    'east': ['chinese', 'filipino', 'indian', 'japanese', 'korean', 'thai', 'vietnamese'],
     'west': ['russian', 'british', 'irish', 'french', 'italian', 'greek', 'spanish', 'cajun_creole',
              'moroccan', 'southern_us', 'mexican', 'jamaican', 'brazilian'],
-    'frenchlike': ['british', 'french', 'russian'],
+    'britishlike': ['british', 'french', 'irish'],
+    'chineselike': ['chinese', 'filipino', 'japanese', 'korean', 'thai', 'vietnamese'],
     'italianlike': ['greek', 'italian', 'mexican', 'spanish'],
-    'japaneselike': ['chinese', 'indian', 'japanese', 'korean'],
-    'mexicanlike': ['indian', 'mexican', 'thai', 'vietnamese'],
-    'southern_uslike': ['cajun_creole', 'jamaican', 'mexican', 'southern_us']
+    'indianlike': ['indian', 'japanese', 'mexican', 'moroccan', 'southern_us', 'thai'],
+    'southern_uslike': ['brazilian', 'cajun_creole', 'filipino', 'jamaican', 'indian', 'mexican', 'southern_us']
 }
 
 
@@ -61,6 +61,14 @@ def remove_states(ings):
 
 def remove_dupes(ings):
     return ings.map(set).map(list)
+
+
+# In[ ]:
+
+
+def add_combos(ings):
+    combos = lambda lst: lst + list(map('+'.join, combinations(sorted(lst), 2)))
+    return ings.map(combos)
 
 
 # In[ ]:
@@ -136,20 +144,28 @@ def merge_features(counts, features_to_merge, catchall):
 # In[ ]:
 
 
-def merge_rare_features(counts, cutoff, catchall):
+def merge_rare_features(counts, single_cutoff, combo_cutoff, catchall):
     totals = counts.max(axis='columns')
-    rare_features = totals[totals <= cutoff].index.to_list()
+    rare_combo_features = totals[totals <= combo_cutoff].index.to_list()
+    combo_features = [feature for feature in rare_combo_features if '+' in feature]
+    merged = counts.drop(index=combo_features)
+    print('{} combo features dropped'.format(len(combo_features)))
+    renamed = {old: 'rarecombotype' for old in combo_features}
+
+    totals = merged.max(axis='columns')
+    rare_features = totals[totals <= single_cutoff].index.to_list()
     long_features = [feature for feature in rare_features if len(feature.split('-')) > 1]
-    merged, renamed = merge_features(counts, long_features, catchall)
+    merged, renamed_update = merge_features(merged, long_features, catchall)
+    renamed = merge_arrows(renamed, renamed_update)
     
     totals = merged.max(axis='columns')
-    rare_features = totals[totals <= cutoff].index.to_list()
+    rare_features = totals[totals <= single_cutoff].index.to_list()
     raretype_features = [feature for feature in rare_features if len(feature.split('-')) > 1]
     merged, renamed_update = merge_features(merged, raretype_features, catchall)
     renamed = merge_arrows(renamed, renamed_update)
     
     totals = merged.max(axis='columns')
-    rare_features = totals[totals <= cutoff].index.to_list()
+    rare_features = totals[totals <= single_cutoff].index.to_list()
     merged, renamed_update = merge_features(merged, rare_features, catchall)
     renamed = merge_arrows(renamed, renamed_update)
     
@@ -184,30 +200,30 @@ def make_indicators(recipes, features):
 
 def make_points(props, adj=True):
     smooth = lambda data, i: data.applymap(lambda x: log(1.01 + (x / (i + x))) if x else 0)
-    points = smooth(props, .1)
+    points = smooth(props, .2)
     weights = {
         # drop
-        'british': .925,
-        'cajun_creole': .875,
+        'british': .905,
+        'cajun_creole': .85,
         #'chinese': .99,
-        #'greek': .99,
-        'indian': .95,
-        'irish': .97,
-        'jamaican': .91,
-        'korean': .985,
-        'moroccan': .89,
-        'russian': .92,
-        'spanish': .984,
-        'thai': .95,
-        'vietnamese': .93,
+        'greek': .99,
+        'indian': .94,
+        'irish': .96,
+        'jamaican': .915,
+        'korean': .98,
+        'moroccan': .87,
+        'russian': .9,
+        'spanish': .99,
+        'thai': .96,
+        'vietnamese': .94,
         # boost
-        'brazilian': 1.01,
-        'filipino': 1.01,
-        'french': 1.03,
-        'italian': 1.12,
-        'japanese': 1.11,
-        'mexican': 1.04,
-        'southern_us': 1.03
+        'brazilian': 1.02,
+        'filipino': 1.02,
+        'french': 1.04,
+        'italian': 1.16,
+        'japanese': 1.155,
+        'mexican': 1.05,
+        'southern_us': 1.045
     }
     if adj:
         for cuisine, weight in weights.items():
@@ -218,12 +234,8 @@ def make_points(props, adj=True):
 # In[ ]:
 
 
-def make_scores(recipe, points, group=True):
-    scores = points.loc[recipe.ingredients]
-    if group:
-        groups = scores.groupby(lambda ing: ing.split('-')[0])
-        return groups.mean().mean()
-    return scores.mean()
+def make_scores(recipe, points):
+    return points.loc[recipe.ingredients].mean()
 
 
 # In[ ]:
