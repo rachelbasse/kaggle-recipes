@@ -264,6 +264,14 @@ def add_score_features(scores):
 # In[ ]:
 
 
+def mark_leaders(rank):
+    leaders = pd.Series(range(1, 21), index=rank.sort_values().index)
+    return leaders / 20
+
+
+# In[ ]:
+
+
 def plot_cnf(cm, classes):
     plt.figure(figsize=(9,9))
     plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
