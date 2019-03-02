@@ -96,6 +96,16 @@ def make_counts(recipes):
 # In[ ]:
 
 
+def min_max_scale(series):
+    series_min = series.min()
+    scaled = series - series_min
+    series_max = scaled.max()
+    return series / series_max
+
+
+# In[ ]:
+
+
 def scale_counts(counts, scales):
     counts = counts.apply(lambda col: col.map(lambda x: x / scales[col.name]), axis='index')
     return counts
