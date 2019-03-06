@@ -484,6 +484,16 @@ def get_lemma(word):
 # In[ ]:
 
 
+def flatten(ings):
+    flat = []
+    for ing in ings:
+        flat.extend(ing.mods + ing.brands + ing.langs)
+    return flat
+
+
+# In[ ]:
+
+
 # WARNING: don't overwrite the existing manually tweaked dictionary!!!
 def make_freq_dict(word_counts):
     lines = []

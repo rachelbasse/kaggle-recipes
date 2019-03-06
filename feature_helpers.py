@@ -15,21 +15,7 @@ from math import log
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-
-
-# In[ ]:
-
-
-new_features = {
-    'east': ['chinese', 'filipino', 'indian', 'japanese', 'korean', 'thai', 'vietnamese'],
-    'west': ['russian', 'british', 'irish', 'french', 'italian', 'greek', 'spanish', 'cajun_creole',
-             'moroccan', 'southern_us', 'mexican', 'jamaican', 'brazilian'],
-    'britishlike': ['british', 'french', 'irish'],
-    'chineselike': ['chinese', 'filipino', 'japanese', 'korean', 'thai', 'vietnamese'],
-    'italianlike': ['greek', 'italian', 'mexican', 'spanish'],
-    'indianlike': ['indian', 'japanese', 'mexican', 'moroccan', 'southern_us', 'thai'],
-    'southern_uslike': ['brazilian', 'cajun_creole', 'filipino', 'jamaican', 'indian', 'mexican', 'southern_us']
-}
+import seaborn as sns
 
 
 # In[ ]:
@@ -38,7 +24,7 @@ new_features = {
 def load_clean_data():
     recipes = pd.read_csv('data/cleaned_data.csv', header=0, index_col=0, encoding='utf-8',
                           # convert list literals to lists
-                          converters={'ingredients': lambda x: eval(x)})
+                          converters={'ingredients': lambda x: eval(x), 'strings': lambda x: eval(x)})
     print('{:,} recipes'.format(recipes.shape[0]))
     return recipes
 
@@ -47,13 +33,9 @@ def load_clean_data():
 
 
 flatten = lambda lists: [item for lst in lists for item in lst]
-
-
-# In[ ]:
-
-
-def remove_states(ings):
-    return ings.map(lambda lst: [ing for ing in flatten(lst) if '_state' not in ing])
+inverse = lambda x: 1 / x if x else 0
+rank = lambda score: score * inverse(score.max())
+ratio = lambda score: score * inverse(score.mean())
 
 
 # In[ ]:
@@ -81,10 +63,10 @@ def update_names(ings, renamed):
 # In[ ]:
 
 
-def make_counts(recipes):
+def make_counts(recipes, field='ingredients'):
     counts = {}
     for cuisine, group in recipes.groupby('cuisine'):
-        all_ings = flatten(group.ingredients.to_list())
+        all_ings = flatten(group[field].to_list())
         counts[cuisine] = Counter(all_ings)
     counts = pd.DataFrame.from_dict(counts, orient='columns', dtype=np.float64)
     counts.fillna(0.0, inplace=True)
@@ -208,92 +190,116 @@ def make_indicators(recipes, features):
 # In[ ]:
 
 
-def make_points(props, adj=True):
-    smooth = lambda data, i: data.applymap(lambda x: log(1.01 + (x / (i + x))) if x else 0)
-    points = smooth(props, .2)
-    weights = {
-        # drop
-        'british': .905,
-        'cajun_creole': .85,
-        #'chinese': .99,
-        'greek': .99,
-        'indian': .94,
-        'irish': .96,
-        'jamaican': .915,
-        'korean': .98,
-        'moroccan': .87,
-        'russian': .9,
-        'spanish': .99,
-        'thai': .96,
-        'vietnamese': .94,
-        # boost
-        'brazilian': 1.02,
-        'filipino': 1.02,
-        'french': 1.04,
-        'italian': 1.16,
-        'japanese': 1.155,
-        'mexican': 1.05,
-        'southern_us': 1.045
-    }
-    if adj:
-        for cuisine, weight in weights.items():
-            points[cuisine] = weight * points[cuisine]
-    return points
+def reweight(data, weights):
+    smooth = lambda data, w: data.map(lambda x: w[0] * log(1.01 + (x / (w[1] + x))) if x else 0)
+    adjusted = data.copy()
+    for col, weight in weights.items():
+        adjusted[col] = smooth(adjusted[col], weight)
+    return adjusted
 
 
 # In[ ]:
 
 
 def make_scores(recipe, points):
-    return points.loc[recipe.ingredients].mean()
+    scores = points.loc[recipe.ingredients]
+    sums = scores.sum(axis='columns')
+    mean_sum = sums.mean()
+    groups = scores.groupby(lambda name: sums[name] > mean_sum, axis='index', sort=False).mean()
+    low = groups.loc[False].add_prefix('low_')
+    return pd.concat([scores.mean(), low], axis='index')
 
 
 # In[ ]:
 
 
-def add_score_features(scores):
+def ings_only(data):
+    adjusted = data.copy()
+    to_zero = [feature for feature in adjusted.index if '_brand' in feature or '_lang' in feature]
+    adjusted.loc[to_zero] = 0
+    return adjusted
+
+
+# In[ ]:
+
+
+groups = {
+    'east': ['chinese', 'filipino', 'indian', 'japanese', 'korean', 'thai', 'vietnamese'],
+    'west': ['russian', 'british', 'irish', 'french', 'italian', 'greek', 'spanish', 'cajun_creole',
+             'moroccan', 'southern_us', 'mexican', 'jamaican', 'brazilian'],
+    'chineselike': ['chinese', 'filipino', 'japanese', 'korean', 'thai', 'vietnamese'],
+    'indianlike': ['indian', 'japanese', 'mexican', 'moroccan', 'southern_us', 'thai'],
+    'britishlike': ['british', 'french', 'irish'],
+    'italianlike': ['greek', 'italian', 'mexican', 'spanish'],
+    'southern_uslike': ['brazilian', 'british', 'cajun_creole', 'irish', 'jamaican', 'southern_us']
+}
+def make_group_features(scores, groups=groups):
     to_add = []
-    for name, cats in new_features.items():
-        series = scores[cats].mean(axis='columns')
+    for name, group in groups.items():
+        series = scores[group].mean(axis='columns')
         series.name = name
         to_add.append(series)
-    scores = pd.concat([scores] + to_add, axis='columns')
-    return scores
+    return pd.concat(to_add, axis='columns')
 
 
 # In[ ]:
 
 
-def mark_leaders(rank):
-    leaders = pd.Series(range(1, 21), index=rank.sort_values().index)
-    return leaders / 20
+comparisons = [
+    ('british', 'french'),
+    ('british', 'irish'),
+    ('french', 'italian'),
+    ('greek', 'italian'),
+    ('greek', 'moroccan'),
+    ('indian', 'japanese'),
+    ('italian', 'spanish'),
+    ('thai', 'vietnamese'),
+    
+    ('brazilian', 'southern_us'),
+    ('british', 'southern_us'),
+    ('cajun_creole', 'southern_us'),
+    ('french', 'southern_us'),
+    ('greek', 'southern_us'),
+    ('irish', 'southern_us'),
+    ('italian', 'southern_us'),
+    ('jamaican', 'southern_us'),
+    ('moroccan', 'southern_us'),
+    ('mexican', 'southern_us'),
+    ('russian', 'southern_us'),
+    ('spanish', 'southern_us'),
+    
+    ('filipino', 'chinese'),
+    ('indian', 'chinese'),
+    ('japanese', 'chinese'),
+    ('korean', 'chinese'),
+    ('thai', 'chinese'),
+    ('vietnamese', 'chinese'),
+]
+def make_comparison_features(scores, comparisons=comparisons):
+    to_add = []
+    for a, b in comparisons:
+        series = scores[a] * scores[b].map(inverse)
+        series.name = '-'.join([a, b])
+        to_add.append(series)
+    return pd.concat(to_add, axis='columns')
 
 
 # In[ ]:
 
 
-def plot_cnf(cm, classes):
-    plt.figure(figsize=(9,9))
-    plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
-    tick_marks = np.arange(len(classes))
-    plt.xticks(tick_marks, classes, rotation=80)
-    plt.yticks(tick_marks, classes)
-    thresh = cm.max() / 2.
-    for i, j in product(range(cm.shape[0]), range(cm.shape[1])):
-        plt.text(j, i, format(cm[i, j], 'd'),
-                 horizontalalignment="center",
-                 color="white" if cm[i, j] > thresh else "black")
-    plt.ylabel('True label')
-    plt.xlabel('Predicted label')
-    plt.tight_layout()
-    plt.grid(False)
+def plot_cnf(conf_matrix, classes):
+    f, ax = plt.subplots(figsize=(9,9))
+    sns.heatmap(conf_matrix, square=True, annot=True, fmt='d', cbar=False, cmap='Blues',
+                xticklabels=classes, yticklabels=classes)
+    plt.xlabel('predicted label')
+    plt.ylabel('true label')
 
 
 # In[ ]:
 
 
 def save_output(output, prefix='temp_'):
-    output = output.drop(columns=['ingredients'])
+    output = output.drop(columns=['ingredients', 'strings'])
     
     train = output.query('cuisine != "test"')
     test = output.query('cuisine == "test"')

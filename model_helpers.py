@@ -103,4 +103,5 @@ sgd_grid = {
 
 
 answers = pd.read_csv('data/submission.csv', header=0, index_col=0)
+baseline = pd.read_csv('data/baseline.csv', header=0, index_col=0)
 
