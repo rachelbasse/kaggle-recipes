@@ -28,14 +28,14 @@ Three main featuresets were developed with 20, ~200, and ~2,000 features each, w
 ### Data Cleaning
 
 1. **Basic character replacement.** All characters were lowercased and encoding errors (`â€™`) and non-word symbols were removed.
-1. **Spelling correction.** A custom frequency dictionary was generated to retain the many rare, non-English words (e.g., `doubanjiang`) and regional spelling vairations (e.g., `yoghurt` in `indian` cuisines) while correcting apparent errors (e.g., `sauc` => `sauce`).
+1. **Spelling correction.** A custom frequency dictionary was generated to retain the many rare, non-English words (e.g., `doubanjiang`) and regional spelling variations (e.g., `yoghurt` in `indian` cuisines) while correcting apparent errors (e.g., `sauc` => `sauce`).
 1. **Word segmentation.** Potential segmentation inconsistencies were detected via word-length and changed to favor segmentation (e.g., `almondmilk` => `almond milk`).
 1. **Brand extraction.** Brand names were detected via position, capitalization, and copyright/trademark characters and were marked as brands to permit special treatment.
 1. **State-word extraction.** Words representing ingredient quality or state-changes (e.g., `large`, `freshly ground`, `diced`) were detected via POS tagging as adverbs, adjectives, or verbs and marked as state-words to permit special treatment.
 1. **Lemmatization**. To reduce lemmatization errors, all words were treated as nouns when lemmatized. Stopwords were also removed.
 1. **Head identification.** To permit special treatment of ingredient heads, prepositional-phrase complements and similar sub-phrases were moved to inital position to leave the head in the final position (e.g., `tomato sauce with garlic` => `garlic tomato sauce`).
 1. **Modifier sorting.** Modifiers were sorted to increase consistency (e.g., `{red hot chile pepper, red chile hot pepper, hot red chile pepper, ...}` => `chile hot red pepper`).
-1. **Head supertype addition.** With the help of scraped Wikipedia lists, common supertypes were appended to phrases to increase consistency and add information (e.g., `{jalapeno, japapeno pepper}` => `jalapeno pepper`; `{assam, assam tea}` => `assam tea`).
+1. **Head supertype addition.** With the help of scraped Wikipedia lists, common supertypes were appended to phrases to increase consistency and add information (e.g., `{jalapeno, jalapeno pepper}` => `jalapeno pepper`; `{assam, assam tea}` => `assam tea`).
 1. **Language detection.** Language detection was performed with Google Translate, and language markers were added (e.g., `amchur powder` => `_lang-indian amchur powder`; `strozzapreti pasta` => `_lang-italian strozzapreti pasta`). English markers were omitted since they were the dominant type.
 1. **Multiple representation.** Each recipe was stored in two forms: 1) as a string, e.g., `chile hot red pepper` and 2) as a list of modifier-head pairs, e.g., `[chile-pepper, hot-pepper, red-pepper]`.
 
