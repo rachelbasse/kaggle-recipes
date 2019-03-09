@@ -57,7 +57,7 @@ The final ~2000 features included normal tf-idf scores, using only {0,1} as the 
 
 Several other features, such as recipe length, as well as various recipe-score calculations, were tested and rejected.
 
-# Models
+### Models
 
 Around a dozen classifiers were initially tested. Four of the best-performing classifiers (SVM, logistic regression, random forest, and nearest neighbors) were stacked via softmax voting and final SVM and logistic regression classifiers using the stacked models' probabilities as features. The best-performing stacking option varied with the featuresets.
 
