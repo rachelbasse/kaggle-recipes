@@ -51,7 +51,7 @@ The basic 20 features were created by assigning each recipe a score for each cui
 
 The next ~200 features were variations on this idea. E.g., scores were made from only ingredients (no brands, states, or language markers), from only the lowest- and highest-scoring ingredients, etc.
 
-Additionally, (sorted) 2-length combinations of ingredients were used instead of ingredients, e.g., the recipe `[egg, flour, salt, water]` => `[egg-flour, egg-salt, egg-water, flour-salt, flour-water, salt-water]`.
+Additionally, (sorted) 2-length combinations of ingredients were used instead of ingredients, e.g., the recipe `[egg, flour, salt, water]` => `[egg+flour, egg+salt, egg+water, flour+salt, flour+water, salt+water]`.
 
 The final ~2000 features included normal tf-idf scores, using only {0,1} as the term-frequencies.
 
