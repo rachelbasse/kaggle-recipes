@@ -23,7 +23,7 @@ The training set contains 39,774 labeled datapoints. The final test set contains
 
 ## Solution
 
-Three main featuresets were developed with 20, ~200, and ~2,000 features each, which scored 76.8%, 80.6%, and 81.9% accuracy, respectively. The highest score in the competition at close was 82.8%.
+Three main featuresets were developed with 20, ~200, and ~2,000 features each, which scored 77.6%, 80.6%, and 81.9% accuracy, respectively. The highest score in the competition at close was 82.8%.
 
 ### Data Cleaning
 
